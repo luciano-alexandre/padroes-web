@@ -1,57 +1,80 @@
 # Cronograma da Disciplina (60h)
 
-Referência: 40 encontros de 1,5h cada.
+Referência: 40 encontros de 1,5h cada, organizados em 4 blocos de 10 encontros.
 
-## Distribuição por Encontro
+## Bloco 1 (Encontros 1 a 10)
+Foco: Fundamentos da Web e HTML5 semântico.
+Avaliação do bloco: listas de exercícios + prova prática (com dia reservado).
 
 | Encontro | Carga | Tema Central | Entregável |
 |---|---:|---|---|
 | 1 | 1,5h | Apresentação da disciplina, combinados e visão geral da Web | Plano de estudo individual |
-| 2 | 1,5h | Internet x Web, cliente-servidor, URL, HTTP (visão inicial) | Mapa conceitual curto |
+| 2 | 1,5h | Internet x Web, cliente-servidor, URL e HTTP (visão inicial) | Mapa conceitual curto |
 | 3 | 1,5h | Ambiente de desenvolvimento (editor, navegador, DevTools) | Ambiente configurado |
 | 4 | 1,5h | HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`) | Primeiro `index.html` |
-| 5 | 1,5h | Elementos textuais: títulos, parágrafos, ênfases e quebras | Página textual estruturada |
-| 6 | 1,5h | Links e navegação entre páginas | Mini-site com 2 páginas |
-| 7 | 1,5h | Listas e organização de conteúdo | Página com listas temáticas |
-| 8 | 1,5h | Semântica HTML5: `header`, `nav`, `main`, `section`, `article`, `footer` | Estrutura semântica inicial |
-| 9 | 1,5h | Imagens, figuras e mídia | Galeria simples com legendas |
-| 10 | 1,5h | Tabelas (uso adequado e estrutura) | Tabela de dados da turma |
-| 11 | 1,5h | Formulários I: campos e tipos de entrada | Formulário básico |
-| 12 | 1,5h | Formulários II: validações nativas e usabilidade | Formulário funcional |
-| 13 | 1,5h | Acessibilidade inicial (alt, label, foco, landmarks) | Checklist de acessibilidade aplicado |
-| 14 | 1,5h | SEO on-page básico (títulos, meta description, semântica) | Página otimizada (nível inicial) |
-| 15 | 1,5h | Oficina HTML integrada | Mini-projeto HTML |
-| 16 | 1,5h | Revisão e avaliação prática da unidade HTML | Entrega Unidade 1 |
-| 17 | 1,5h | CSS: sintaxe, inclusão e seletores básicos | Arquivo CSS conectado |
-| 18 | 1,5h | Cascata, herança e especificidade | Exercícios de seleção e prioridade |
-| 19 | 1,5h | Box model: margem, borda, padding, dimensão | Layout com boxes |
-| 20 | 1,5h | Cores, tipografia e unidades relativas | Guia visual de estilos |
-| 21 | 1,5h | Variáveis CSS e organização de estilos | Tema visual reutilizável |
-| 22 | 1,5h | Flexbox I: eixo principal/cruzado, alinhamentos | Seção em Flexbox |
-| 23 | 1,5h | Flexbox II: navegação, cards e distribuição | Layout de cards |
-| 24 | 1,5h | Grid I: linhas, colunas e áreas | Página em Grid |
-| 25 | 1,5h | Grid II: composição com Flexbox + Grid | Home com layout híbrido |
-| 26 | 1,5h | Responsividade I: mobile-first e viewport | Página adaptada ao mobile |
-| 27 | 1,5h | Responsividade II: media queries e breakpoints | Página multi-dispositivo |
-| 28 | 1,5h | Componentes e estados (`:hover`, `:focus`, `:active`) | Biblioteca de componentes |
-| 29 | 1,5h | Introdução a framework CSS (Bootstrap ou Tailwind) | Releitura de componente |
-| 30 | 1,5h | Comparativo: CSS puro x framework | Relatório técnico curto |
-| 31 | 1,5h | Oficina CSS integrada | Mini-projeto CSS responsivo |
-| 32 | 1,5h | Revisão e avaliação prática da unidade CSS | Entrega Unidade 2 |
-| 33 | 1,5h | JavaScript: papel da linguagem no front-end, sintaxe básica | Script inicial |
-| 34 | 1,5h | Variáveis, tipos, operadores e conversões | Lista de exercícios JS |
-| 35 | 1,5h | Condicionais e laços | Problemas resolvidos em JS |
-| 36 | 1,5h | Funções e organização de código | Biblioteca simples de funções |
-| 37 | 1,5h | DOM: árvore de elementos, seleção e alteração de conteúdo | Página dinâmica simples |
-| 38 | 1,5h | Eventos e manipulação de classes/atributos | Interface interativa |
-| 39 | 1,5h | Formulários com validação em JS + refinamento do projeto final | Versão candidata do projeto |
-| 40 | 1,5h | Apresentações finais, feedback e fechamento | Projeto final + apresentação |
+| 5 | 1,5h | Elementos textuais, links e listas | Página textual estruturada |
+| 6 | 1,5h | Semântica HTML5 (`header`, `nav`, `main`, `section`, `article`, `footer`) | Estrutura semântica inicial |
+| 7 | 1,5h | Imagens, tabelas e organização de conteúdo | Página com mídia e tabela |
+| 8 | 1,5h | Formulários e validações nativas | Formulário funcional |
+| 9 | 1,5h | Lista de exercícios do bloco 1 (resolução orientada) | Lista 1 entregue |
+| 10 | 1,5h | Prova prática do bloco 1 (dia reservado) | Prova prática 1 |
+
+## Bloco 2 (Encontros 11 a 20)
+Foco: CSS, layout e responsividade.
+Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias reservados).
+
+| Encontro | Carga | Tema Central | Entregável |
+|---|---:|---|---|
+| 11 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado |
+| 12 | 1,5h | Especificidade, herança e box model | Exercícios de estilos |
+| 13 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual de estilos |
+| 14 | 1,5h | Flexbox para layout de navegação e cards | Seção em Flexbox |
+| 15 | 1,5h | Grid para páginas e áreas de conteúdo | Página em Grid |
+| 16 | 1,5h | Responsividade: mobile-first, viewport e media queries | Página responsiva |
+| 17 | 1,5h | Lista de exercícios do bloco 2 (layout e responsividade) | Lista 2 entregue |
+| 18 | 1,5h | Desenvolvimento do mini projeto CSS | Mini projeto (versão beta) |
+| 19 | 1,5h | Apresentação curta do mini projeto (dia reservado) | Mini projeto apresentado |
+| 20 | 1,5h | Prova do bloco 2 (dia reservado) | Prova 2 |
+
+## Bloco 3 (Encontros 21 a 30)
+Foco: JavaScript introdutório e manipulação de DOM.
+Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto final).
+
+| Encontro | Carga | Tema Central | Entregável |
+|---|---:|---|---|
+| 21 | 1,5h | JavaScript no front-end, sintaxe básica e execução | Script inicial |
+| 22 | 1,5h | Variáveis, tipos e operadores | Exercícios JS I |
+| 23 | 1,5h | Condicionais e laços | Exercícios JS II |
+| 24 | 1,5h | Funções e organização de código | Biblioteca simples de funções |
+| 25 | 1,5h | DOM: árvore, seleção e alteração de conteúdo | Página dinâmica simples |
+| 26 | 1,5h | Eventos e manipulação de classes/atributos | Interface interativa |
+| 27 | 1,5h | Formulários com validação em JavaScript | Formulário validado |
+| 28 | 1,5h | Lista de exercícios do bloco 3 (JS + DOM) | Lista 3 entregue |
+| 29 | 1,5h | Mini projeto JS/DOM (desenvolvimento) | Mini projeto funcional |
+| 30 | 1,5h | Apresentação do mini projeto e definição do escopo final | Mini projeto apresentado + proposta final |
+
+## Bloco 4 (Encontros 31 a 40)
+Foco: Projeto final integrador (HTML + CSS + JS + DOM).
+Avaliação do bloco: projeto final (única avaliação), com dias reservados para apresentação.
+
+| Encontro | Carga | Tema Central | Entregável |
+|---|---:|---|---|
+| 31 | 1,5h | Planejamento do projeto final (tema, requisitos, cronograma) | Plano do projeto final |
+| 32 | 1,5h | Estrutura HTML e arquitetura de pastas | Estrutura base pronta |
+| 33 | 1,5h | Implementação visual com CSS | Identidade visual aplicada |
+| 34 | 1,5h | Responsividade e refinamento de layout | Interface adaptável |
+| 35 | 1,5h | Funcionalidades JS/DOM - parte 1 | Interações principais |
+| 36 | 1,5h | Funcionalidades JS/DOM - parte 2 | Fluxos completos |
+| 37 | 1,5h | Testes, acessibilidade e ajustes finais | Versão candidata |
+| 38 | 1,5h | Mentoria final e preparação de apresentação | Versão final submetida |
+| 39 | 1,5h | Apresentações de projetos finais (dia reservado) | Apresentação final - turma A |
+| 40 | 1,5h | Apresentações de projetos finais e fechamento (dia reservado) | Apresentação final - turma B |
 
 ## Marcos de Avaliação
-- Encontro 16: Checklist e entrega da Unidade 1 (HTML, semântica, acessibilidade inicial).
-- Encontro 32: Mini-projeto e entrega da Unidade 2 (CSS e responsividade).
-- Encontro 39: Entrega técnica JS/DOM (interatividade e validação).
-- Encontro 40: Projeto integrador final com apresentação.
+- Bloco 1: Lista 1 (Encontro 9) + Prova prática 1 (Encontro 10).
+- Bloco 2: Lista 2 (Encontro 17) + Mini projeto (Encontros 18 e 19) + Prova 2 (Encontro 20).
+- Bloco 3: Lista 3 (Encontro 28) + Mini projeto ponte para o final (Encontros 29 e 30).
+- Bloco 4: Projeto final integrador (desenvolvimento nos Encontros 31 a 38; apresentações nos Encontros 39 e 40).
 
 ## Plano de Contingência
 - Se houver suspensão de aula: converter encontro em atividade assíncrona com roteiro + exercício de reposição.
