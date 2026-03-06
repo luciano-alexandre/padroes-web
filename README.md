@@ -1,8 +1,9 @@
 # Disciplina: Autoria Web (60h)
 
 ## Identificação do Curso
-- Turma: 1 ANO INTEGRADO EM INFORMÁTICA
-- Instituição: IFRN CAMPUS CURRAIS NOVOS
+- Turma: 1º Ano 
+- Curso: Técnico Integrado em Informática
+- Instituição: IFRN - Campus Curraus Novos
 - Professor: Luciano Alexandre de Farias Silva
 
 ## Estrutura
