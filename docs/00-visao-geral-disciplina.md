@@ -42,7 +42,7 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Unidade 3 - JavaScript Introdutório e DOM: 15h (20 aulas)
 - Unidade 4 - Projeto Final(HTML, CSS e JS/DOM): 15h (20 aulas)
 
-## Avaliação (resumo)
+## Avaliação
 - Exercícios práticos (listas)
 - Provas Práticas
 - Mini-projetos por unidade
