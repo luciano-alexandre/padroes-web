@@ -2,59 +2,69 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregável:** Mapa conceitual curto
+**Entregável previsto:** Mapa conceitual curto
 
-## Visão Didática da Aula
-Neste encontro, o foco é "Internet x Web, cliente-servidor, URL e HTTP (visão inicial)". A proposta é trabalhar o conteúdo em linguagem introdutória, conectando conceito, demonstração e prática orientada. O objetivo é que o estudante compreenda não apenas o que fazer, mas por que a técnica é útil em projetos reais.
+## Explicação do conteúdo
+Este encontro explica o caminho que uma página percorre até aparecer no navegador: Internet x Web, URL, cliente-servidor e o ciclo de requisição/resposta HTTP.
 
-![Imagem de apoio do encontro](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
-## Objetivos de Aprendizagem
-- Compreender os conceitos centrais de "Internet x Web, cliente-servidor, URL e HTTP (visão inicial)".
-- Aplicar o conteúdo em uma prática curta com feedback.
-- Produzir o entregável previsto: **Mapa conceitual curto**.
+## Conceitos essenciais
+- Diferença entre Internet e Web.
+- Requisição e resposta entre cliente e servidor.
+- Estrutura de URL e noções de HTTP.
 
-## Explicação Guiada
-Comece identificando os conceitos que aparecem no tema da aula e relacione com situações práticas de páginas reais (sites institucionais, portfólios, lojas, blogues). Em seguida, implemente uma versão mínima funcional, validando no navegador a cada alteração. O ideal é manter ciclos curtos de teste para facilitar depuração e consolidação da aprendizagem.
+## Exemplo prático
+Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
 
-## Exemplo de Código
-```html
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exemplo da aula</title>
-  </head>
-  <body>
-    <header>
-      <h1>Autoria Web</h1>
-    </header>
-    <main>
-      <p>Estrutura inicial para praticar a aula.</p>
-    </main>
-  </body>
-</html>
+```js
+const url = new URL("https://exemplo.com/cursos/web?turno=noite");
+console.log(url.protocol);
+console.log(url.hostname);
+console.log(url.pathname);
+console.log(url.searchParams.get("turno"));
 ```
 
-## Atividade Prática Recomendada
-1. Revisar os conceitos essenciais da aula (15 min).
-2. Reproduzir e adaptar o exemplo de código (30-40 min).
-3. Resolver um desafio contextualizado com apoio do professor (40-50 min).
-4. Publicar/registrar o entregável da aula no repositório da turma (15 min).
+## Como estudar este encontro sozinho
+1. Leia a explicação e destaque os conceitos-chave.
+2. Digite o exemplo de código manualmente.
+3. Faça pequenas alterações e observe o resultado.
+4. Resolva uma variação do exercício com seu próprio tema.
 
-## Erros Comuns e Como Evitar
-- Escrever código sem testar em etapas pequenas.
-- Ignorar mensagens de erro no console/DevTools.
-- Não validar semântica, responsividade ou legibilidade do código antes da entrega.
+## Dificuldades comuns de iniciantes
+- Tentar avançar sem revisar a base.
+- Copiar código sem compreender a lógica.
+- Não testar mudanças em etapas curtas.
 
-## Materiais de Apoio
-- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
-- [Guia de Acessibilidade Web (W3C/WAI)](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+## Materiais para aprofundamento
+- [MDN - URL API](https://developer.mozilla.org/pt-BR/docs/Web/API/URL)
+- [MDN - HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)
+- [Cloudflare - What is HTTP?](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
-## Checklist da Aula
-- [ ] Entendi os conceitos principais.
-- [ ] Executei e adaptei o exemplo de código.
-- [ ] Concluí o entregável previsto.
-- [ ] Registrei dúvidas para revisão na próxima aula.
+## Checklist de compreensão
+- [ ] Entendi o conceito principal da aula.
+- [ ] Consegui executar e adaptar o exemplo.
+- [ ] Entreguei a atividade prevista no cronograma.
+- [ ] Sei quais pontos ainda preciso revisar.
+
+
+
+
+## Resumo final
+Neste encontro, voce estudou **Internet x Web, cliente-servidor, URL e HTTP (visão inicial)** dentro dos fundamentos de HTML e estrutura da Web. O objetivo principal foi construir base conceitual e pratica para leitura, escrita e organizacao de paginas com clareza.
+
+## Questoes de fixacao (com gabarito)
+1. Qual e a ideia central do tema "Internet x Web, cliente-servidor, URL e HTTP (visão inicial)" nesta unidade?
+Gabarito: Compreender a base de estruturacao de conteudo na Web e aplicar esse conhecimento na construcao de paginas em HTML.
+
+2. Por que separar estrutura (HTML) de estilo (CSS) e comportamento (JavaScript) e importante?
+Gabarito: Porque facilita manutencao, organizacao do codigo, trabalho em equipe e evolucao do projeto.
+
+3. Cite uma boa pratica de acessibilidade relacionada a HTML.
+Gabarito: Usar semantica adequada e incluir texto alternativo em imagens quando necessario.
+
+4. Qual erro comum de iniciantes deve ser evitado nesse tipo de conteudo?
+Gabarito: Copiar codigo sem entender e nao testar em etapas pequenas.
+
+5. O que voce deve revisar antes de entregar uma atividade desta unidade?
+Gabarito: Estrutura correta do HTML, legibilidade do conteudo, semantica basica e funcionamento do que foi pedido.

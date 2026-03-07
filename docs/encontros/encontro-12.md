@@ -2,60 +2,73 @@
 
 **Unidade:** Unidade 2  
 **Carga prevista:** 1,5h  
-**Entregável:** Exercícios de estilos
+**Entregável previsto:** Exercícios de estilos
 
-## Visão Didática da Aula
-Neste encontro, o foco é "Especificidade, herança e box model". A proposta é trabalhar o conteúdo em linguagem introdutória, conectando conceito, demonstração e prática orientada. O objetivo é que o estudante compreenda não apenas o que fazer, mas por que a técnica é útil em projetos reais.
+## Explicação do conteúdo
+Aqui você aprofunda especificidade, herança e box model para entender conflitos de estilo e depuração de layout.
 
-![Imagem de apoio do encontro](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
-## Objetivos de Aprendizagem
-- Compreender os conceitos centrais de "Especificidade, herança e box model".
-- Aplicar o conteúdo em uma prática curta com feedback.
-- Produzir o entregável previsto: **Exercícios de estilos**.
+## Conceitos essenciais
+- Especificidade.
+- Herança.
+- Box model.
 
-## Explicação Guiada
-Comece identificando os conceitos que aparecem no tema da aula e relacione com situações práticas de páginas reais (sites institucionais, portfólios, lojas, blogues). Em seguida, implemente uma versão mínima funcional, validando no navegador a cada alteração. O ideal é manter ciclos curtos de teste para facilitar depuração e consolidação da aprendizagem.
+## Exemplo prático
+Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
 
-## Exemplo de Código
 ```css
-:root {
-  --cor-primaria: #0a4d8c;
-  --espaco: 1rem;
-}
+p { color: #1f2937; }
+.texto-destaque { color: #b91c1c; }
 
-body {
-  margin: 0;
-  font-family: "Segoe UI", sans-serif;
-  color: #1f2937;
-}
-
-.card {
-  display: flex;
-  gap: var(--espaco);
-  padding: var(--espaco);
-  border: 1px solid #d1d5db;
+.caixa {
+  width: 200px;
+  padding: 16px;
+  border: 2px solid #111827;
+  margin: 12px;
 }
 ```
 
-## Atividade Prática Recomendada
-1. Revisar os conceitos essenciais da aula (15 min).
-2. Reproduzir e adaptar o exemplo de código (30-40 min).
-3. Resolver um desafio contextualizado com apoio do professor (40-50 min).
-4. Publicar/registrar o entregável da aula no repositório da turma (15 min).
+## Como estudar este encontro sozinho
+1. Leia a explicação e destaque os conceitos-chave.
+2. Digite o exemplo de código manualmente.
+3. Faça pequenas alterações e observe o resultado.
+4. Resolva uma variação do exercício com seu próprio tema.
 
-## Erros Comuns e Como Evitar
-- Escrever código sem testar em etapas pequenas.
-- Ignorar mensagens de erro no console/DevTools.
-- Não validar semântica, responsividade ou legibilidade do código antes da entrega.
+## Dificuldades comuns de iniciantes
+- Tentar avançar sem revisar a base.
+- Copiar código sem compreender a lógica.
+- Não testar mudanças em etapas curtas.
 
-## Materiais de Apoio
+## Materiais para aprofundamento
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Tricks - Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-## Checklist da Aula
-- [ ] Entendi os conceitos principais.
-- [ ] Executei e adaptei o exemplo de código.
-- [ ] Concluí o entregável previsto.
-- [ ] Registrei dúvidas para revisão na próxima aula.
+## Checklist de compreensão
+- [ ] Entendi o conceito principal da aula.
+- [ ] Consegui executar e adaptar o exemplo.
+- [ ] Entreguei a atividade prevista no cronograma.
+- [ ] Sei quais pontos ainda preciso revisar.
+
+
+
+
+## Resumo final
+Neste encontro, voce estudou **Especificidade, herança e box model** com foco em CSS, layout e responsividade. A meta foi tornar a interface visualmente consistente, legivel e adaptavel a diferentes telas.
+
+## Questoes de fixacao (com gabarito)
+1. Qual e o objetivo principal do tema "Especificidade, herança e box model" na Unidade 2?
+Gabarito: Aplicar CSS para melhorar apresentacao, organizacao visual e experiencia de uso da pagina.
+
+2. O que a cascata do CSS influencia na pratica?
+Gabarito: Ela define qual regra sera aplicada quando houver conflito de estilos.
+
+3. Quando usar Flexbox e quando usar Grid, de forma geral?
+Gabarito: Flexbox para alinhamento em uma dimensao (linha/coluna) e Grid para layout em duas dimensoes (linhas e colunas).
+
+4. O que significa abordagem mobile-first?
+Gabarito: Desenvolver primeiro para telas menores e depois expandir com media queries para telas maiores.
+
+5. Qual checklist minimo para validar uma pagina estilizada?
+Gabarito: Contraste e legibilidade, alinhamento/espacamento coerentes, responsividade basica e ausencia de quebra de layout.

@@ -2,60 +2,69 @@
 
 **Unidade:** Unidade 2  
 **Carga prevista:** 1,5h  
-**Entregável:** Página em Grid
+**Entregável previsto:** Página em Grid
 
-## Visão Didática da Aula
-Neste encontro, o foco é "Grid para páginas e áreas de conteúdo". A proposta é trabalhar o conteúdo em linguagem introdutória, conectando conceito, demonstração e prática orientada. O objetivo é que o estudante compreenda não apenas o que fazer, mas por que a técnica é útil em projetos reais.
+## Explicação do conteúdo
+O foco é CSS Grid para montar layouts em duas dimensões com áreas e colunas bem definidas.
 
-![Imagem de apoio do encontro](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio ao tema](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
-## Objetivos de Aprendizagem
-- Compreender os conceitos centrais de "Grid para páginas e áreas de conteúdo".
-- Aplicar o conteúdo em uma prática curta com feedback.
-- Produzir o entregável previsto: **Página em Grid**.
+## Conceitos essenciais
+- `display: grid`.
+- Colunas, linhas e áreas.
+- Composição de layout completo.
 
-## Explicação Guiada
-Comece identificando os conceitos que aparecem no tema da aula e relacione com situações práticas de páginas reais (sites institucionais, portfólios, lojas, blogues). Em seguida, implemente uma versão mínima funcional, validando no navegador a cada alteração. O ideal é manter ciclos curtos de teste para facilitar depuração e consolidação da aprendizagem.
+## Exemplo prático
+Use o exemplo como ponto de partida e altere partes pequenas para entender cada efeito no navegador.
 
-## Exemplo de Código
 ```css
-:root {
-  --cor-primaria: #0a4d8c;
-  --espaco: 1rem;
-}
-
-body {
-  margin: 0;
-  font-family: "Segoe UI", sans-serif;
-  color: #1f2937;
-}
-
-.card {
-  display: flex;
-  gap: var(--espaco);
-  padding: var(--espaco);
-  border: 1px solid #d1d5db;
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1rem;
 }
 ```
 
-## Atividade Prática Recomendada
-1. Revisar os conceitos essenciais da aula (15 min).
-2. Reproduzir e adaptar o exemplo de código (30-40 min).
-3. Resolver um desafio contextualizado com apoio do professor (40-50 min).
-4. Publicar/registrar o entregável da aula no repositório da turma (15 min).
+## Como estudar este encontro sozinho
+1. Leia a explicação e destaque os conceitos-chave.
+2. Digite o exemplo de código manualmente.
+3. Faça pequenas alterações e observe o resultado.
+4. Resolva uma variação do exercício com seu próprio tema.
 
-## Erros Comuns e Como Evitar
-- Escrever código sem testar em etapas pequenas.
-- Ignorar mensagens de erro no console/DevTools.
-- Não validar semântica, responsividade ou legibilidade do código antes da entrega.
+## Dificuldades comuns de iniciantes
+- Tentar avançar sem revisar a base.
+- Copiar código sem compreender a lógica.
+- Não testar mudanças em etapas curtas.
 
-## Materiais de Apoio
+## Materiais para aprofundamento
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Tricks - Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-## Checklist da Aula
-- [ ] Entendi os conceitos principais.
-- [ ] Executei e adaptei o exemplo de código.
-- [ ] Concluí o entregável previsto.
-- [ ] Registrei dúvidas para revisão na próxima aula.
+## Checklist de compreensão
+- [ ] Entendi o conceito principal da aula.
+- [ ] Consegui executar e adaptar o exemplo.
+- [ ] Entreguei a atividade prevista no cronograma.
+- [ ] Sei quais pontos ainda preciso revisar.
+
+
+
+
+## Resumo final
+Neste encontro, voce estudou **Grid para páginas e áreas de conteúdo** com foco em CSS, layout e responsividade. A meta foi tornar a interface visualmente consistente, legivel e adaptavel a diferentes telas.
+
+## Questoes de fixacao (com gabarito)
+1. Qual e o objetivo principal do tema "Grid para páginas e áreas de conteúdo" na Unidade 2?
+Gabarito: Aplicar CSS para melhorar apresentacao, organizacao visual e experiencia de uso da pagina.
+
+2. O que a cascata do CSS influencia na pratica?
+Gabarito: Ela define qual regra sera aplicada quando houver conflito de estilos.
+
+3. Quando usar Flexbox e quando usar Grid, de forma geral?
+Gabarito: Flexbox para alinhamento em uma dimensao (linha/coluna) e Grid para layout em duas dimensoes (linhas e colunas).
+
+4. O que significa abordagem mobile-first?
+Gabarito: Desenvolver primeiro para telas menores e depois expandir com media queries para telas maiores.
+
+5. Qual checklist minimo para validar uma pagina estilizada?
+Gabarito: Contraste e legibilidade, alinhamento/espacamento coerentes, responsividade basica e ausencia de quebra de layout.
