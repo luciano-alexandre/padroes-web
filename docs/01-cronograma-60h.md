@@ -23,7 +23,7 @@ Avaliação do bloco: listas de exercícios + prova prática .
 Foco: CSS, layout e responsividade.
 Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias reservados).
 
-| Encontro | Carga | Tema Central | Entregável | Guia da Aula |
+| Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 11 | 1,5h | CSS: sintaxe, seletores e cascata | Arquivo CSS conectado | [Encontro 11](./encontros/encontro-11.md) |
 | 12 | 1,5h | Especificidade, herança e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
@@ -40,7 +40,7 @@ Avaliação do bloco: listas de exercícios + mini projeto + prova (com dias res
 Foco: JavaScript introdutório e manipulação de DOM.
 Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto final).
 
-| Encontro | Carga | Tema Central | Entregável | Guia da Aula |
+| Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 21 | 1,5h | JavaScript no front-end, sintaxe básica e execução | Script inicial | [Encontro 21](./encontros/encontro-21.md) |
 | 22 | 1,5h | Variáveis, tipos e operadores | Exercícios JS I | [Encontro 22](./encontros/encontro-22.md) |
@@ -57,7 +57,7 @@ Avaliação do bloco: listas de exercícios + mini projeto (ponte para o projeto
 Foco: Projeto final integrador (HTML + CSS + JS + DOM).
 Avaliação do bloco: projeto final (única avaliação), com dias reservados para apresentação.
 
-| Encontro | Carga | Tema Central | Entregável | Guia da Aula |
+| Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 31 | 1,5h | Planejamento do projeto final (tema, requisitos, cronograma) | Plano do projeto final | [Encontro 31](./encontros/encontro-31.md) |
 | 32 | 1,5h | Estrutura HTML e arquitetura de pastas | Estrutura base pronta | [Encontro 32](./encontros/encontro-32.md) |
