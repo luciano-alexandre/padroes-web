@@ -8,7 +8,7 @@
 ## Ementa
 Estudo dos conceitos introdutórios de HTML e CSS. Introdução ao JavaScript. Uso de JavaScript para manipulação de DOM. Abordagem de conceitos sobre árvore DOM. Criação de páginas responsivas.
 
-## Programa (foco pedagógico)
+## Programa
 1. Apresentar os princípios básicos de HTML, CSS e JavaScript, destacando a importância de cada linguagem na construção de páginas web.
 2. Apresentar a criação de estruturas semânticas utilizando HTML5, possibilitando compreender a importância da acessibilidade e boas práticas de SEO.
 3. Explorar técnicas de CSS para criação de layouts responsivos e uso introdutório de frameworks/toolkits/bibliotecas CSS.
@@ -24,16 +24,16 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - publicar e documentar projetos web simples.
 
 ## Metodologia
-- Aulas expositivas dialogadas curtas (20% do tempo).
-- Prática guiada em laboratório (50% do tempo).
-- Resolução de exercícios e desafios em dupla/equipe (20% do tempo).
-- Projeto integrador com apresentação (10% do tempo).
+- Aulas expositivas dialogadas. 
+- Prática guiada em laboratório.
+- Resolução de exercícios e desafios. 
+- Desenvolvimento de Projetos.
 
 ## Recursos Necessários
 - Editor de código (VS Code ou equivalente).
-- Navegador moderno (Firefox/Chrome/Edge).
+- Navegador (Firefox/Chrome/Edge).
 - DevTools do navegador.
-- Conta em plataforma de versionamento/publicação (GitHub/GitLab, opcional na etapa inicial).
+- Conta em plataforma de versionamento/publicação (GitHub).
 
 ## Organização da Carga Horária
 - Unidade 1 - HTML5 Semântico e Fundamentos Web: 18h
