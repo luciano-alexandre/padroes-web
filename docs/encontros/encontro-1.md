@@ -4,6 +4,19 @@
 **Carga prevista:** 1,5h  
 **Entregável previsto:** Plano de estudo individual
 
+## O que é Front-end?
+Front-end é a área do desenvolvimento web responsável por tudo o que o usuário vê e com o que interage no navegador: textos, botões, formulários, menus, imagens, cores, layout e respostas da interface às ações do usuário.
+
+Em termos práticos, o front-end:
+- transforma requisitos em interfaces utilizáveis;
+- conecta design, usabilidade e programação;
+- garante que a aplicação funcione bem em diferentes telas e dispositivos.
+
+No contexto da Web, o front-end é construído principalmente com:
+- **HTML** para estrutura;
+- **CSS** para apresentação visual;
+- **JavaScript** para comportamento e interatividade.
+
 ## Visão Geral do Encontro
 Este encontro apresenta o panorama completo da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
 
@@ -48,6 +61,8 @@ O HTML organiza o conteúdo em elementos com significado: títulos, parágrafos,
   <p id="mensagem"></p>
 </main>
 ```
+**Como fica após executar (estrutura HTML):**
+![Resultado do exemplo HTML](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-html.svg)
 
 Aplicação: estrutura páginas institucionais, portfólios, e-commerces, blogs, sistemas acadêmicos e qualquer interface web.
 
@@ -75,6 +90,8 @@ button {
   cursor: pointer;
 }
 ```
+**Como fica após executar (HTML + CSS):**
+![Resultado do exemplo CSS](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-css.svg)
 
 Aplicação: identidade visual, design system, layout adaptável para celular/tablet/desktop, acessibilidade visual (contraste, legibilidade).
 
@@ -92,6 +109,8 @@ form.addEventListener("submit", (e) => {
   msg.textContent = `Cadastro de ${nome} enviado com sucesso.`;
 });
 ```
+**Como fica após executar (HTML + CSS + JavaScript):**
+![Resultado do exemplo JavaScript](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-exec-js.svg)
 
 Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards, comunicação com APIs e aplicações web completas.
 
@@ -193,20 +212,13 @@ A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no n
 </html>
 ```
 
-## 8) Como Estudar este Conteúdo para Aula Completa
-1. Leia a parte histórica e monte um mapa mental da linha do tempo.
-2. Reproduza os três exemplos separados (HTML, CSS, JavaScript).
-3. Rode o exemplo integrado e altere cores, textos e comportamentos.
-4. Explique oralmente a diferença entre estrutura, estilo e comportamento.
-5. Registre dúvidas sobre semântica, cascata e eventos para revisão.
-
-## 9) Erros Comuns de Iniciantes
+## 8) Erros Comuns de Iniciantes
 - confundir HTML com linguagem de programação;
 - tentar resolver layout complexo sem dominar box model e fluxo normal;
 - usar JavaScript antes de consolidar semântica e estrutura da página;
 - copiar código sem testar em pequenas etapas.
 
-## 10) Materiais para Aprofundamento
+## 9) Materiais para Aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
