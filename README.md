@@ -7,7 +7,8 @@
 - Professor: Luciano Alexandre de Farias Silva
 
 ## Estrutura
-- [Visão Geral da Disciplina](docs/00-visao-geral.md)
+- [Visão Geral do Professor](docs/00-visao-geral-professor.md)
+- [Visão Geral da Disciplina](docs/00-visao-geral-disciplina.md)
 - [Cronograma de 60h](docs/01-cronograma-60h.md)
 - [Roteiro Sequencial de Aulas](docs/02-roteiro-sequencial.md)
 - [Plano de Aula - Unidade 1 (HTML5 Semântico)](docs/planos-aula/unidade-1-html.md)
