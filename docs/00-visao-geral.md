@@ -3,6 +3,7 @@
 ## Identificação
 - Disciplina: Autoria Web
 - Carga horária total: 60h
+- Organização da carga horária: 20 aulas de 3h (4 unidades de 15h)
 - Público: Curso Técnico Integrado em Informática
 
 ## Ementa
@@ -36,10 +37,10 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Conta em plataforma de versionamento/publicação (GitHub).
 
 ## Organização da Carga Horária
-- Unidade 1 - HTML5 Semântico e Fundamentos Web: 18h
-- Unidade 2 - CSS, Layout e Responsividade: 21h
-- Unidade 3 - JavaScript e DOM: 18h
-- Fechamento e apresentações: 3h
+- Unidade 1 - Fundamentos da Web e HTML5 Semântico: 15h (20 aulas)
+- Unidade 2 - CSS, Layout e Responsividade: 15h (20 aulas)
+- Unidade 3 - JavaScript Introdutório e DOM: 15h (20 aulas)
+- Unidade 4 - Projeto Final(HTML, CSS e JS/DOM): 15h (20 aulas)
 
 ## Avaliação (resumo)
 - Exercícios práticos (listas)
