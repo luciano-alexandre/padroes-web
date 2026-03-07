@@ -2,9 +2,8 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Plano de estudo individual
 
-## Explicacao geral do encontro
+## Conteúdo Geral 
 Este encontro trabalha **Apresentação da disciplina, combinados e visão geral da Web** com foco em fundamentos de Web/HTML e autonomia de estudo.
 
 ![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
