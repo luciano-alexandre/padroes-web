@@ -4,11 +4,11 @@ Referência: 40 encontros de 1,5h cada, organizados em 4 blocos de 10 encontros.
 
 ## Unidade 1 (Encontros 1 a 10)
 Foco: Fundamentos da Web e HTML5 semântico.
-Avaliação do bloco: listas de exercícios + prova prática (com dia reservado).
+Avaliação do bloco: listas de exercícios + prova prática .
 
 | Encontro | Carga | Tema Central | Entregável | Guia da Aula |
 |---|---:|---|---|---|
-| 1 | 1,5h | Apresentação da disciplina, combinados e visão geral da Web | Plano de estudo individual | [Encontro 1](./encontros/encontro-1.md) |
+| 1 | 1,5h | Apresentação da disciplina, combinados e visão geral da Web |  | [Encontro 1](./encontros/encontro-1.md) |
 | 2 | 1,5h | Internet x Web, cliente-servidor, URL e HTTP (visão inicial) | Mapa conceitual curto | [Encontro 2](./encontros/encontro-2.md) |
 | 3 | 1,5h | Ambiente de desenvolvimento (editor, navegador, DevTools) | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`) | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
