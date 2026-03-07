@@ -1,10 +1,11 @@
-# Encontro 1 - Apresentação da disciplina, combinados e visão geral da Web
+# Encontro 1 - Apresentação da Disciplina, Combinados e Visão Geral da Web
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
+**Entregável previsto:** Plano de estudo individual
 
-## Conteúdo Geral 
-Este encontro trabalha **Apresentação da disciplina, combinados e visão geral da Web** com foco em fundamentos de Web/HTML.
+## Visão Geral do Encontro
+Este encontro apresenta o panorama completo da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
 
 <div style="display:flex; align-items:center; gap:12px; flex-wrap:nowrap;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML5" style="height:90px; width:auto;" />
@@ -12,23 +13,26 @@ Este encontro trabalha **Apresentação da disciplina, combinados e visão geral
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Logo JavaScript" style="height:90px; width:auto;" />
 </div>
 
-
 ## Conceitos Essenciais
 - Papel de HTML, CSS e JavaScript no front-end.
-- Estrutura da disciplina e fluxo de aprendizagem.
-- Organizacao pessoal para acompanhar atividades.
+- História e evolução dessas linguagens.
+- Importância dessas tecnologias para a Computação.
 
-## Explicação 
-### 1) Papel de HTML, CSS e JavaScript no front-end.
-No front-end, essas tres linguagens trabalham juntas, mas com responsabilidades diferentes:
+## 1) Papel de HTML, CSS e JavaScript no Front-end
+As três linguagens formam uma arquitetura em camadas:
 
-- **HTML (HyperText Markup Language):** define a **estrutura e o significado** do conteudo (titulos, paragrafos, menus, formularios, secoes etc.).
-- **CSS (Cascading Style Sheets):** define a **apresentacao visual** (cores, fontes, espacamento, layout, responsividade).
-- **JavaScript:** define o **comportamento e a interatividade** (cliques, validacoes, atualizacao de conteudo, regras da interface).
+- **HTML (HyperText Markup Language):** define a **estrutura semântica** do conteúdo.
+- **CSS (Cascading Style Sheets):** define a **apresentação visual** da interface.
+- **JavaScript:** define o **comportamento e a interatividade** da página.
 
-Aplicacao pratica: em uma pagina de cadastro, o HTML cria o formulario, o CSS organiza e estiliza os campos, e o JavaScript valida os dados antes do envio.
+Sem essa separação, o desenvolvimento fica confuso, difícil de manter e menos acessível.
 
-#### Exemplo de HTML (estrutura)
+### Definição e aplicação de cada linguagem
+
+#### HTML: estrutura e significado
+O HTML organiza o conteúdo em elementos com significado: títulos, parágrafos, seções, formulários, navegação etc.
+
+**Exemplo (HTML):**
 ```html
 <main>
   <h1>Cadastro de Aluno</h1>
@@ -45,7 +49,12 @@ Aplicacao pratica: em uma pagina de cadastro, o HTML cria o formulario, o CSS or
 </main>
 ```
 
-#### Exemplo de CSS (apresentacao)
+Aplicação: estrutura páginas institucionais, portfólios, e-commerces, blogs, sistemas acadêmicos e qualquer interface web.
+
+#### CSS: apresentação visual e layout
+O CSS controla cores, fontes, espaçamento, alinhamento e responsividade.
+
+**Exemplo (CSS):**
 ```css
 main {
   max-width: 480px;
@@ -67,7 +76,12 @@ button {
 }
 ```
 
-#### Exemplo de JavaScript (comportamento)
+Aplicação: identidade visual, design system, layout adaptável para celular/tablet/desktop, acessibilidade visual (contraste, legibilidade).
+
+#### JavaScript: interatividade e lógica de interface
+O JavaScript reage a eventos do usuário e altera o conteúdo em tempo real.
+
+**Exemplo (JavaScript):**
 ```js
 const form = document.querySelector("#form-cadastro");
 const msg = document.querySelector("#mensagem");
@@ -79,71 +93,149 @@ form.addEventListener("submit", (e) => {
 });
 ```
 
-Quando voce separa bem estrutura, estilo e comportamento, o projeto fica mais facil de manter, corrigir e evoluir.
+Aplicação: validação de formulários, menus dinâmicos, filtros, dashboards, comunicação com APIs e aplicações web completas.
 
-### 2) Organizacao pessoal para acompanhar atividades.
-Estudo curto e frequente tende a funcionar melhor para iniciantes do que longas maratonas.
+## 2) História do HTML, CSS e JavaScript
 
-#### Exemplo aplicado
-```text
-Aplique o conceito no seu projeto e valide no navegador.
-```
+### HTML
+- **Origem:** início dos anos 1990.
+- **Criador principal:** Tim Berners-Lee (CERN).
+- **Contexto:** facilitar compartilhamento de documentos científicos por hipertexto.
+- **Marco histórico:** o primeiro site público da história, hospedado em `info.cern.ch` (1991), foi escrito em HTML.
 
-## Exemplo principal da aula
+### CSS
+- **Origem:** proposta em 1994.
+- **Autores centrais:** Håkon Wium Lie e Bert Bos.
+- **Objetivo inicial:** separar conteúdo (HTML) de apresentação (estilo), reduzindo repetição e melhorando manutenção.
+- **Marco histórico:** recomendação CSS1 pelo W3C em 1996; início da adoção pelos navegadores na segunda metade dos anos 1990.
+
+### JavaScript
+- **Origem:** 1995.
+- **Criador:** Brendan Eich (Netscape).
+- **Contexto:** adicionar interatividade em páginas que antes eram predominantemente estáticas.
+- **Marco histórico:** padronização como **ECMAScript** em 1997.
+
+## 3) Linha do Tempo Resumida
+
+| Ano | Marco |
+|---|---|
+| 1991 | Primeiro site público em HTML (`info.cern.ch`) |
+| 1994 | Proposta inicial de CSS |
+| 1995 | Criação do JavaScript na Netscape |
+| 1996 | CSS1 publicado pelo W3C |
+| 1997 | JavaScript padronizado como ECMAScript |
+| 2014 | HTML5 consolidado como recomendação W3C |
+
+## 4) Importância para a Computação
+HTML, CSS e JavaScript são fundamentais porque:
+
+- introduzem a base de engenharia de interfaces digitais;
+- conectam design, usabilidade e programação;
+- viabilizam sistemas distribuídos acessados por navegador;
+- sustentam desde páginas simples até aplicações complexas (SaaS, plataformas educacionais, e-commerce, redes sociais);
+- formam uma base profissional para desenvolvimento front-end e full-stack.
+
+Em termos de formação, dominar essas tecnologias desenvolve competências de:
+- modelagem de informação (HTML semântico);
+- pensamento visual e responsivo (CSS);
+- raciocínio lógico e orientado a eventos (JavaScript).
+
+## 5) Exemplos Históricos de Uso
+
+### HTML nos primeiros sites
+- **`info.cern.ch`**: primeiro site da Web, com páginas textuais e links navegáveis.
+
+### CSS na evolução do design web
+- na transição dos anos 1990 para 2000, o CSS passou a substituir estilos inline e tabelas de layout;
+- isso permitiu padronização visual, manutenção mais simples e páginas mais leves.
+
+### JavaScript nas primeiras interações populares
+- validação de formulários no cliente;
+- menus e efeitos de navegação;
+- atualização de partes da interface sem recarregar toda a página (evoluindo para AJAX nos anos 2000).
+
+## 6) Exemplo de Resultado após Execução
+A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no navegador após execução:
+
+![Simulação de renderização da página de cadastro](/home/luciano/Dropbox/Acadêmico/Docente/Disciplinas/Material/Autoria Web/docs/encontros/imagens/encontro-1-resultado-renderizacao.svg)
+
+## 7) Exemplo Integrado (HTML + CSS + JavaScript)
 ```html
-<main>
-  <h1>Pagina de estudo</h1>
-  <p>Conteudo principal da aula.</p>
-</main>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo Integrado</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      .caixa { max-width: 420px; display: grid; gap: 0.75rem; }
+      button { background: #0f4c81; color: #fff; border: 0; padding: 0.6rem; }
+      #saida { color: #065f46; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main class="caixa">
+      <h1>Cadastro Rápido</h1>
+      <input id="nome" placeholder="Digite seu nome" />
+      <button id="btn">Enviar</button>
+      <p id="saida"></p>
+    </main>
+
+    <script>
+      document.querySelector("#btn").addEventListener("click", () => {
+        const nome = document.querySelector("#nome").value.trim();
+        document.querySelector("#saida").textContent =
+          nome ? `Olá, ${nome}. Cadastro registrado.` : "Digite um nome antes de enviar.";
+      });
+    </script>
+  </body>
+</html>
 ```
 
-## Exemplos adicionais
-```html
-<nav><a href="#inicio">Inicio</a><a href="#sobre">Sobre</a></nav>
-```
+## 8) Como Estudar este Conteúdo para Aula Completa
+1. Leia a parte histórica e monte um mapa mental da linha do tempo.
+2. Reproduza os três exemplos separados (HTML, CSS, JavaScript).
+3. Rode o exemplo integrado e altere cores, textos e comportamentos.
+4. Explique oralmente a diferença entre estrutura, estilo e comportamento.
+5. Registre dúvidas sobre semântica, cascata e eventos para revisão.
 
-```html
-<form><input required placeholder="Nome" /><button>Enviar</button></form>
-```
+## 9) Erros Comuns de Iniciantes
+- confundir HTML com linguagem de programação;
+- tentar resolver layout complexo sem dominar box model e fluxo normal;
+- usar JavaScript antes de consolidar semântica e estrutura da página;
+- copiar código sem testar em pequenas etapas.
 
-## Como estudar este encontro sozinho
-1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
-
-## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
-
-## Materiais para aprofundamento
+## 10) Materiais para Aprofundamento
 - [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
 - [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-- [freeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+- [ECMAScript Language Specification](https://tc39.es/ecma262/)
 
-## Checklist de compreensao
-- [ ] Entendi os tres conceitos essenciais com minhas palavras.
-- [ ] Executei os exemplos e fiz variacao propria.
-- [ ] Revisei erros comuns e corrigi pontos de duvida.
-- [ ] Entreguei a atividade prevista no cronograma.
+## Checklist de Compreensão
+- [ ] Consigo definir HTML, CSS e JavaScript com precisão.
+- [ ] Consigo explicar quando e por que cada linguagem surgiu.
+- [ ] Consigo citar marcos históricos relevantes (1991, 1994, 1995, 1996, 1997).
+- [ ] Consigo relacionar cada linguagem com uma aplicação prática real.
+- [ ] Consigo executar e modificar o exemplo integrado.
 
-## Resumo final
-Neste encontro, voce estudou **Apresentação da disciplina, combinados e visão geral da Web** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+## Resumo Final
+Neste encontro, você construiu uma visão histórica e técnica da Web, entendendo a função de cada linguagem e sua importância para a evolução da Computação. Com essa base, as próximas aulas passam a fazer mais sentido porque cada novo conteúdo será conectado a uma arquitetura clara: **estrutura (HTML), apresentação (CSS) e comportamento (JavaScript)**.
 
-## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Apresentação da disciplina, combinados e visão geral da Web" ajuda a resolver?
-Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
+## Questões de Fixação (com gabarito)
+1. Qual foi a motivação inicial para o surgimento do HTML?
+Gabarito: Compartilhar documentos interligados por hipertexto na Web, inicialmente em contexto científico.
 
-2. Como validar se voce realmente entendeu o conceito?
-Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
+2. Por que o CSS foi criado?
+Gabarito: Para separar conteúdo de apresentação, reduzindo repetição e melhorando manutenção visual das páginas.
 
-3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+3. Qual problema o JavaScript resolveu na Web dos anos 1990?
+Gabarito: A ausência de interatividade dinâmica no lado do cliente.
 
-4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+4. Cite um marco histórico de cada linguagem.
+Gabarito: HTML (primeiro site público em 1991), CSS (CSS1 em 1996), JavaScript (padronização ECMAScript em 1997).
 
-5. Como aprofundar apos a aula?
-Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.
+5. Em uma frase, explique como as três linguagens trabalham juntas.
+Gabarito: HTML organiza o conteúdo, CSS define a aparência e JavaScript controla o comportamento da interface.
