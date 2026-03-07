@@ -176,8 +176,6 @@ Em termos de formação, dominar essas tecnologias desenvolve competências de:
 ## 7) Exemplo de Resultado após Execução
 A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no navegador após execução:
 
-![Simulação de renderização da página de cadastro](./imagens/encontro-1-resultado-renderizacao.svg)
-
 ## 8) Exemplo Integrado (HTML + CSS + JavaScript)
 ```html
 <!doctype html>
@@ -211,6 +209,8 @@ A imagem abaixo simula como o código HTML + CSS + JavaScript pode aparecer no n
   </body>
 </html>
 ```
+**Resultado esperado da execução do código do tópico 8:**
+![Resultado do exemplo integrado](./imagens/encontro-1-exec-integrado.svg)
 
 ## 9) Erros Comuns de Iniciantes
 - confundir HTML com linguagem de programação;

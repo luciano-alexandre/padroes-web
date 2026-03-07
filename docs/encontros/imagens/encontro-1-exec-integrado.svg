@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Resultado do exemplo integrado HTML CSS JavaScript">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f9ff"/>
+      <stop offset="100%" stop-color="#e9f1ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="560" fill="url(#g)"/>
+
+  <rect x="180" y="60" width="640" height="440" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="230" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">Cadastro Rápido</text>
+
+  <rect x="230" y="155" width="420" height="46" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="246" y="184" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Ana</text>
+
+  <rect x="230" y="218" width="180" height="46" rx="10" fill="#0f4c81"/>
+  <text x="286" y="247" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Enviar</text>
+
+  <rect x="230" y="290" width="460" height="70" rx="10" fill="#ecfdf5" stroke="#34d399"/>
+  <text x="250" y="332" font-family="Arial, sans-serif" font-size="22" fill="#065f46">Olá, Ana. Cadastro registrado.</text>
+
+  <text x="180" y="35" font-family="Arial, sans-serif" font-size="16" fill="#334155">Resultado visual do código do tópico 8 (exemplo integrado)</text>
+</svg>
