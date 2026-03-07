@@ -18,7 +18,7 @@ Este encontro trabalha **Apresentação da disciplina, combinados e visão geral
 - Estrutura da disciplina e fluxo de aprendizagem.
 - Organizacao pessoal para acompanhar atividades.
 
-## Explicacao 
+## Explicação 
 ### 1) Papel de HTML, CSS e JavaScript no front-end.
 HTML estrutura conteudo, CSS define apresentacao e JavaScript adiciona comportamento. Separar camadas reduz acoplamento e facilita manutencao.
 
