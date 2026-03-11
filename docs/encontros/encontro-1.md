@@ -4,7 +4,7 @@
 **Carga prevista:** 1,5h  
 
 ## Visão Geral do Encontro
-Este encontro apresenta o panorama completo da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
+Este encontro apresenta o panorama da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
 
 <div style="display:flex; align-items:center; gap:12px; flex-wrap:nowrap;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML5" style="height:90px; width:auto;" />
