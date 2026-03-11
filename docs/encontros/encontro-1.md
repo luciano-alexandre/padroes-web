@@ -2,7 +2,6 @@
 
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregável previsto:** Plano de estudo individual
 
 ## Visão Geral do Encontro
 Este encontro apresenta o panorama completo da Web moderna. O foco é entender como **HTML, CSS e JavaScript** surgiram, por que se tornaram essenciais para a Computação e como atuam juntos na construção de páginas e aplicações web.
