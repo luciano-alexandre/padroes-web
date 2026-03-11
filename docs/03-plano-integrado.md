@@ -1,4 +1,4 @@
-# Planejamento Integrado de Aulas
+# Planejamento de Aulas
 
 Este documento reúne em uma única página o roteiro sequencial da disciplina e os planos de aula das três unidades.
 
