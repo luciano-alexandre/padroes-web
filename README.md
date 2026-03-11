@@ -1,4 +1,4 @@
-# Disciplina: Padrões Web (120h)
+# Disciplina: Padrões Web (60h)
 
 ## Identificação do Curso
 - Turma: Graduação
@@ -9,7 +9,7 @@
 ## Estrutura
 - [Visão Geral do Professor](docs/00-visao-geral-professor.md)
 - [Visão Geral da Disciplina](docs/00-visao-geral-disciplina.md)
-- [Cronograma de 120h](docs/01-cronograma-120h.md)
+- [Cronograma de 60h](docs/01-cronograma-60h.md)
 - [Roteiro Sequencial de Aulas](docs/02-roteiro-sequencial.md)
 - [Plano de Aula - Unidade 1 (Fundamentos da Web e HTML Semântico)](docs/planos-aula/unidade-1-html.md)
 - [Plano de Aula - Unidade 2 (CSS, Layout e Design Responsivo)](docs/planos-aula/unidade-2-css.md)

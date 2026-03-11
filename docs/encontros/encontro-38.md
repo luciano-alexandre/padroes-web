@@ -1,79 +1,79 @@
-# Encontro 38 - Layouts mobile-first para multiplos breakpoints
+# Encontro 38 - Projeto integrador: estrutura base e implementacao com framework
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Versao multi-breakpoint
+**Entregavel previsto:** Primeira versao
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Layouts mobile-first para multiplos breakpoints** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Projeto integrador: estrutura base e implementacao com framework** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/8/8e/OOjs_UI_icon_code.svg)
 
 ## Conceitos essenciais
-- Planejamento mobile-first
-- Breakpoints orientados pelo conteudo
-- Ajustes progressivos de layout
+- Estrutura inicial do projeto
+- Aplicacao pratica do framework escolhido
+- Montagem das principais secoes
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Planejamento mobile-first
-Planejamento mobile-first orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Estrutura inicial do projeto
+Estrutura inicial do projeto orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Breakpoints
-- base mobile
-- tablet
-- desktop
+Projeto/
+- index.html
+- pages/
+- assets/
 ```
 
-### 2) Breakpoints orientados pelo conteudo
-Breakpoints orientados pelo conteudo ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Aplicacao pratica do framework escolhido
+Aplicacao pratica do framework escolhido ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Ajustes
-- menu
+Uso do framework
 - grid
-- tipografia
+- componentes
+- utilitarios
 ```
 
-### 3) Ajustes progressivos de layout
-Ajustes progressivos de layout conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Montagem das principais secoes
+Montagem das principais secoes conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Validacao
-- sem rolagem horizontal
-- boa leitura
-- componentes estaveis
+Checklist
+- consistencia
+- legibilidade
+- navegacao
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Breakpoints
-- base mobile
-- tablet
-- desktop
+Projeto/
+- index.html
+- pages/
+- assets/
 ```
 
 ## Exemplos adicionais
 
 ```text
-Ajustes
-- menu
+Uso do framework
 - grid
-- tipografia
+- componentes
+- utilitarios
 ```
 
 ```text
-Validacao
-- sem rolagem horizontal
-- boa leitura
-- componentes estaveis
+Checklist
+- consistencia
+- legibilidade
+- navegacao
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Validacao
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Validacao
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Layouts mobile-first para multiplos breakpoints** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Projeto integrador: estrutura base e implementacao com framework** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Layouts mobile-first para multiplos breakpoints" ajuda a resolver?
+1. Qual problema tecnico "Projeto integrador: estrutura base e implementacao com framework" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

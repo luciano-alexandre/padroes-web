@@ -1,79 +1,79 @@
-# Encontro 37 - Tabelas, listas complexas e apresentacao de dados
+# Encontro 37 - Projeto integrador: design tokens e guia visual
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Componente de dados
+**Entregavel previsto:** Guia visual
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Tabelas, listas complexas e apresentacao de dados** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Projeto integrador: design tokens e guia visual** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/8/8e/OOjs_UI_icon_code.svg)
 
 ## Conceitos essenciais
-- Apresentacao visual de dados
-- Hierarquia e legibilidade tabular
-- Padroes para listas informacionais
+- Sistema visual coerente
+- Tokens e componentes base
+- Preparacao para implementacao rapida
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Apresentacao visual de dados
-Apresentacao visual de dados orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Sistema visual coerente
+Sistema visual coerente orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Tabela
-- cabecalho evidente
-- linhas legiveis
-- alinhamento numerico
+Tokens
+- cores
+- espacamentos
+- fontes
 ```
 
-### 2) Hierarquia e legibilidade tabular
-Hierarquia e legibilidade tabular ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Tokens e componentes base
+Tokens e componentes base ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Lista
-- itens agrupados
-- marcadores customizados
-- espaco coerente
+Componentes
+- botao
+- card
+- formulario
 ```
 
-### 3) Padroes para listas informacionais
-Padroes para listas informacionais conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Preparacao para implementacao rapida
+Preparacao para implementacao rapida conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Checklist
-- leitura facil
-- contraste
-- responsividade minima
+Guia
+- exemplos
+- variacoes
+- regras
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Tabela
-- cabecalho evidente
-- linhas legiveis
-- alinhamento numerico
+Tokens
+- cores
+- espacamentos
+- fontes
 ```
 
 ## Exemplos adicionais
 
 ```text
-Lista
-- itens agrupados
-- marcadores customizados
-- espaco coerente
+Componentes
+- botao
+- card
+- formulario
 ```
 
 ```text
-Checklist
-- leitura facil
-- contraste
-- responsividade minima
+Guia
+- exemplos
+- variacoes
+- regras
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Checklist
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Checklist
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Tabelas, listas complexas e apresentacao de dados** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Projeto integrador: design tokens e guia visual** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Tabelas, listas complexas e apresentacao de dados" ajuda a resolver?
+1. Qual problema tecnico "Projeto integrador: design tokens e guia visual" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

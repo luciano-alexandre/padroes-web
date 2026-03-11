@@ -1,79 +1,79 @@
-# Encontro 32 - Estados, pseudo-classes, pseudo-elementos e microinteracoes visuais
+# Encontro 32 - Tailwind CSS: layout, espacamento e responsividade
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Componentes com estados
+**Entregavel previsto:** Interface utilitaria
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Estados, pseudo-classes, pseudo-elementos e microinteracoes visuais** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Tailwind CSS: layout, espacamento e responsividade** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg)
 
 ## Conceitos essenciais
-- Pseudo-classes para interacao visual
-- Pseudo-elementos para refinamento
-- Feedback visual sem excesso de complexidade
+- Construcao de layout com utilitarios
+- Breakpoints do framework
+- Padrao rapido para prototipos
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Pseudo-classes para interacao visual
-Pseudo-classes para interacao visual orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Construcao de layout com utilitarios
+Construcao de layout com utilitarios orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Estado
-- hover claro
-- focus visivel
-- active coerente
+Layout
+- flex
+- grid
+- gap
 ```
 
-### 2) Pseudo-elementos para refinamento
-Pseudo-elementos para refinamento ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Breakpoints do framework
+Breakpoints do framework ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Pseudo-elemento
-- marcador decorativo
-- separador visual
-- destaque contextual
+Breakpoints
+- sm
+- md
+- lg
 ```
 
-### 3) Feedback visual sem excesso de complexidade
-Feedback visual sem excesso de complexidade conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Padrao rapido para prototipos
+Padrao rapido para prototipos conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Checklist
-- acessivel
-- discreto
-- consistente
+Tela
+- home
+- grade
+- CTA
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Estado
-- hover claro
-- focus visivel
-- active coerente
+Layout
+- flex
+- grid
+- gap
 ```
 
 ## Exemplos adicionais
 
 ```text
-Pseudo-elemento
-- marcador decorativo
-- separador visual
-- destaque contextual
+Breakpoints
+- sm
+- md
+- lg
 ```
 
 ```text
-Checklist
-- acessivel
-- discreto
-- consistente
+Tela
+- home
+- grade
+- CTA
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Checklist
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Checklist
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Estados, pseudo-classes, pseudo-elementos e microinteracoes visuais** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Tailwind CSS: layout, espacamento e responsividade** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Estados, pseudo-classes, pseudo-elementos e microinteracoes visuais" ajuda a resolver?
+1. Qual problema tecnico "Tailwind CSS: layout, espacamento e responsividade" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

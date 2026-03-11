@@ -1,81 +1,79 @@
-# Encontro 34 - Grid avancado, areas nomeadas e composicoes editoriais
+# Encontro 34 - Comparacao entre Bootstrap, Tailwind e CSS autoral
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Grid complexo
+**Entregavel previsto:** Relatorio comparativo
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Grid avancado, areas nomeadas e composicoes editoriais** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Comparacao entre Bootstrap, Tailwind e CSS autoral** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/93/W3C_icon.svg)
 
 ## Conceitos essenciais
-- Grade para paginas complexas
-- Areas nomeadas e hierarquia visual
-- Composicao editorial responsiva
+- Analise tecnica comparativa
+- Aderencia ao contexto do projeto
+- Decisao tecnologica argumentada
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Grade para paginas complexas
-Grade para paginas complexas orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Analise tecnica comparativa
+Analise tecnica comparativa orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Grid
-- header
-- sidebar
-- content
-- footer
+Tabela
+- produtividade
+- controle
+- curva de aprendizado
 ```
 
-### 2) Areas nomeadas e hierarquia visual
-Areas nomeadas e hierarquia visual ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Aderencia ao contexto do projeto
+Aderencia ao contexto do projeto ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Areas
-- destaque
-- noticias
-- servicos
+Contexto
+- landing page
+- portal
+- design system
 ```
 
-### 3) Composicao editorial responsiva
-Composicao editorial responsiva conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Decisao tecnologica argumentada
+Decisao tecnologica argumentada conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Revisao
-- leitura clara
-- proporcoes
-- adaptacao
+Decisao
+- tecnologia escolhida
+- motivo
+- risco
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Grid
-- header
-- sidebar
-- content
-- footer
+Tabela
+- produtividade
+- controle
+- curva de aprendizado
 ```
 
 ## Exemplos adicionais
 
 ```text
-Areas
-- destaque
-- noticias
-- servicos
+Contexto
+- landing page
+- portal
+- design system
 ```
 
 ```text
-Revisao
-- leitura clara
-- proporcoes
-- adaptacao
+Decisao
+- tecnologia escolhida
+- motivo
+- risco
 ```
 
 ## Como estudar este encontro sozinho
@@ -85,15 +83,15 @@ Revisao
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -102,10 +100,10 @@ Revisao
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Grid avancado, areas nomeadas e composicoes editoriais** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Comparacao entre Bootstrap, Tailwind e CSS autoral** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Grid avancado, areas nomeadas e composicoes editoriais" ajuda a resolver?
+1. Qual problema tecnico "Comparacao entre Bootstrap, Tailwind e CSS autoral" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

@@ -1,79 +1,79 @@
-# Encontro 30 - Cores, contraste, tema e consistencia visual
+# Encontro 30 - Bootstrap: customizacao e sobrescrita consciente
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Paleta aplicada
+**Entregavel previsto:** Tema customizado
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Cores, contraste, tema e consistencia visual** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Bootstrap: customizacao e sobrescrita consciente** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)
 
 ## Conceitos essenciais
-- Definicao de paleta e contraste
-- Temas visuais coerentes
-- Consistencia de estados e destaque
+- Customizacao sem quebra de manutencao
+- Sobrescrita controlada de estilos
+- Ajuste de identidade visual propria
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Definicao de paleta e contraste
-Definicao de paleta e contraste orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Customizacao sem quebra de manutencao
+Customizacao sem quebra de manutencao orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Paleta
-- primaria
-- secundaria
-- neutros
+Tema
+- cores
+- tipografia
+- espacamento
 ```
 
-### 2) Temas visuais coerentes
-Temas visuais coerentes ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Sobrescrita controlada de estilos
+Sobrescrita controlada de estilos ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Estados
-- hover
-- focus
-- destaque
+Cuidados
+- evitar !important
+- isolar overrides
+- documentar
 ```
 
-### 3) Consistencia de estados e destaque
-Consistencia de estados e destaque conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Ajuste de identidade visual propria
+Ajuste de identidade visual propria conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Revisao
-- contraste de texto
-- legibilidade
-- hierarquia
+Resultado
+- identidade propria
+- framework reconhecivel
+- manutencao possivel
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Paleta
-- primaria
-- secundaria
-- neutros
+Tema
+- cores
+- tipografia
+- espacamento
 ```
 
 ## Exemplos adicionais
 
 ```text
-Estados
-- hover
-- focus
-- destaque
+Cuidados
+- evitar !important
+- isolar overrides
+- documentar
 ```
 
 ```text
-Revisao
-- contraste de texto
-- legibilidade
-- hierarquia
+Resultado
+- identidade propria
+- framework reconhecivel
+- manutencao possivel
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Revisao
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Revisao
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Cores, contraste, tema e consistencia visual** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Bootstrap: customizacao e sobrescrita consciente** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Cores, contraste, tema e consistencia visual" ajuda a resolver?
+1. Qual problema tecnico "Bootstrap: customizacao e sobrescrita consciente" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

@@ -1,6 +1,6 @@
 # Plano de Aula - Unidade 2 (CSS, Layout e Design Responsivo)
 
-Carga horária: 40,5h (27 encontros)
+Carga horária: 19,5h (13 encontros / 26 aulas)
 
 ## Objetivos da Unidade
 - Dominar fundamentos de estilização com CSS.
@@ -18,29 +18,29 @@ Carga horária: 40,5h (27 encontros)
 
 ## Roteiro por Encontro
 
-### Encontros 27 a 32
+### Encontros 14 a 17
 - Tema: Fundamentos de CSS
 - Prática: revisar base de CSS, reset, normalização e convenções de projeto
 - Produto: folha de estilos base organizada
 
-### Encontros 33 a 38
+### Encontros 18 a 20
 - Tema: Tipografia e identidade visual
 - Prática: criar sistema visual com variáveis CSS, escala tipográfica e layouts avançados
 - Produto: guia de estilos e seções responsivas
 
-### Encontros 39 a 44
+### Encontros 21 a 23
 - Tema: Responsividade
 - Prática: depurar layouts, formular navegação adaptável e componentes reutilizáveis
 - Produto: versão responsiva funcional com biblioteca inicial
 
-### Encontros 45 a 49
+### Encontros 24 a 25
 - Tema: Componentes e estados
 - Prática: criar landing page ou página institucional com padrões visuais consistentes
 - Produto: mini design system aplicado
 
-### Encontros 50 a 53
-- Tema: Framework CSS introdutório
-- Prática: comparar CSS autoral, utilitário e framework com mini-projeto visual
+### Encontro 26
+- Tema: Fechamento da unidade
+- Prática: apresentar mini-projeto visual, documentar decisões e revisar pontos de acessibilidade e SEO
 - Produto: comparação técnica documentada e projeto publicado
 
 ## Estratégias de Ensino

@@ -1,79 +1,79 @@
-# Encontro 27 - Revisao diagnostica de CSS e plano de aprofundamento
+# Encontro 27 - Panorama de frameworks HTML/CSS no mercado
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Diagnostico de CSS
+**Entregavel previsto:** Mapa comparativo
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Revisao diagnostica de CSS e plano de aprofundamento** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Panorama de frameworks HTML/CSS no mercado** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)
 
 ## Conceitos essenciais
-- Levantamento de lacunas em CSS
-- Plano individual de aprofundamento
-- Conexao entre HTML estruturado e camada visual
+- Panorama de frameworks e toolkits
+- Criterios de escolha por contexto
+- Relacao entre produtividade e customizacao
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Levantamento de lacunas em CSS
-Levantamento de lacunas em CSS orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Panorama de frameworks e toolkits
+Panorama de frameworks e toolkits orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-Diagnostico
-- seletores
-- box model
-- responsividade
+Comparar
+- Bootstrap
+- Tailwind
+- kits leves
 ```
 
-### 2) Plano individual de aprofundamento
-Plano individual de aprofundamento ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Criterios de escolha por contexto
+Criterios de escolha por contexto ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Plano
-- revisar fundamentos
-- praticar layouts
-- documentar duvidas
+Criterios
+- tempo
+- consistencia
+- manutencao
 ```
 
-### 3) Conexao entre HTML estruturado e camada visual
-Conexao entre HTML estruturado e camada visual conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Relacao entre produtividade e customizacao
+Relacao entre produtividade e customizacao conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Meta
-- melhorar consistencia visual
-- reduzir retrabalho
-- preparar mini-projeto
+Mapa
+- contexto
+- recomendacao
+- ressalvas
 ```
 
 ## Exemplo principal da aula
 
 ```text
-Diagnostico
-- seletores
-- box model
-- responsividade
+Comparar
+- Bootstrap
+- Tailwind
+- kits leves
 ```
 
 ## Exemplos adicionais
 
 ```text
-Plano
-- revisar fundamentos
-- praticar layouts
-- documentar duvidas
+Criterios
+- tempo
+- consistencia
+- manutencao
 ```
 
 ```text
-Meta
-- melhorar consistencia visual
-- reduzir retrabalho
-- preparar mini-projeto
+Mapa
+- contexto
+- recomendacao
+- ressalvas
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Meta
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Meta
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Revisao diagnostica de CSS e plano de aprofundamento** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Panorama de frameworks HTML/CSS no mercado** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Revisao diagnostica de CSS e plano de aprofundamento" ajuda a resolver?
+1. Qual problema tecnico "Panorama de frameworks HTML/CSS no mercado" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

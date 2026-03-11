@@ -1,35 +1,35 @@
 # Roteiro Sequencial de Aulas
 
-## Padrão sugerido para cada encontro (3h)
-1. Abertura e revisão (15 min)
-2. Contexto teórico objetivo (30 min)
-3. Prática guiada (60 min)
-4. Desafio prático em dupla/equipe (50 min)
-5. Fechamento e encaminhamento (25 min)
+## Padrão sugerido para cada encontro (1,5h)
+1. Abertura e revisão (10 min)
+2. Contexto teórico objetivo (20 min)
+3. Prática guiada (35 min)
+4. Exercício aplicado (15 min)
+5. Fechamento e encaminhamento (10 min)
 
 ## Sequência de Conteúdo
 
-### Unidade 1 - Fundamentos da Web, HTML Semântico e Arquitetura da Informação (39h)
+### Unidade 1 - Fundamentos da Web, HTML Semântico e Estrutura de Interfaces (19,5h)
 - Conceitos da Web e papel do front-end no contexto de Sistemas para Internet.
 - Estrutura base de documento HTML5.
 - Semântica e acessibilidade.
-- Formulários, metadados, SEO on-page e organização de projeto.
-- Wireframes, arquitetura da informação e mini-projeto HTML/CSS.
+- Formulários, introdução ao CSS e organização inicial de projeto.
+- Mini-projeto introdutório com HTML e CSS.
 
-### Unidade 2 - CSS Moderno, Layout e Design de Interface (40,5h)
+### Unidade 2 - CSS Moderno, Responsividade e Qualidade Front-end (19,5h)
 - Seletores, cascata, herança e especificidade.
 - Box model, tipografia, cores e espaçamento.
 - Flexbox, Grid e layouts editoriais.
 - Media queries, mobile-first e depuração com DevTools.
-- Design systems, componentização e padrões visuais.
+- Acessibilidade, SEO on-page, documentação e revisão técnica.
 - Mini-projeto visual aplicado a cenários de TSI.
 
-### Unidade 3 - Frameworks HTML/CSS e Projeto Integrador (40,5h)
+### Unidade 3 - Frameworks HTML/CSS e Projeto Integrador (21h)
 - Panorama de frameworks HTML/CSS no mercado.
-- Bootstrap, Tailwind CSS e kits leves de prototipação.
-- Critérios de escolha tecnológica, customização e sobrescrita.
+- Bootstrap e Tailwind CSS em cenários introdutórios.
+- Critérios de escolha tecnológica e customização.
 - Projeto integrador com framework escolhido.
-- Publicação, documentação e apresentação técnica.
+- Publicação e apresentação técnica.
 
 ## Checklist de Aprendizagem por Módulo
 

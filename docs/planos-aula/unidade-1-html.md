@@ -1,6 +1,6 @@
 # Plano de Aula - Unidade 1 (Fundamentos da Web e HTML5 Semântico)
 
-Carga horária: 39h (26 encontros)
+Carga horária: 19,5h (13 encontros / 26 aulas)
 
 ## Objetivos da Unidade
 - Compreender o papel do HTML na construção de páginas web.
@@ -17,24 +17,24 @@ Carga horária: 39h (26 encontros)
 
 ## Roteiro por Encontro
 
-### Encontros 1 a 6
+### Encontros 1 a 4
 - Tema: Introdução à Web e ferramentas
 - Prática: contextualizar a disciplina em TSI, configurar ambiente e criar primeiro `index.html`
 - Produto: página inicial com estrutura mínima e ambiente funcional
 
-### Encontros 7 a 12
+### Encontros 5 a 8
 - Tema: Estrutura HTML e semântica básica
 - Prática: reorganizar páginas usando landmarks, hierarquia de títulos, mídia, tabelas e formulários
 - Produto: página semântica navegável e acessível
 
-### Encontros 13 a 18
-- Tema: Acessibilidade e SEO básico
-- Prática: aplicar checklist de contraste, foco, metadados, links descritivos e responsividade inicial
-- Produto: página revisada com metadados e critérios mínimos de qualidade
+### Encontros 9 a 11
+- Tema: Consolidação de HTML e introdução ao CSS
+- Prática: revisar semântica, corrigir estrutura e conectar os primeiros estilos à página
+- Produto: página revisada com HTML consistente e CSS inicial
 
-### Encontros 19 a 26
-- Tema: Consolidar HTML e arquitetura da informação
-- Prática: construir mini-projeto "Página institucional ou serviço digital" com wireframe e documentação
+### Encontros 12 a 13
+- Tema: Consolidação da unidade
+- Prática: finalizar mini-projeto introdutório com estrutura organizada e identidade visual básica
 - Produto: entrega da unidade com estrutura organizada
 
 ## Estratégias de Ensino

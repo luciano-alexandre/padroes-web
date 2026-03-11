@@ -1,79 +1,79 @@
-# Encontro 29 - Variaveis, design tokens e escalas tipograficas
+# Encontro 29 - Bootstrap: componentes, navegacao e formularios
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Tokens iniciais
+**Entregavel previsto:** Prototipo funcional
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Variaveis, design tokens e escalas tipograficas** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Bootstrap: componentes, navegacao e formularios** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)
 
 ## Conceitos essenciais
-- Variaveis CSS para cor e espacamento
-- Escalas tipograficas coerentes
-- Tokens como base de componentizacao
+- Uso consciente de componentes prontos
+- Navegacao e formularios no framework
+- Consistencia visual com baixo retrabalho
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Variaveis CSS para cor e espacamento
-Variaveis CSS para cor e espacamento orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Uso consciente de componentes prontos
+Uso consciente de componentes prontos orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-:root
-- --cor-primaria
-- --espaco-2
-- --fonte-base
+Componentes
+- navbar
+- card
+- form-control
 ```
 
-### 2) Escalas tipograficas coerentes
-Escalas tipograficas coerentes ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Navegacao e formularios no framework
+Navegacao e formularios no framework ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Escala
-- titulo principal
-- subtitulo
-- texto de apoio
+Fluxo
+- home
+- servicos
+- contato
 ```
 
-### 3) Tokens como base de componentizacao
-Tokens como base de componentizacao conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Consistencia visual com baixo retrabalho
+Consistencia visual com baixo retrabalho conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Guia
-- cores
-- tipografia
-- espacamentos
+Checklist
+- integracao coerente
+- classes corretas
+- responsividade
 ```
 
 ## Exemplo principal da aula
 
 ```text
-:root
-- --cor-primaria
-- --espaco-2
-- --fonte-base
+Componentes
+- navbar
+- card
+- form-control
 ```
 
 ## Exemplos adicionais
 
 ```text
-Escala
-- titulo principal
-- subtitulo
-- texto de apoio
+Fluxo
+- home
+- servicos
+- contato
 ```
 
 ```text
-Guia
-- cores
-- tipografia
-- espacamentos
+Checklist
+- integracao coerente
+- classes corretas
+- responsividade
 ```
 
 ## Como estudar este encontro sozinho
@@ -83,15 +83,15 @@ Guia
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -100,10 +100,10 @@ Guia
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Variaveis, design tokens e escalas tipograficas** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Bootstrap: componentes, navegacao e formularios** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Variaveis, design tokens e escalas tipograficas" ajuda a resolver?
+1. Qual problema tecnico "Bootstrap: componentes, navegacao e formularios" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

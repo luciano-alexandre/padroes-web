@@ -1,77 +1,79 @@
-# Encontro 31 - Metodologias de organizacao de CSS (BEM, utilitarias, camadas)
+# Encontro 31 - Tailwind CSS: filosofia utilitaria e setup conceitual
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 3  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Convencao escolhida
+**Entregavel previsto:** Mapa de utilitarios
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Metodologias de organizacao de CSS (BEM, utilitarias, camadas)** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
+Este encontro trabalha **Tailwind CSS: filosofia utilitaria e setup conceitual** na aplicacao de frameworks HTML/CSS e no desenvolvimento orientado a projeto integrador.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg)
 
 ## Conceitos essenciais
-- Padroes de nomeacao e manutencao
-- Separacao entre estrutura, componente e estado
-- Escolha de convencao de projeto
+- Abordagem utilitaria do Tailwind
+- Composicao por classes pequenas
+- Leitura de interface a partir do HTML
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Padroes de nomeacao e manutencao
-Padroes de nomeacao e manutencao orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
+### 1) Abordagem utilitaria do Tailwind
+Abordagem utilitaria do Tailwind orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
 
 ```text
-bloco: card
-elemento: card__titulo
-estado: card--destaque
+Bloco
+- spacing
+- color
+- layout
 ```
 
-### 2) Separacao entre estrutura, componente e estado
-Separacao entre estrutura, componente e estado ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+### 2) Composicao por classes pequenas
+Composicao por classes pequenas ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
 
 ```text
-Camadas
-- base
-- componentes
-- utilitarios
+Pensar em utilitarios
+- estrutura
+- alinhamento
+- responsividade
 ```
 
-### 3) Escolha de convencao de projeto
-Escolha de convencao de projeto conecta a aula a cenarios reais de desenvolvimento e manutencao.
+### 3) Leitura de interface a partir do HTML
+Leitura de interface a partir do HTML conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
 
 ```text
-Registro
-- convencao escolhida
-- motivo
-- regra de uso
+Checklist
+- legivel
+- consistente
+- justificavel
 ```
 
 ## Exemplo principal da aula
 
 ```text
-bloco: card
-elemento: card__titulo
-estado: card--destaque
+Bloco
+- spacing
+- color
+- layout
 ```
 
 ## Exemplos adicionais
 
 ```text
-Camadas
-- base
-- componentes
-- utilitarios
+Pensar em utilitarios
+- estrutura
+- alinhamento
+- responsividade
 ```
 
 ```text
-Registro
-- convencao escolhida
-- motivo
-- regra de uso
+Checklist
+- legivel
+- consistente
+- justificavel
 ```
 
 ## Como estudar este encontro sozinho
@@ -81,15 +83,15 @@ Registro
 4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar para o framework ou layout final sem consolidar a base conceitual.
-- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
-- Nao validar navegacao, contraste e legibilidade antes da entrega.
+- Adotar framework sem entender a estrutura HTML e a hierarquia visual.
+- Copiar componentes prontos sem revisar acessibilidade, responsividade e consistencia.
+- Nao validar a entrega final em contexto real de uso.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks](https://css-tricks.com/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
-- [Can I Use](https://caniuse.com/)
+- [Bootstrap Docs](https://getbootstrap.com/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+- [web.dev](https://web.dev/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -98,10 +100,10 @@ Registro
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Metodologias de organizacao de CSS (BEM, utilitarias, camadas)** com foco em composicao visual, responsividade e escalabilidade de estilos.
+Neste encontro, voce estudou **Tailwind CSS: filosofia utilitaria e setup conceitual** com foco em escolha tecnologica, customizacao consciente e entrega profissional.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Metodologias de organizacao de CSS (BEM, utilitarias, camadas)" ajuda a resolver?
+1. Qual problema tecnico "Tailwind CSS: filosofia utilitaria e setup conceitual" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

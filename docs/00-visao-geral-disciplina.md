@@ -2,8 +2,8 @@
 
 ## Identificação
 - Disciplina: Padrões Web
-- Carga horária total: 120h
-- Organização da carga horária: 80 encontros de 1.5h (3 unidades)
+- Carga horária total: 60h
+- Organização da carga horária: 80 aulas de 45 minutos, distribuídas em 40 encontros de 1,5h (2 encontros por semana, 3 unidades)
 - Público: Curso Superior de Tecnologia em Sistemas para Internet
 
 ## Ementa
@@ -38,9 +38,9 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Framework CSS escolhido para a unidade 3 (ex.: Bootstrap ou Tailwind CSS).
 
 ## Organização da Carga Horária
-- Unidade 1 - Fundamentos da Web, HTML5 Semântico e Arquitetura da Informação: 39h (26 encontros)
-- Unidade 2 - CSS Moderno, Layout, Responsividade e Design de Interface: 40,5h (27 encontros)
-- Unidade 3 - Frameworks HTML/CSS, Prototipação e Projeto Integrador: 40,5h (27 encontros)
+- Unidade 1 - Fundamentos da Web, HTML5 Semântico e Estrutura de Interfaces: 19,5h (13 encontros / 26 aulas)
+- Unidade 2 - CSS Moderno, Responsividade e Qualidade Front-end: 19,5h (13 encontros / 26 aulas)
+- Unidade 3 - Frameworks HTML/CSS e Projeto Integrador: 21h (14 encontros / 28 aulas)
 
 ## Avaliação
 - Exercícios práticos (listas)
