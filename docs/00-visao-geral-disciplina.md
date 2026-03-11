@@ -40,10 +40,10 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 ## Organização da Carga Horária
 - Unidade 1 - Fundamentos da Web, HTML5 Semântico e Estrutura de Interfaces: 19,5h (13 encontros / 26 aulas)
 - Unidade 2 - CSS Moderno, Responsividade e Qualidade Front-end: 19,5h (13 encontros / 26 aulas)
-- Unidade 3 - Frameworks HTML/CSS e Projeto Integrador: 21h (14 encontros / 28 aulas)
+- Unidade 3 - Frameworks HTML/CSS e Projeto Final: 21h (14 encontros / 28 aulas)
 
 ## Avaliação
 - Exercícios práticos (listas)
 - Estudos dirigidos e análises técnicas
 - Mini-projetos por unidade
-- Projeto integrador com publicação
+- Projeto final com publicação
