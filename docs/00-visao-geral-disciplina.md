@@ -1,7 +1,7 @@
 # Visão Geral da Disciplina
 
 ## Identificação
-- Disciplina: Autoria Web
+- Disciplina: Padrões Web
 - Carga horária total: 120h
 - Organização da carga horária: 80 encontros de 1.5h (3 unidades)
 - Público: Curso Superior de Tecnologia em Sistemas para Internet

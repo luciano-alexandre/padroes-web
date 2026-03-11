@@ -1,4 +1,4 @@
-# Disciplina: Autoria Web (120h)
+# Disciplina: Padrões Web (120h)
 
 ## Identificação do Curso
 - Turma: Graduação
