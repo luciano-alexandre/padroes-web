@@ -1,82 +1,97 @@
-# Encontro 13 - Tipografia, cores, unidades e variáveis CSS
+# Encontro 13 - Prova pratica da unidade 1
 
-**Unidade:** Unidade 2  
+**Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Guia visual de estilos
+**Entregavel previsto:** Prova pratica 1
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Tipografia, cores, unidades e variáveis CSS** na camada visual, conectando conceitos de CSS com layout real.
+Este encontro e reservado para a **Prova pratica da unidade 1**, verificando a consolidacao dos fundamentos de Web, HTML5 semantico e estruturacao inicial de interfaces.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/7/70/CSS3_badge.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Tipografia para legibilidade e hierarquia visual.
-- Cores, contraste e consistencia de identidade.
-- Variaveis CSS para escalar estilos.
+- Estrutura semantica de documento HTML.
+- Organizacao correta de conteudo, links, midias e formularios.
+- Aplicacao integrada dos fundamentos estudados na unidade.
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Tipografia para legibilidade e hierarquia visual.
-Boa tipografia melhora ritmo de leitura e hierarquia de informacao.
+### 1) Estrutura semantica de documento HTML.
+O estudante deve organizar a pagina com elementos adequados de cabecalho, conteudo principal e rodape.
 
 #### Exemplo aplicado
-```css
-:root { --cor-primaria: #0f4c81; }
-h1 { color: var(--cor-primaria); line-height: 1.3; }
+```html
+<main>
+  <h1>Titulo principal</h1>
+  <section>
+    <h2>Secao</h2>
+    <p>Conteudo estruturado.</p>
+  </section>
+</main>
 ```
 
-### 2) Cores, contraste e consistencia de identidade.
-Contraste adequado aumenta legibilidade e acessibilidade.
+### 2) Organizacao correta de conteudo, links, midias e formularios.
+A prova deve verificar uso coerente de elementos frequentes em paginas institucionais e informativas.
 
 #### Exemplo aplicado
-```css
-:root { --cor-primaria: #0f4c81; }
-h1 { color: var(--cor-primaria); line-height: 1.3; }
+```html
+<nav><a href="#sobre">Sobre</a></nav>
+<img src="img/curso.jpg" alt="Fachada do campus" />
+<form><label for="nome">Nome</label><input id="nome" /></form>
 ```
 
-### 3) Variaveis CSS para escalar estilos.
-Variaveis CSS criam padrao e facilitam alteracoes globais.
+### 3) Aplicacao integrada dos fundamentos estudados na unidade.
+Mais do que lembrar conceitos isolados, a avaliacao exige montar uma pagina funcional e bem organizada.
 
 #### Exemplo aplicado
-```css
-:root { --cor-primaria: #0f4c81; }
-h1 { color: var(--cor-primaria); line-height: 1.3; }
+```text
+Itens avaliados
+- semantica
+- hierarquia de informacao
+- links e formularios
+- organizacao do arquivo
 ```
 
-## Exemplo principal da aula
-```css
-.container {
-  display: grid;
-  gap: 1rem;
-}
+## Formato sugerido da prova
+```text
+Proposta:
+- construir uma pagina institucional simples
+- usar HTML5 semantico
+- incluir navegacao, imagem, tabela ou lista e formulario
+- entregar arquivo organizado e funcional
 ```
 
 ## Exemplos adicionais
-```css
-.menu { display: flex; gap: 1rem; }
+```text
+Criterios minimos
+- estrutura base correta
+- titulos em ordem logica
+- links funcionais
+- formulario com labels
 ```
 
-```css
-@media (min-width: 900px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+```text
+Checklist de correcao
+- semantica adequada
+- legibilidade do codigo
+- ausencia de erros estruturais evidentes
 ```
 
 ## Como estudar este encontro sozinho
-1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+1. Revise os encontros 4 a 12 e refaca ao menos uma pagina sem consulta.
+2. Pratique estrutura semantica, formularios e organizacao de conteudo.
+3. Monte uma pagina completa em tempo limitado para simular a avaliacao.
+4. Confira seu codigo com um checklist de semantica e clareza.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Esquecer a estrutura minima do documento HTML.
+- Usar elementos sem criterio semantico.
+- Entregar arquivo desorganizado ou sem revisar links, textos e formularios.
 
 ## Materiais para aprofundamento
-- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Tricks - Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [web.dev - Learn CSS](https://web.dev/learn/css)
+- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - Formulários HTML](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Forms)
+- [web.dev - Learn HTML](https://web.dev/learn/html)
+- [W3C WAI](https://www.w3.org/WAI/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -85,10 +100,10 @@ h1 { color: var(--cor-primaria); line-height: 1.3; }
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Tipografia, cores, unidades e variáveis CSS** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce realizou a **Prova pratica da unidade 1**, aplicando de forma integrada os fundamentos de Web, HTML5 semantico e organizacao inicial de interfaces.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Tipografia, cores, unidades e variáveis CSS" ajuda a resolver?
+1. Qual problema tecnico "Prova pratica da unidade 1" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?

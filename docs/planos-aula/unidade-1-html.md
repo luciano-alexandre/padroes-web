@@ -34,8 +34,8 @@ Carga horária: 19,5h (13 encontros / 26 aulas)
 
 ### Encontros 12 a 13
 - Tema: Consolidação da unidade
-- Prática: finalizar mini-projeto introdutório com estrutura organizada e identidade visual básica
-- Produto: entrega da unidade com estrutura organizada
+- Prática: revisar conteúdos essenciais, resolver exercício-síntese e realizar prova prática individual
+- Produto: prova prática da unidade
 
 ## Estratégias de Ensino
 - Demonstração de código em tempo real.

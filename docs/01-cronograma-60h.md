@@ -4,7 +4,7 @@ Referência: 80 aulas de 45 minutos, organizadas em 40 encontros de 1,5h, com 2 
 
 ## Unidade 1 (Encontros 1 a 13)
 Foco: Fundamentos da Web, HTML5 semântico e estrutura inicial de interfaces.
-Avaliação da unidade: listas, prática supervisionada e mini-projeto introdutório.
+Avaliação da unidade: listas, prática supervisionada e prova prática.
 
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
@@ -20,7 +20,7 @@ Avaliação da unidade: listas, prática supervisionada e mini-projeto introdut�
 | 10 | 1,5h | Oficina de revisão de HTML semântico | Reescrita semântica | [Encontro 10](./encontros/encontro-10.md) |
 | 11 | 1,5h | Introdução ao CSS: sintaxe, seletores e vínculo com HTML | CSS inicial conectado | [Encontro 11](./encontros/encontro-11.md) |
 | 12 | 1,5h | Cascata, herança, especificidade e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
-| 13 | 1,5h | Tipografia, cores, unidades e variáveis CSS | Guia visual inicial | [Encontro 13](./encontros/encontro-13.md) |
+| 13 | 1,5h | Prova prática da unidade 1 | Prova prática 1 | [Encontro 13](./encontros/encontro-13.md) |
 
 ## Unidade 2 (Encontros 14 a 26)
 Foco: CSS moderno, responsividade, qualidade front-end e mini-projeto visual.
@@ -64,6 +64,6 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação
-- Unidade 1: Lista 1 (Encontro 9) + consolidação de fundamentos HTML/CSS (Encontros 10 a 13).
+- Unidade 1: Lista 1 (Encontro 9) + prova prática 1 (Encontro 13).
 - Unidade 2: Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 26).
 - Unidade 3: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
