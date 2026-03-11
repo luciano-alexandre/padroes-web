@@ -8,7 +8,7 @@ Avaliação da unidade: listas, prática supervisionada e mini-projeto introdut�
 
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
-| 1 | 1,5h | Apresentação da disciplina, escopo da formação em TSI e visão geral da Web | Diagnóstico inicial | [Encontro 1](./encontros/encontro-1.md) |
+| 1 | 1,5h | Apresentação da disciplina, escopo da formação em TSI e visão geral da Web |  | [Encontro 1](./encontros/encontro-1.md) |
 | 2 | 1,5h | Internet, Web, cliente-servidor, URL, DNS e HTTP | Mapa conceitual | [Encontro 2](./encontros/encontro-2.md) |
 | 3 | 1,5h | Ambiente de desenvolvimento, terminal, editor e DevTools | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | Estrutura base do documento HTML5 | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
@@ -63,7 +63,7 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | 39 | 1,5h | Projeto integrador: revisão final, documentação e publicação | Deploy publicado | [Encontro 39](./encontros/encontro-39.md) |
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
-## Marcos de Avaliação
+## Avaliação
 - Unidade 1: Lista 1 (Encontro 9) + consolidação de fundamentos HTML/CSS (Encontros 10 a 13).
 - Unidade 2: Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 26).
-- Unidade 3: estudo comparativo de frameworks (Encontros 27 a 34) + projeto integrador com publicação e apresentação (Encontros 35 a 40).
+- Unidade 3: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
