@@ -1,80 +1,95 @@
-# Encontro 21 - JavaScript no front-end, sintaxe básica e execução
+# Encontro 21 - Arquitetura da informacao e wireframes de baixa fidelidade
 
-**Unidade:** Unidade 3  
+**Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Script inicial
+**Entregavel previsto:** Wireframe inicial
 
 ## Explicacao geral do encontro
-Este encontro trabalha **JavaScript no front-end, sintaxe básica e execução** com JavaScript/DOM para transformar conceito em comportamento visivel.
+Este encontro trabalha **Arquitetura da informacao e wireframes de baixa fidelidade** na consolidacao de HTML semantico, acessibilidade e arquitetura da informacao.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Execucao de JavaScript no navegador.
-- Uso de variaveis e saida no console.
-- Ligacao inicial entre HTML e JS.
+- Mapeamento de objetivos, publico e jornadas
+- Hierarquia de conteudo em wireframes
+- Relacao entre estrutura, navegacao e usabilidade
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Execucao de JavaScript no navegador.
-JavaScript no navegador permite atualizar comportamento da pagina em tempo real.
+### 1) Mapeamento de objetivos, publico e jornadas
+Mapeamento de objetivos, publico e jornadas orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```js
-const idade = 16;
-console.log(idade >= 16 ? "ok" : "pendente");
-```
 
-### 2) Uso de variaveis e saida no console.
-Console e essencial para verificar valores e diagnosticar erros.
-
-#### Exemplo aplicado
-```js
-console.log("Teste de depuracao");
-console.warn("Verifique o valor desta variavel");
-```
-
-### 3) Ligacao inicial entre HTML e JS.
-Selecionar elementos e anexar eventos e base da interatividade.
-
-#### Exemplo aplicado
 ```text
-Aplique o conceito no seu projeto e valide no navegador.
+Objetivo: apresentar um servico digital universitario
+Publico: estudantes ingressantes
+Jornada: descobrir curso -> acessar informacoes -> entrar em contato
+```
+
+### 2) Hierarquia de conteudo em wireframes
+Hierarquia de conteudo em wireframes ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+
+#### Exemplo aplicado
+
+```text
+Pagina inicial
+- destaque principal
+- secao de servicos
+- chamada para acao
+```
+
+### 3) Relacao entre estrutura, navegacao e usabilidade
+Relacao entre estrutura, navegacao e usabilidade conecta a aula a cenarios reais de desenvolvimento e manutencao.
+
+#### Exemplo aplicado
+
+```text
+Checklist
+- cabecalho claro
+- hierarquia visual coerente
+- navegacao previsivel
 ```
 
 ## Exemplo principal da aula
-```js
-const btn = document.querySelector("#acao");
-btn.addEventListener("click", () => console.log("ok"));
+
+```text
+Objetivo: apresentar um servico digital universitario
+Publico: estudantes ingressantes
+Jornada: descobrir curso -> acessar informacoes -> entrar em contato
 ```
 
 ## Exemplos adicionais
-```js
-function soma(a, b) { return a + b; }
-console.log(soma(2, 3));
+
+```text
+Pagina inicial
+- destaque principal
+- secao de servicos
+- chamada para acao
 ```
 
-```js
-document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
+```text
+Checklist
+- cabecalho claro
+- hierarquia visual coerente
+- navegacao previsivel
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
-- [javascript.info](https://javascript.info/)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - Acessibilidade](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility)
+- [Google Search Central](https://developers.google.com/search)
+- [web.dev - Learn HTML](https://web.dev/learn/html)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -83,20 +98,20 @@ document.querySelector("form").addEventListener("submit", (e) => e.preventDefaul
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **JavaScript no front-end, sintaxe básica e execução** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Arquitetura da informacao e wireframes de baixa fidelidade** com foco em estrutura semantica, qualidade tecnica e documentacao adequada.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "JavaScript no front-end, sintaxe básica e execução" ajuda a resolver?
+1. Qual problema tecnico "Arquitetura da informacao e wireframes de baixa fidelidade" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

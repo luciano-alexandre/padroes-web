@@ -16,42 +16,44 @@ Construir um site estático com, no mínimo, 3 páginas e identidade visual cons
 - Código-fonte organizado em pastas (`/css`, `/img`, `/pages`).
 - Arquivo `README.md` do projeto com descrição e instruções.
 
-## Projeto 2 - Página Interativa (HTML + CSS + JS)
+## Projeto 2 - Sistema Visual ou Landing Page Profissional
 
 ### Objetivo
-Criar aplicação web simples com manipulação de DOM e eventos.
+Criar interface completa com CSS moderno, componentes reutilizáveis e documentação visual.
 
 ### Opções de tema
-- To-do list.
-- Quiz interativo.
-- Catálogo de produtos com filtro.
-- Agenda semanal.
+- Landing page para produto digital.
+- Portal institucional de curso ou setor.
+- Página de divulgação para evento acadêmico.
+- Biblioteca de componentes para sistema web fictício.
 
 ### Requisitos mínimos
-- Manipulação de DOM (criar, alterar ou remover elementos).
-- Uso de eventos de interação.
+- Uso consistente de HTML semântico.
+- Estrutura visual baseada em componentes.
 - Interface responsiva.
-- Feedback visual ao usuário.
+- Guia visual ou documentação dos componentes.
 
-## Projeto Final - Portfólio ou Solução para Problema Real
+## Projeto Final - Solução Front-end para Problema Real
 
 ### Objetivo
-Integrar os conhecimentos das 3 unidades em uma entrega final contextualizada.
+Integrar HTML semântico, CSS moderno e framework HTML/CSS em uma entrega final contextualizada ao curso de Tecnologia em Sistemas para Internet.
 
 ### Sugestões
-- Site para projeto escolar.
-- Página para evento da escola/comunidade.
-- Portfólio pessoal acadêmico.
+- Portal de disciplina, laboratório ou projeto de extensão.
+- Landing page para startup, serviço ou aplicativo.
+- Portfólio acadêmico-profissional com design system próprio.
+- Página institucional para serviço digital da comunidade.
 
 ### Critérios de avaliação
-- Qualidade técnica do HTML/CSS/JS.
+- Qualidade técnica do HTML/CSS e do framework adotado.
 - Usabilidade e organização visual.
+- Capacidade de customização e justificativa de escolhas tecnológicas.
 - Clareza na apresentação final.
 - Evolução durante o processo.
 
 ## Linha do Tempo Sugerida
 1. Ideação e escopo (1 aula)
-2. Protótipo e estrutura base (1 aula)
-3. Implementação principal (2 aulas)
-4. Ajustes e testes (1 aula)
-5. Apresentação (1 aula)
+2. Protótipo e estrutura base (2 aulas)
+3. Implementação principal (4 aulas)
+4. Ajustes, acessibilidade e documentação (2 aulas)
+5. Publicação e apresentação (2 aulas)

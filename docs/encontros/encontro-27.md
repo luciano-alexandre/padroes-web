@@ -1,84 +1,97 @@
-# Encontro 27 - Formulários com validação em JavaScript
+# Encontro 27 - Revisao diagnostica de CSS e plano de aprofundamento
 
-**Unidade:** Unidade 3  
+**Unidade:** Unidade 2  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Formulário validado
+**Entregavel previsto:** Diagnostico de CSS
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Formulários com validação em JavaScript** com JavaScript/DOM para transformar conceito em comportamento visivel.
+Este encontro trabalha **Revisao diagnostica de CSS e plano de aprofundamento** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Captura e validacao de dados de formulario.
-- Feedback de erro orientado ao usuario.
-- Diferenca entre validar no cliente e no servidor.
+- Levantamento de lacunas em CSS
+- Plano individual de aprofundamento
+- Conexao entre HTML estruturado e camada visual
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Captura e validacao de dados de formulario.
-Captura e validacao no cliente orientam o usuario antes do envio.
+### 1) Levantamento de lacunas em CSS
+Levantamento de lacunas em CSS orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```html
-<form>
-  <label for="email">E-mail</label>
-  <input id="email" type="email" required />
-</form>
-```
 
-### 2) Feedback de erro orientado ao usuario.
-Feedback deve ser imediato e objetivo para facilitar correcao.
-
-#### Exemplo aplicado
-```html
-<form>
-  <label for="email">E-mail</label>
-  <input id="email" type="email" required />
-</form>
-```
-
-### 3) Diferenca entre validar no cliente e no servidor.
-Validacao no cliente melhora UX, no servidor garante seguranca.
-
-#### Exemplo aplicado
 ```text
-Aplique o conceito no seu projeto e valide no navegador.
+Diagnostico
+- seletores
+- box model
+- responsividade
+```
+
+### 2) Plano individual de aprofundamento
+Plano individual de aprofundamento ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+
+#### Exemplo aplicado
+
+```text
+Plano
+- revisar fundamentos
+- praticar layouts
+- documentar duvidas
+```
+
+### 3) Conexao entre HTML estruturado e camada visual
+Conexao entre HTML estruturado e camada visual conecta a aula a cenarios reais de desenvolvimento e manutencao.
+
+#### Exemplo aplicado
+
+```text
+Meta
+- melhorar consistencia visual
+- reduzir retrabalho
+- preparar mini-projeto
 ```
 
 ## Exemplo principal da aula
-```js
-const btn = document.querySelector("#acao");
-btn.addEventListener("click", () => console.log("ok"));
+
+```text
+Diagnostico
+- seletores
+- box model
+- responsividade
 ```
 
 ## Exemplos adicionais
-```js
-function soma(a, b) { return a + b; }
-console.log(soma(2, 3));
+
+```text
+Plano
+- revisar fundamentos
+- praticar layouts
+- documentar duvidas
 ```
 
-```js
-document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
+```text
+Meta
+- melhorar consistencia visual
+- reduzir retrabalho
+- preparar mini-projeto
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
-- [javascript.info](https://javascript.info/)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [CSS Tricks](https://css-tricks.com/)
+- [web.dev - Learn CSS](https://web.dev/learn/css)
+- [Can I Use](https://caniuse.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -87,20 +100,20 @@ document.querySelector("form").addEventListener("submit", (e) => e.preventDefaul
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Formulários com validação em JavaScript** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Revisao diagnostica de CSS e plano de aprofundamento** com foco em composicao visual, responsividade e escalabilidade de estilos.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Formulários com validação em JavaScript" ajuda a resolver?
+1. Qual problema tecnico "Revisao diagnostica de CSS e plano de aprofundamento" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

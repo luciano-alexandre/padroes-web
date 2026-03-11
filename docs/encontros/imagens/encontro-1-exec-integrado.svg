@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Resultado do exemplo integrado HTML CSS JavaScript">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="Resultado do exemplo integrado HTML e CSS">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f5f9ff"/>
@@ -19,5 +19,5 @@
   <rect x="230" y="290" width="460" height="70" rx="10" fill="#ecfdf5" stroke="#34d399"/>
   <text x="250" y="332" font-family="Arial, sans-serif" font-size="22" fill="#065f46">Olá, Ana. Cadastro registrado.</text>
 
-  <text x="180" y="35" font-family="Arial, sans-serif" font-size="16" fill="#334155">Resultado visual do código do tópico 8 (exemplo integrado)</text>
+  <text x="180" y="35" font-family="Arial, sans-serif" font-size="16" fill="#334155">Resultado visual do exemplo integrado com HTML e CSS</text>
 </svg>

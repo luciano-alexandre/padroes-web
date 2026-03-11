@@ -1,80 +1,99 @@
-# Encontro 24 - Funções e organização de código
+# Encontro 24 - Organizacao de arquivos, convencoes e documentacao
 
-**Unidade:** Unidade 3  
+**Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Biblioteca simples de funções
+**Entregavel previsto:** Estrutura documentada
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Funções e organização de código** com JavaScript/DOM para transformar conceito em comportamento visivel.
+Este encontro trabalha **Organizacao de arquivos, convencoes e documentacao** na consolidacao de HTML semantico, acessibilidade e arquitetura da informacao.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Funcao como bloco reutilizavel.
-- Parametros, retorno e composicao.
-- Organizacao de codigo em pequenas rotinas.
+- Estrutura de pastas e nomeacao consistente
+- Documentacao minima de projeto academico
+- Versionamento de entregas e evidencias
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Funcao como bloco reutilizavel.
-Funcoes isolam responsabilidades e evitam repeticao.
+### 1) Estrutura de pastas e nomeacao consistente
+Estrutura de pastas e nomeacao consistente orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```js
-function media(a, b) { return (a + b) / 2; }
-console.log(media(8, 6));
-```
 
-### 2) Parametros, retorno e composicao.
-Parametros flexibilizam e retorno permite compor novas rotinas.
-
-#### Exemplo aplicado
-```js
-function media(a, b) { return (a + b) / 2; }
-console.log(media(8, 6));
-```
-
-### 3) Organizacao de codigo em pequenas rotinas.
-Rotinas pequenas sao mais faceis de testar e manter.
-
-#### Exemplo aplicado
 ```text
-Aplique o conceito no seu projeto e valide no navegador.
+projeto/
+- index.html
+- pages/
+- assets/
+- README.md
+```
+
+### 2) Documentacao minima de projeto academico
+Documentacao minima de projeto academico ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+
+#### Exemplo aplicado
+
+```text
+README
+- objetivo
+- estrutura
+- instrucoes de abertura
+```
+
+### 3) Versionamento de entregas e evidencias
+Versionamento de entregas e evidencias conecta a aula a cenarios reais de desenvolvimento e manutencao.
+
+#### Exemplo aplicado
+
+```text
+Convencoes
+- nomes sem espacos
+- padrao de extensoes
+- organizacao por responsabilidade
 ```
 
 ## Exemplo principal da aula
-```js
-const btn = document.querySelector("#acao");
-btn.addEventListener("click", () => console.log("ok"));
+
+```text
+projeto/
+- index.html
+- pages/
+- assets/
+- README.md
 ```
 
 ## Exemplos adicionais
-```js
-function soma(a, b) { return a + b; }
-console.log(soma(2, 3));
+
+```text
+README
+- objetivo
+- estrutura
+- instrucoes de abertura
 ```
 
-```js
-document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
+```text
+Convencoes
+- nomes sem espacos
+- padrao de extensoes
+- organizacao por responsabilidade
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
-- [javascript.info](https://javascript.info/)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - Acessibilidade](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility)
+- [Google Search Central](https://developers.google.com/search)
+- [web.dev - Learn HTML](https://web.dev/learn/html)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -83,20 +102,20 @@ document.querySelector("form").addEventListener("submit", (e) => e.preventDefaul
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Funções e organização de código** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Organizacao de arquivos, convencoes e documentacao** com foco em estrutura semantica, qualidade tecnica e documentacao adequada.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Funções e organização de código" ajuda a resolver?
+1. Qual problema tecnico "Organizacao de arquivos, convencoes e documentacao" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

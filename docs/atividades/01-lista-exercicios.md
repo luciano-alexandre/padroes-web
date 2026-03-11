@@ -14,20 +14,21 @@
 4. Tornar a página responsiva com ao menos 2 breakpoints.
 5. Implementar estados de interação (`:hover`, `:focus`, `:active`) com contraste adequado.
 
-## Bloco 3 - JavaScript e DOM
-1. Criar script que altera conteúdo de um elemento ao clicar em botão.
-2. Implementar modo claro/escuro simples com classe CSS.
-3. Validar formulário e exibir mensagens de erro no DOM.
-4. Criar lista de tarefas com adicionar/remover item.
-5. Construir quiz com pontuação final.
+## Bloco 3 - Frameworks HTML/CSS
+1. Reproduzir uma landing page simples usando Bootstrap e justificar o uso do grid.
+2. Recriar um componente de card em Tailwind CSS com variações de espaçamento e cor.
+3. Comparar a mesma seção construída com CSS autoral e com framework, registrando vantagens e limitações.
+4. Customizar um framework escolhido para refletir identidade visual própria.
+5. Organizar um mini design system com ao menos 5 componentes reutilizáveis.
 
 ## Desafios Extras
-- Simular carrinho de compras simples com totalizador.
-- Implementar filtro de cards por categoria.
-- Criar página de portfólio com animações leves e interação em menu.
+- Criar portal institucional de curso com múltiplas páginas e navegação responsiva.
+- Projetar uma landing page para serviço digital com foco em conversão e acessibilidade.
+- Montar um guia visual de componentes para um sistema acadêmico fictício.
 
 ## Critérios Gerais de Correção
 - Funcionalidade correta.
 - Organização e legibilidade do código.
 - Uso de boas práticas (semântica, responsividade, acessibilidade básica).
+- Justificativa técnica de escolhas visuais e estruturais.
 - Entrega dentro do prazo.

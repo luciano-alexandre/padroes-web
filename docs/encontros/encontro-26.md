@@ -1,83 +1,97 @@
-# Encontro 26 - Eventos e manipulação de classes/atributos
+# Encontro 26 - Apresentacao e fechamento da unidade 1
 
-**Unidade:** Unidade 3  
+**Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Interface interativa
+**Entregavel previsto:** Mini-projeto entregue
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Eventos e manipulação de classes/atributos** com JavaScript/DOM para transformar conceito em comportamento visivel.
+Este encontro trabalha **Apresentacao e fechamento da unidade 1** na consolidacao de HTML semantico, acessibilidade e arquitetura da informacao.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Eventos de interface: click, input e submit.
-- addEventListener para reatividade da pagina.
-- Mudanca de estado com classes e atributos.
+- Apresentacao tecnica de projeto
+- Argumentacao sobre escolhas estruturais
+- Consolidacao dos fundamentos de HTML
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Eventos de interface: click, input e submit.
-Eventos conectam acao do usuario com resposta da aplicacao.
+### 1) Apresentacao tecnica de projeto
+Apresentacao tecnica de projeto orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```js
-document.querySelector("#btn").addEventListener("click", () => {
-  console.log("clicou");
-});
+
+```text
+Roteiro de apresentacao
+- problema
+- publico
+- estrutura adotada
 ```
 
-### 2) addEventListener para reatividade da pagina.
-AddEventListener registra comportamentos de forma desacoplada do HTML.
+### 2) Argumentacao sobre escolhas estruturais
+Argumentacao sobre escolhas estruturais ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
-```js
-document.querySelector("#btn").addEventListener("click", () => {
-  console.log("clicou");
-});
+
+```text
+Criterios
+- semantica
+- acessibilidade
+- organizacao
 ```
 
-### 3) Mudanca de estado com classes e atributos.
-Mudanca de estado deve ser visivel e consistente com regra de negocio.
+### 3) Consolidacao dos fundamentos de HTML
+Consolidacao dos fundamentos de HTML conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
-```js
-const p = document.querySelector("#msg");
-p.textContent = "Atualizado via DOM";
+
+```text
+Autoavaliacao
+- ponto forte
+- ponto fraco
+- proximo passo
 ```
 
 ## Exemplo principal da aula
-```js
-const btn = document.querySelector("#acao");
-btn.addEventListener("click", () => console.log("ok"));
+
+```text
+Roteiro de apresentacao
+- problema
+- publico
+- estrutura adotada
 ```
 
 ## Exemplos adicionais
-```js
-function soma(a, b) { return a + b; }
-console.log(soma(2, 3));
+
+```text
+Criterios
+- semantica
+- acessibilidade
+- organizacao
 ```
 
-```js
-document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
+```text
+Autoavaliacao
+- ponto forte
+- ponto fraco
+- proximo passo
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
-- [javascript.info](https://javascript.info/)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - Acessibilidade](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility)
+- [Google Search Central](https://developers.google.com/search)
+- [web.dev - Learn HTML](https://web.dev/learn/html)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -86,20 +100,20 @@ document.querySelector("form").addEventListener("submit", (e) => e.preventDefaul
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Eventos e manipulação de classes/atributos** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Apresentacao e fechamento da unidade 1** com foco em estrutura semantica, qualidade tecnica e documentacao adequada.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Eventos e manipulação de classes/atributos" ajuda a resolver?
+1. Qual problema tecnico "Apresentacao e fechamento da unidade 1" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

@@ -1,82 +1,97 @@
-# Encontro 23 - Condicionais e laços
+# Encontro 23 - Acessibilidade pratica: contraste, foco, rotulagem e navegacao
 
-**Unidade:** Unidade 3  
+**Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Exercícios JS II
+**Entregavel previsto:** Revisao a11y
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Condicionais e laços** com JavaScript/DOM para transformar conceito em comportamento visivel.
+Este encontro trabalha **Acessibilidade pratica: contraste, foco, rotulagem e navegacao** na consolidacao de HTML semantico, acessibilidade e arquitetura da informacao.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Condicionais para tomada de decisao.
-- Lacos para repeticao controlada.
-- Leitura de fluxo e depuracao de logica.
+- Contraste e legibilidade
+- Rotulos, foco e navegacao por teclado
+- Checklist de acessibilidade basica
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Condicionais para tomada de decisao.
-Condicionais controlam decisao com base em regras explicitadas.
+### 1) Contraste e legibilidade
+Contraste e legibilidade orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```js
-for (let i = 1; i <= 3; i++) {
-  if (i % 2 === 0) console.log("par");
-}
-```
 
-### 2) Lacos para repeticao controlada.
-Lacos repetem operacoes sem duplicar codigo.
-
-#### Exemplo aplicado
-```js
-for (let i = 1; i <= 3; i++) {
-  if (i % 2 === 0) console.log("par");
-}
-```
-
-### 3) Leitura de fluxo e depuracao de logica.
-Depuracao de fluxo valida etapas intermediarias, nao apenas resultado final.
-
-#### Exemplo aplicado
 ```text
-Aplique o conceito no seu projeto e valide no navegador.
+Contraste minimo
+- texto principal legivel
+- links distinguiveis
+- foco visivel
+```
+
+### 2) Rotulos, foco e navegacao por teclado
+Rotulos, foco e navegacao por teclado ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
+
+#### Exemplo aplicado
+
+```text
+Formulario
+- label associado
+- placeholder nao substitui rotulo
+- ordem de tabulacao coerente
+```
+
+### 3) Checklist de acessibilidade basica
+Checklist de acessibilidade basica conecta a aula a cenarios reais de desenvolvimento e manutencao.
+
+#### Exemplo aplicado
+
+```text
+Checklist
+- imagens com alt
+- links descritivos
+- titulos em ordem logica
 ```
 
 ## Exemplo principal da aula
-```js
-const btn = document.querySelector("#acao");
-btn.addEventListener("click", () => console.log("ok"));
+
+```text
+Contraste minimo
+- texto principal legivel
+- links distinguiveis
+- foco visivel
 ```
 
 ## Exemplos adicionais
-```js
-function soma(a, b) { return a + b; }
-console.log(soma(2, 3));
+
+```text
+Formulario
+- label associado
+- placeholder nao substitui rotulo
+- ordem de tabulacao coerente
 ```
 
-```js
-document.querySelector("form").addEventListener("submit", (e) => e.preventDefault());
+```text
+Checklist
+- imagens com alt
+- links descritivos
+- titulos em ordem logica
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [MDN - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MDN - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
-- [javascript.info](https://javascript.info/)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
+- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MDN - Acessibilidade](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility)
+- [Google Search Central](https://developers.google.com/search)
+- [web.dev - Learn HTML](https://web.dev/learn/html)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -85,20 +100,20 @@ document.querySelector("form").addEventListener("submit", (e) => e.preventDefaul
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Condicionais e laços** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Acessibilidade pratica: contraste, foco, rotulagem e navegacao** com foco em estrutura semantica, qualidade tecnica e documentacao adequada.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Condicionais e laços" ajuda a resolver?
+1. Qual problema tecnico "Acessibilidade pratica: contraste, foco, rotulagem e navegacao" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

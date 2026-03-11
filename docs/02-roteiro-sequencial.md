@@ -9,43 +9,43 @@
 
 ## Sequência de Conteúdo
 
-### Módulo A - Fundamentos e HTML (18h)
-- Conceitos da Web, papel do HTML/CSS/JS.
+### Unidade 1 - Fundamentos da Web, HTML Semântico e Arquitetura da Informação (39h)
+- Conceitos da Web e papel do front-end no contexto de Sistemas para Internet.
 - Estrutura base de documento HTML5.
 - Semântica e acessibilidade.
-- Formulários e boas práticas iniciais de SEO.
+- Formulários, metadados, SEO on-page e organização de projeto.
+- Wireframes, arquitetura da informação e mini-projeto HTML/CSS.
 
-### Módulo B - CSS e Responsividade (21h)
+### Unidade 2 - CSS Moderno, Layout e Design de Interface (40,5h)
 - Seletores, cascata, herança e especificidade.
 - Box model, tipografia, cores e espaçamento.
-- Flexbox e Grid.
-- Media queries e mobile-first.
-- Introdução a framework CSS (uso consciente).
+- Flexbox, Grid e layouts editoriais.
+- Media queries, mobile-first e depuração com DevTools.
+- Design systems, componentização e padrões visuais.
+- Mini-projeto visual aplicado a cenários de TSI.
 
-### Módulo C - JavaScript e DOM (18h)
-- Sintaxe básica e controle de fluxo.
-- Funções, arrays e objetos (nível introdutório).
-- Árvore DOM e seleção de elementos.
-- Eventos e manipulação de conteúdo/estilo/classes.
-- Interatividade com formulários.
-
-### Encerramento (3h)
-- Apresentações dos projetos.
-- Autoavaliação e feedback orientado.
+### Unidade 3 - Frameworks HTML/CSS e Projeto Integrador (40,5h)
+- Panorama de frameworks HTML/CSS no mercado.
+- Bootstrap, Tailwind CSS e kits leves de prototipação.
+- Critérios de escolha tecnológica, customização e sobrescrita.
+- Projeto integrador com framework escolhido.
+- Publicação, documentação e apresentação técnica.
 
 ## Checklist de Aprendizagem por Módulo
 
 ### HTML
 - [ ] Cria estrutura semântica adequada.
 - [ ] Usa links, listas, mídias e formulários corretamente.
-- [ ] Aplica noções de acessibilidade e SEO on-page básico.
+- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
 
 ### CSS
 - [ ] Aplica seletores e organiza regras de estilo.
 - [ ] Constrói layouts com Flexbox e Grid.
 - [ ] Implementa responsividade real (mobile-first + media queries).
+- [ ] Estrutura componentes reutilizáveis e design tokens básicos.
 
-### JavaScript/DOM
-- [ ] Entende variáveis, condições, laços e funções.
-- [ ] Manipula DOM com seleção e alteração de elementos.
-- [ ] Implementa eventos e interações úteis ao usuário.
+### Frameworks HTML/CSS
+- [ ] Compara frameworks a partir de critérios técnicos e de produtividade.
+- [ ] Customiza componentes sem perder consistência visual.
+- [ ] Escolhe solução adequada para o contexto do projeto.
+- [ ] Publica e documenta projeto final com padrão profissional.

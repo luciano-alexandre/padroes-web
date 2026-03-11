@@ -2,27 +2,27 @@
 
 ## Identificação
 - Disciplina: Autoria Web
-- Carga horária total: 60h
-- Organização da carga horária: 40 aulas de 1.5h (4 unidades de 15h)
-- Público: Curso Técnico Integrado em Informática
+- Carga horária total: 120h
+- Organização da carga horária: 80 encontros de 1.5h (3 unidades)
+- Público: Curso Superior de Tecnologia em Sistemas para Internet
 
 ## Ementa
-Estudo dos conceitos introdutórios de HTML e CSS. Introdução ao JavaScript. Uso de JavaScript para manipulação de DOM. Abordagem de conceitos sobre árvore DOM. Criação de páginas responsivas.
+Estudo aprofundado de HTML5 semântico, acessibilidade, arquitetura da informação e CSS moderno. Desenvolvimento de interfaces responsivas com Flexbox, Grid, design systems e metodologias de organização de estilos. Aprofundamento em frameworks e toolkits HTML/CSS para prototipação e desenvolvimento de interfaces. Planejamento, implementação, documentação e publicação de projetos front-end estáticos voltados ao contexto profissional de Tecnologia em Sistemas para Internet.
 
 ## Programa
-1. Apresentar os princípios básicos de HTML, CSS e JavaScript, destacando a importância de cada linguagem na construção de páginas web.
-2. Apresentar a criação de estruturas semânticas utilizando HTML5, possibilitando compreender a importância da acessibilidade e boas práticas de SEO.
-3. Explorar técnicas de CSS para criação de layouts responsivos e uso introdutório de frameworks/toolkits/bibliotecas CSS.
-4. Proporcionar visão introdutória de JavaScript com foco no DOM para manipulação e interação dinâmica com elementos HTML.
-5. Aplicar os conhecimentos em projetos práticos, com criação de sites estáticos e interativos seguindo boas práticas.
+1. Consolidar fundamentos da Web voltados ao desenvolvimento front-end em cursos superiores de Tecnologia em Sistemas para Internet.
+2. Projetar estruturas HTML5 semânticas com foco em acessibilidade, SEO on-page, interoperabilidade e manutenção.
+3. Aplicar CSS moderno para composição visual, layouts complexos, responsividade e consistência de interface.
+4. Comparar e utilizar frameworks HTML/CSS e bibliotecas de componentes com critérios técnicos, produtivos e de desempenho.
+5. Desenvolver projetos integradores com documentação, versionamento, publicação e apresentação técnica.
 
 ## Competências e Habilidades
 Ao final da disciplina, espera-se que o estudante seja capaz de:
-- estruturar páginas com HTML5 semântico;
-- aplicar CSS para tipografia, layout, componentes e responsividade;
-- utilizar JavaScript para eventos e manipulação básica de DOM;
-- construir interfaces acessíveis e com organização adequada de código;
-- publicar e documentar projetos web simples.
+- estruturar interfaces com HTML5 semântico e arquitetura de conteúdo consistente;
+- aplicar CSS para tipografia, layout, componentes, estados e responsividade;
+- modelar design systems básicos com reutilização de estilos e convenções de projeto;
+- utilizar frameworks HTML/CSS de forma crítica, evitando dependência acrítica de soluções prontas;
+- documentar, versionar e publicar projetos front-end voltados a cenários reais de Sistemas para Internet.
 
 ## Metodologia
 - Aulas expositivas dialogadas. 
@@ -35,15 +35,15 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Navegador (Firefox/Chrome/Edge).
 - DevTools do navegador.
 - Conta em plataforma de versionamento/publicação (GitHub).
+- Framework CSS escolhido para a unidade 3 (ex.: Bootstrap ou Tailwind CSS).
 
 ## Organização da Carga Horária
-- Unidade 1 - Fundamentos da Web e HTML5 Semântico: 15h (20 aulas)
-- Unidade 2 - CSS, Layout e Responsividade: 15h (20 aulas)
-- Unidade 3 - JavaScript Introdutório e DOM: 15h (20 aulas)
-- Unidade 4 - Projeto Final(HTML, CSS e JS/DOM): 15h (20 aulas)
+- Unidade 1 - Fundamentos da Web, HTML5 Semântico e Arquitetura da Informação: 39h (26 encontros)
+- Unidade 2 - CSS Moderno, Layout, Responsividade e Design de Interface: 40,5h (27 encontros)
+- Unidade 3 - Frameworks HTML/CSS, Prototipação e Projeto Integrador: 40,5h (27 encontros)
 
 ## Avaliação
 - Exercícios práticos (listas)
-- Provas Práticas
+- Estudos dirigidos e análises técnicas
 - Mini-projetos por unidade
-- Projeto final
+- Projeto integrador com publicação

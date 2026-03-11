@@ -1,62 +1,56 @@
-# Plano de Aula - Unidade 2 (CSS e Responsividade)
+# Plano de Aula - Unidade 2 (CSS, Layout e Design Responsivo)
 
-Carga horária: 21h (7 encontros)
+Carga horária: 40,5h (27 encontros)
 
 ## Objetivos da Unidade
 - Dominar fundamentos de estilização com CSS.
 - Construir layouts modernos com Flexbox e Grid.
 - Desenvolver páginas responsivas e com consistência visual.
+- Estruturar componentes reutilizáveis e sistemas visuais escaláveis.
 
 ## Conteúdos
 - Seletores, cascata, especificidade e herança.
 - Box model, tipografia, cores e espaçamento.
 - Flexbox e Grid.
 - Media queries e abordagem mobile-first.
+- Design tokens, metodologias de organização de CSS e design systems básicos.
 - Introdução a frameworks CSS (uso crítico e comparativo).
 
 ## Roteiro por Encontro
 
-### Encontro 7
+### Encontros 27 a 32
 - Tema: Fundamentos de CSS
-- Prática: estilizar página HTML existente
-- Produto: folha de estilos inicial
+- Prática: revisar base de CSS, reset, normalização e convenções de projeto
+- Produto: folha de estilos base organizada
 
-### Encontro 8
+### Encontros 33 a 38
 - Tema: Tipografia e identidade visual
-- Prática: criar sistema visual com variáveis CSS
-- Produto: guia de estilos (fontes, cores, botões)
+- Prática: criar sistema visual com variáveis CSS, escala tipográfica e layouts avançados
+- Produto: guia de estilos e seções responsivas
 
-### Encontro 9
-- Tema: Flexbox
-- Prática: montar layout de cards e barra de navegação
-- Produto: página com layout flexível
-
-### Encontro 10
-- Tema: Grid
-- Prática: construir grade para home e seção de conteúdo
-- Produto: homepage com grid
-
-### Encontro 11
+### Encontros 39 a 44
 - Tema: Responsividade
-- Prática: refatorar para mobile-first + breakpoints
-- Produto: versão responsiva funcional
+- Prática: depurar layouts, formular navegação adaptável e componentes reutilizáveis
+- Produto: versão responsiva funcional com biblioteca inicial
 
-### Encontro 12
+### Encontros 45 a 49
 - Tema: Componentes e estados
-- Prática: criar componentes reutilizáveis (card, botão, menu)
-- Produto: mini design system CSS
+- Prática: criar landing page ou página institucional com padrões visuais consistentes
+- Produto: mini design system aplicado
 
-### Encontro 13
+### Encontros 50 a 53
 - Tema: Framework CSS introdutório
-- Prática: reproduzir layout usando Bootstrap ou Tailwind
-- Produto: comparação entre CSS puro e framework
+- Prática: comparar CSS autoral, utilitário e framework com mini-projeto visual
+- Produto: comparação técnica documentada e projeto publicado
 
 ## Estratégias de Ensino
 - Comparação entre soluções para estimular tomada de decisão técnica.
 - Uso do DevTools para depuração de layout.
 - Atividades em dupla para acelerar feedback.
+- Revisão orientada por design tokens, componentes e critérios de escalabilidade.
 
 ## Evidências de Aprendizagem
 - Layout consistente e legível.
 - Responsividade real em diferentes larguras.
 - Capacidade de justificar escolha entre CSS puro e framework.
+- Capacidade de manter componentes reutilizáveis e documentação visual.

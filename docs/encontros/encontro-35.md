@@ -1,87 +1,97 @@
-# Encontro 35 - Funcionalidades JS/DOM - parte 1
+# Encontro 35 - Imagens responsivas, proporcao, object-fit e midia otimizada
 
-**Unidade:** Unidade 4  
+**Unidade:** Unidade 2  
 **Carga prevista:** 1,5h  
-**Entregavel previsto:** Interações principais
+**Entregavel previsto:** Galeria refinada
 
 ## Explicacao geral do encontro
-Este encontro trabalha **Funcionalidades JS/DOM - parte 1** no projeto integrador, consolidando tecnica e organizacao.
+Este encontro trabalha **Imagens responsivas, proporcao, object-fit e midia otimizada** na camada visual, conectando CSS moderno com layout real, componentes e consistencia de interface.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/8/8e/OOjs_UI_icon_code.svg)
-
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/8/8e/OOjs_UI_icon_code.svg)
+![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)
 
 ## Conceitos essenciais
-- Planejamento, execucao e refinamento de projeto.
-- Integracao coerente de HTML, CSS e JavaScript.
-- Criterios de qualidade final e apresentacao.
+- Tratamento visual de imagens
+- Controle de proporcao e recorte
+- Otimizacao de midia para paginas
 
 ## Explicacao detalhada dos conceitos essenciais
-### 1) Planejamento, execucao e refinamento de projeto.
-Planejamento define prioridade, prazo e criterio de pronto.
+### 1) Tratamento visual de imagens
+Tratamento visual de imagens orienta a tomada de decisao tecnica e melhora a qualidade do projeto.
 
 #### Exemplo aplicado
-```md
-- Objetivo do projeto
-- Funcionalidades minimas
-- Cronograma de entrega
+
+```text
+Galeria
+- miniaturas consistentes
+- destaque principal
+- legenda
 ```
 
-### 2) Integracao coerente de HTML, CSS e JavaScript.
-Integracao coerente exige separacao de responsabilidades e consistencia de nomes.
+### 2) Controle de proporcao e recorte
+Controle de proporcao e recorte ajuda a transformar criterio visual e estrutural em implementacao reproduzivel.
 
 #### Exemplo aplicado
-```js
-const idade = 16;
-console.log(idade >= 16 ? "ok" : "pendente");
+
+```text
+Imagem
+- object-fit
+- largura fluida
+- proporcao coerente
 ```
 
-### 3) Criterios de qualidade final e apresentacao.
-Qualidade final exige testes, responsividade, acessibilidade basica e boa comunicacao.
+### 3) Otimizacao de midia para paginas
+Otimizacao de midia para paginas conecta a aula a cenarios reais de desenvolvimento e manutencao.
 
 #### Exemplo aplicado
-```md
-- Objetivo do projeto
-- Funcionalidades minimas
-- Cronograma de entrega
+
+```text
+Checklist
+- peso controlado
+- sem distorcao
+- leitura preservada
 ```
 
 ## Exemplo principal da aula
-```html
-<section>
-  <h2>Projeto final</h2>
-  <p>Versao candidata pronta para revisao.</p>
-</section>
+
+```text
+Galeria
+- miniaturas consistentes
+- destaque principal
+- legenda
 ```
 
 ## Exemplos adicionais
+
 ```text
-projeto-final/
-  index.html
-  css/style.css
-  js/app.js
+Imagem
+- object-fit
+- largura fluida
+- proporcao coerente
 ```
 
-```md
-Checklist: responsividade, acessibilidade, teste funcional.
+```text
+Checklist
+- peso controlado
+- sem distorcao
+- leitura preservada
 ```
 
 ## Como estudar este encontro sozinho
 1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+2. Reproduza os exemplos e adapte ao seu projeto ou exercicio da unidade.
+3. Revise o criterio tecnico por meio de checklist ou comparacao entre solucoes.
+4. Documente o que foi alterado e o motivo da escolha.
 
 ## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+- Avancar para o framework ou layout final sem consolidar a base conceitual.
+- Copiar estrutura pronta sem entender classes, hierarquia e responsividade.
+- Nao validar navegacao, contraste e legibilidade antes da entrega.
 
 ## Materiais para aprofundamento
-- [web.dev - Learn Accessibility](https://web.dev/learn/accessibility/)
-- [MDN - Performance](https://developer.mozilla.org/pt-BR/docs/Web/Performance)
-- [GitHub Pages](https://pages.github.com/)
-- [GitHub Skills](https://skills.github.com/)
+- [MDN - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [CSS Tricks](https://css-tricks.com/)
+- [web.dev - Learn CSS](https://web.dev/learn/css)
+- [Can I Use](https://caniuse.com/)
 
 ## Checklist de compreensao
 - [ ] Entendi os tres conceitos essenciais com minhas palavras.
@@ -90,20 +100,20 @@ Checklist: responsividade, acessibilidade, teste funcional.
 - [ ] Entreguei a atividade prevista no cronograma.
 
 ## Resumo final
-Neste encontro, voce estudou **Funcionalidades JS/DOM - parte 1** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+Neste encontro, voce estudou **Imagens responsivas, proporcao, object-fit e midia otimizada** com foco em composicao visual, responsividade e escalabilidade de estilos.
 
 ## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "Funcionalidades JS/DOM - parte 1" ajuda a resolver?
+1. Qual problema tecnico "Imagens responsivas, proporcao, object-fit e midia otimizada" ajuda a resolver?
 Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
 
 2. Como validar se voce realmente entendeu o conceito?
 Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
 
 3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
+Gabarito: Copiar solucoes prontas sem testar em partes pequenas no navegador.
 
 4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
+Gabarito: Funcionamento, legibilidade do codigo e aderencia aos criterios tecnicos da aula.
 
 5. Como aprofundar apos a aula?
 Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.

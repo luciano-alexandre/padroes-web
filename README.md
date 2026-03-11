@@ -1,20 +1,19 @@
-# Disciplina: Autoria Web (60h)
+# Disciplina: Autoria Web (120h)
 
 ## Identificação do Curso
-- Turma: 1º Ano 
-- Curso: Técnico Integrado em Informática
-- Instituição: IFRN - Campus Curraus Novos
+- Turma: Graduação
+- Curso: Tecnologia em Sistemas para Internet
+- Instituição: IFRN - Campus Currais Novos
 - Professor: Luciano Alexandre de Farias Silva
 
 ## Estrutura
 - [Visão Geral do Professor](docs/00-visao-geral-professor.md)
 - [Visão Geral da Disciplina](docs/00-visao-geral-disciplina.md)
-- [Cronograma de 60h](docs/01-cronograma-60h.md)
+- [Cronograma de 120h](docs/01-cronograma-120h.md)
 - [Roteiro Sequencial de Aulas](docs/02-roteiro-sequencial.md)
-- [Plano de Aula - Unidade 1 (HTML5 Semântico)](docs/planos-aula/unidade-1-html.md)
-- [Plano de Aula - Unidade 2 (CSS e Responsividade)](docs/planos-aula/unidade-2-css.md)
-- [Plano de Aula - Unidade 3 (JavaScript e DOM)](docs/planos-aula/unidade-3-js-dom.md)
+- [Plano de Aula - Unidade 1 (Fundamentos da Web e HTML Semântico)](docs/planos-aula/unidade-1-html.md)
+- [Plano de Aula - Unidade 2 (CSS, Layout e Design Responsivo)](docs/planos-aula/unidade-2-css.md)
+- [Plano de Aula - Unidade 3 (Frameworks HTML/CSS e Projeto Integrador)](docs/planos-aula/unidade-3-frameworks-html-css.md)
 - [Atividades e Exercícios](docs/atividades/01-lista-exercicios.md)
 - [Projetos Integradores](docs/atividades/02-projetos-integradores.md)
-- [Avaliação e Rubricas](docs/avaliacao/01-avaliacao-rubricas.md)
 - [Referências e Recursos](docs/referencias/01-links-e-recursos.md)

@@ -4,10 +4,10 @@
 - MDN Web Docs (pt-BR): https://developer.mozilla.org/pt-BR/
 - HTML (MDN): https://developer.mozilla.org/pt-BR/docs/Web/HTML
 - CSS (MDN): https://developer.mozilla.org/pt-BR/docs/Web/CSS
-- JavaScript (MDN): https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 - Learn Web Development (MDN): https://developer.mozilla.org/en-US/docs/Learn_web_development
 - web.dev (Google): https://web.dev/
-- ECMAScript / JavaScript (TC39): https://tc39.es/
+- Bootstrap Docs: https://getbootstrap.com/docs/
+- Tailwind CSS Docs: https://tailwindcss.com/docs/
 
 ## Acessibilidade e SEO
 - W3C WAI (Acessibilidade): https://www.w3.org/WAI/
@@ -17,17 +17,17 @@
 
 ## Ferramentas úteis
 - CodePen: https://codepen.io/
-- JSFiddle: https://jsfiddle.net/
+- Tailwind Play: https://play.tailwindcss.com/
 - Can I Use (compatibilidade): https://caniuse.com/
 - CSS Tricks: https://css-tricks.com/
-- JavaScript.info: https://javascript.info/
+- Responsively App: https://responsively.app/
 
 ## Videoaulas e Canais Recomendados
 
 ### Em português
 - Curso em Vídeo (canal): https://www.youtube.com/@CursoemVideo
 - Curso em Vídeo (site): https://www.cursoemvideo.com/
-- Programação Web (busca YouTube para curadoria docente): https://www.youtube.com/results?search_query=html+css+javascript+curso+completo
+- Programação Web (busca YouTube para curadoria docente): https://www.youtube.com/results?search_query=html+css+bootstrap+tailwind+curso
 
 ### Em inglês (apoio complementar)
 - freeCodeCamp.org: https://www.youtube.com/@freecodecamp
@@ -37,7 +37,7 @@
 
 ## Trilhas Gratuitas
 - freeCodeCamp - Responsive Web Design: https://www.freecodecamp.org/learn/2022/responsive-web-design/
-- freeCodeCamp - JavaScript Algorithms and Data Structures: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
+- freeCodeCamp - Front End Development Libraries: https://www.freecodecamp.org/learn/front-end-development-libraries/
 - Khan Academy - Intro to HTML/CSS: https://www.khanacademy.org/computing/computer-programming/html-css
 
 ## Repositórios e Publicação
@@ -47,5 +47,5 @@
 ## Sugestão de Curadoria Docente por Unidade
 1. HTML: priorizar MDN + Curso em Vídeo.
 2. CSS: MDN + Kevin Powell + exemplos no CodePen.
-3. JavaScript/DOM: MDN + JavaScript.info + freeCodeCamp.
+3. Frameworks HTML/CSS: Bootstrap Docs + Tailwind CSS Docs + freeCodeCamp.
 4. Projeto final: Lighthouse + checklist de acessibilidade + publicação no GitHub Pages.
