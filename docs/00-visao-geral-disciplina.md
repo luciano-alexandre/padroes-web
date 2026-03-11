@@ -14,7 +14,7 @@ Estudo aprofundado de HTML5 semântico, acessibilidade, arquitetura da informaç
 2. Projetar estruturas HTML5 semânticas com foco em acessibilidade, SEO on-page, interoperabilidade e manutenção.
 3. Aplicar CSS moderno para composição visual, layouts complexos, responsividade e consistência de interface.
 4. Comparar e utilizar frameworks HTML/CSS e bibliotecas de componentes com critérios técnicos, produtivos e de desempenho.
-5. Desenvolver projetos integradores com documentação, versionamento, publicação e apresentação técnica.
+5. Desenvolver projetos com documentação, versionamento, publicação e apresentação técnica.
 
 ## Competências e Habilidades
 Ao final da disciplina, espera-se que o estudante seja capaz de:
