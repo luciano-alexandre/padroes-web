@@ -3,10 +3,9 @@
 **Unidade:** Unidade 1  
 **Carga prevista:** 1,5h  
 
-## Visão Geral do Encontro
+## Visão Geral
 Este encontro aprofunda a base conceitual da Web. O foco é entender a diferença entre **Internet** e **Web**, como funciona o modelo **cliente-servidor**, como ler uma **URL**, qual o papel do **DNS** e como o **HTTP** organiza a comunicação entre navegador e servidor.
 
-Ao final da aula, o estudante deve conseguir explicar o caminho percorrido quando digita um endereço no navegador e pressiona Enter.
 
 ## Conceitos Essenciais
 - Diferença entre Internet e Web.
@@ -170,19 +169,6 @@ Exemplo:
 https://site.com/aula.html#referencias
 ```
 
-### Exemplo com JavaScript
-```js
-const endereco = new URL("https://www.exemplo.com/cursos/web?disciplina=padroes-web#topo");
-
-console.log(endereco.protocol); // https:
-console.log(endereco.hostname); // www.exemplo.com
-console.log(endereco.pathname); // /cursos/web
-console.log(endereco.search);   // ?disciplina=padroes-web
-console.log(endereco.hash);     // #topo
-```
-
-Esse tipo de leitura ajuda o estudante a interpretar rotas, links, parâmetros e problemas comuns de navegação.
-
 ## 5) DNS: traduzindo nomes em endereços IP
 Computadores se comunicam de forma mais direta por meio de endereços IP. Pessoas, por outro lado, preferem nomes fáceis de memorizar. O DNS existe para fazer essa ponte.
 
@@ -201,7 +187,7 @@ em endereços IP como:
 200.137.x.x
 ```
 
-### Analogia pedagógica
+### Analogia
 O DNS funciona como uma agenda de contatos:
 - o usuário lembra o nome;
 - o sistema descobre o número correspondente.
@@ -215,7 +201,7 @@ Sem DNS, o usuário precisaria memorizar IPs para acessar sites. Isso seria invi
 3. Recebe o IP correspondente ao domínio.
 4. Usa esse IP para iniciar a comunicação com o servidor de destino.
 
-### Consequência prática para o estudante
+### Consequência prática
 Se o DNS falhar:
 - o site pode estar no ar;
 - o servidor pode estar funcionando;
@@ -252,7 +238,7 @@ Content-Type: text/html
 
 Depois desses metadados, o servidor envia o conteúdo solicitado, como HTML.
 
-## 7) Métodos HTTP mais importantes para a base da disciplina
+## 7) Métodos HTTP mais importantes
 
 ### GET
 Usado para solicitar dados ou recursos.
@@ -287,7 +273,7 @@ Os códigos de status ajudam a interpretar o resultado da comunicação.
 - **4xx:** erro do cliente
 - **5xx:** erro do servidor
 
-### Códigos mais importantes para iniciantes
+### Códigos mais importantes
 - **200 OK:** requisição bem-sucedida.
 - **201 Created:** recurso criado com sucesso.
 - **301 Moved Permanently:** recurso movido permanentemente.
@@ -300,12 +286,11 @@ Os códigos de status ajudam a interpretar o resultado da comunicação.
 - **500 Internal Server Error:** erro interno no servidor.
 - **503 Service Unavailable:** serviço indisponível.
 
-### Leitura pedagógica dos erros
+### Leitura dos erros
 - `404` geralmente indica que o caminho pedido não existe.
 - `403` indica que o servidor entendeu o pedido, mas não permite acesso.
 - `500` indica que houve falha no lado do servidor.
 
-O estudante precisa começar a interpretar esses códigos como sinais de diagnóstico, não apenas como mensagens assustadoras.
 
 ## 9) Cabeçalhos HTTP e metadados
 Além do conteúdo principal, requisições e respostas enviam informações extras chamadas **headers**.
@@ -399,12 +384,6 @@ Essa visão sistêmica prepara o estudante para entender, nas próximas aulas, p
 </html>
 ```
 
-### O que explorar pedagogicamente nesse exemplo
-- o atributo `href` aponta para uma URL;
-- o navegador usará essa URL para iniciar uma nova navegação;
-- essa navegação depende de DNS e HTTP;
-- um link HTML, embora simples, aciona toda a infraestrutura estudada no encontro.
-
 ## 13) Exemplo prático com formulário e método HTTP
 ```html
 <form action="/cadastro" method="post">
@@ -418,41 +397,7 @@ Essa visão sistêmica prepara o estudante para entender, nas próximas aulas, p
 </form>
 ```
 
-### Discussão pedagógica
-- `action="/cadastro"` define o destino.
-- `method="post"` indica envio de dados ao servidor.
-- o navegador constrói a requisição a partir do formulário.
-
-Mesmo antes de programar back-end, o estudante já pode entender o significado estrutural dessa comunicação.
-
-## 14) Sugestão de condução pedagógica para 90 minutos
-
-### Bloco 1 - Ativação de repertório (10 min)
-- Perguntar: "Internet e Web são a mesma coisa?"
-- Levantar hipóteses dos estudantes.
-- Registrar respostas-chave no quadro.
-
-### Bloco 2 - Exposição conceitual guiada (25 min)
-- Explicar Internet, Web e cliente-servidor.
-- Desenhar no quadro o fluxo cliente -> rede -> servidor -> resposta.
-- Relacionar com situações do cotidiano digital.
-
-### Bloco 3 - Estrutura de URL e papel do DNS (20 min)
-- Ler URLs reais com a turma.
-- Destacar protocolo, domínio, caminho, parâmetros e fragmento.
-- Explicar como o DNS participa antes da requisição ao servidor.
-
-### Bloco 4 - HTTP, métodos e códigos de status (20 min)
-- Mostrar exemplos simples de `GET` e `POST`.
-- Interpretar códigos `200`, `404` e `500`.
-- Relacionar com erros que os estudantes já viram no navegador.
-
-### Bloco 5 - Síntese e mapa conceitual (15 min)
-- Pedir que os estudantes respondam:
-  "O que acontece do momento em que digitamos uma URL até a página aparecer?"
-- Fechar com um esquema-resumo integrando todos os conceitos.
-
-## 15) Erros Comuns de Iniciantes
+## 14) Erros Comuns de Iniciantes
 - tratar Internet e Web como sinônimos absolutos;
 - pensar que URL é apenas "o nome do site";
 - acreditar que DNS e HTTP fazem a mesma coisa;
@@ -460,7 +405,7 @@ Mesmo antes de programar back-end, o estudante já pode entender o significado e
 - supor que `404` significa "site caiu";
 - não perceber que uma página costuma depender de várias requisições, não apenas uma.
 
-## 16) Materiais para Aprofundamento
+## 15) Materiais para Aprofundamento
 - [MDN - Como a Web funciona](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)
 - [MDN - URLs: conceitos básicos](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL)
 - [MDN - Uma visão geral de HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
