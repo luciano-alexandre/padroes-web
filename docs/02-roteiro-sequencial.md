@@ -9,19 +9,17 @@
 
 ## Sequência de Conteúdo
 
-### Unidade 1 - Fundamentos da Web, HTML Semântico e Estrutura de Interfaces (19,5h)
+### Unidade 1 - Fundamentos da Web, HTML Semântico, CSS Inicial e Responsividade Básica (30h)
 - Conceitos da Web e papel do front-end no contexto de Sistemas para Internet.
 - Estrutura base de documento HTML5.
 - Semântica e acessibilidade.
 - Formulários, introdução ao CSS e organização inicial de projeto.
+- Seletores, cascata, herança, box model, Flexbox, Grid e media queries.
 - Mini-projeto introdutório com HTML e CSS.
 
-### Unidade 2 - CSS Moderno, Responsividade, Frameworks HTML/CSS e Projeto Integrador (40,5h)
-- Seletores, cascata, herança e especificidade.
-- Box model, tipografia, cores e espaçamento.
-- Flexbox, Grid e layouts editoriais.
-- Media queries, mobile-first e depuração com DevTools.
+### Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador (30h)
 - Acessibilidade, SEO on-page, documentação e revisão técnica.
+- Arquitetura da informação e wireframes.
 - Panorama de frameworks HTML/CSS no mercado.
 - Bootstrap e Tailwind CSS em cenários introdutórios.
 - Critérios de escolha tecnológica e customização.
@@ -33,12 +31,12 @@
 ### Unidade 1
 - [ ] Cria estrutura semântica adequada.
 - [ ] Usa links, listas, mídias e formulários corretamente.
-- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
-
-### Unidade 2
 - [ ] Aplica seletores e organiza regras de estilo.
 - [ ] Constrói layouts com Flexbox e Grid.
 - [ ] Implementa responsividade real (mobile-first + media queries).
+
+### Unidade 2
+- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
 - [ ] Compara frameworks a partir de critérios técnicos e de produtividade.
 - [ ] Customiza componentes sem perder consistência visual.
 - [ ] Publica e documenta projeto final com padrão profissional.

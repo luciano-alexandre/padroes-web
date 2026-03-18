@@ -2,9 +2,9 @@
 
 Referência: 80 aulas de 45 minutos, organizadas em 40 encontros de 1,5h, com 2 encontros por semana e 2 unidades formativas voltadas ao curso de Tecnologia em Sistemas para Internet.
 
-## Unidade 1 (Encontros 1 a 13)
-Foco: Fundamentos da Web, HTML5 semântico e estrutura inicial de interfaces.
-Avaliação da unidade: listas, prática supervisionada e prova prática.
+## Unidade 1 (Encontros 1 a 20)
+Foco: Fundamentos da Web, HTML5 semântico, CSS inicial e responsividade básica.
+Avaliação da unidade: lista, prática supervisionada e prova prática.
 
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
@@ -21,13 +21,6 @@ Avaliação da unidade: listas, prática supervisionada e prova prática.
 | 11 | 1,5h | Introdução ao CSS: sintaxe, seletores e vínculo com HTML | CSS inicial conectado | [Encontro 11](./encontros/encontro-11.md) |
 | 12 | 1,5h | Cascata, herança, especificidade e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Prova prática da unidade 1 | Prova prática 1 | [Encontro 13](./encontros/encontro-13.md) |
-
-## Unidade 2 (Encontros 14 a 40)
-Foco: CSS moderno, responsividade, qualidade front-end, frameworks HTML/CSS e projeto integrador.
-Avaliação da unidade: lista, mini-projeto visual, estudo comparativo e projeto integrador publicado.
-
-| Encontro | Carga | Tema Central | Entrega | Material da Aula |
-|---|---:|---|---|---|
 | 14 | 1,5h | Flexbox aplicado a navegação e cards | Seção em Flexbox | [Encontro 14](./encontros/encontro-14.md) |
 | 15 | 1,5h | CSS Grid para páginas e áreas de conteúdo | Página em Grid | [Encontro 15](./encontros/encontro-15.md) |
 | 16 | 1,5h | Responsividade: viewport, mobile-first e media queries | Página responsiva | [Encontro 16](./encontros/encontro-16.md) |
@@ -35,6 +28,13 @@ Avaliação da unidade: lista, mini-projeto visual, estudo comparativo e projeto
 | 18 | 1,5h | Desenvolvimento do mini-projeto HTML/CSS | Versão beta | [Encontro 18](./encontros/encontro-18.md) |
 | 19 | 1,5h | Revisão técnica e apresentação parcial do mini-projeto | Feedback consolidado | [Encontro 19](./encontros/encontro-19.md) |
 | 20 | 1,5h | Clínica de correção: acessibilidade e consistência visual | Checklist aplicado | [Encontro 20](./encontros/encontro-20.md) |
+
+## Unidade 2 (Encontros 21 a 40)
+Foco: Qualidade front-end, frameworks HTML/CSS e projeto integrador.
+Avaliação da unidade: estudo comparativo, projeto integrador publicado e apresentação final.
+
+| Encontro | Carga | Tema Central | Entrega | Material da Aula |
+|---|---:|---|---|---|
 | 21 | 1,5h | Arquitetura da informação e wireframes de baixa fidelidade | Wireframe inicial | [Encontro 21](./encontros/encontro-21.md) |
 | 22 | 1,5h | SEO on-page, metadados e estrutura documental | Página otimizada | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Acessibilidade prática: contraste, foco, rotulagem e navegação | Revisão a11y | [Encontro 23](./encontros/encontro-23.md) |
@@ -57,5 +57,5 @@ Avaliação da unidade: lista, mini-projeto visual, estudo comparativo e projeto
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação
-- Unidade 1: Lista 1 (Encontro 9) + prova prática 1 (Encontro 13).
-- Unidade 2: Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 26) + estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
+- Unidade 1: Lista 1 (Encontro 9) + prova prática 1 (Encontro 13) + Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 20).
+- Unidade 2: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).

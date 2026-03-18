@@ -38,11 +38,9 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Framework CSS escolhido para a unidade 2 (ex.: Bootstrap ou Tailwind CSS).
 
 ## Organização da Carga Horária
-- Unidade 1 - Fundamentos da Web, HTML5 Semântico e Estrutura de Interfaces: 19,5h (13 encontros / 26 aulas)
-- Unidade 2 - CSS Moderno, Responsividade, Frameworks HTML/CSS e Projeto Integrador: 40,5h (27 encontros / 54 aulas)
+- Unidade 1 - Fundamentos da Web, HTML5 Semântico, CSS Inicial e Responsividade Básica: 30h (20 encontros / 40 aulas)
+- Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador: 30h (20 encontros / 40 aulas)
 
 ## Avaliação
-- Exercícios práticos (listas).
-- Estudos dirigidos e análises técnicas.
-- Mini-projeto da unidade 1.
-- Projeto integrador com publicação e apresentação na unidade 2.
+- Unidade 1: listas, prática supervisionada e prova prática.
+- Unidade 2: estudo comparativo, projeto integrador com publicação e apresentação final.

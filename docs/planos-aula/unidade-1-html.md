@@ -1,41 +1,37 @@
-# Plano de Aula - Unidade 1 (Fundamentos da Web e HTML5 Semântico)
+# Plano de Aula - Unidade 1 (Fundamentos da Web, HTML5 e CSS Inicial)
 
-Carga horária: 19,5h (13 encontros / 26 aulas)
+Carga horária: 30h (20 encontros / 40 aulas)
 
 ## Objetivos da Unidade
 - Compreender o papel do HTML na construção de páginas web.
 - Criar documentos HTML estruturados com semântica.
-- Introduzir acessibilidade, SEO básico e arquitetura da informação na marcação.
+- Dominar fundamentos iniciais de CSS para layout e responsividade.
 
 ## Conteúdos
 - Estrutura de documento HTML5.
 - Elementos textuais e de agrupamento.
 - Hiperlinks, listas, tabelas e mídia.
 - Formulários HTML.
-- Semântica, acessibilidade inicial, SEO on-page e documentação.
-- Wireframes, arquitetura da informação e organização de projeto.
+- Semântica e acessibilidade inicial.
+- Seletores, cascata, especificidade e herança.
+- Box model, Flexbox, Grid e media queries.
 
 ## Roteiro por Encontro
 
-### Encontros 1 a 4
-- Tema: Introdução à Web e ferramentas
-- Prática: contextualizar a disciplina em TSI, configurar ambiente e criar primeiro `index.html`
-- Produto: página inicial com estrutura mínima e ambiente funcional
+### Encontros 1 a 8
+- Tema: Introdução à Web, ferramentas e HTML semântico
+- Prática: configurar ambiente e estruturar páginas com semântica e recursos essenciais
+- Produto: páginas estruturadas e navegáveis
 
-### Encontros 5 a 8
-- Tema: Estrutura HTML e semântica básica
-- Prática: reorganizar páginas usando landmarks, hierarquia de títulos, mídia, tabelas e formulários
-- Produto: página semântica navegável e acessível
+### Encontros 9 a 13
+- Tema: Consolidação de HTML e entrada em CSS
+- Prática: revisar estrutura e conectar estilos iniciais
+- Produto: páginas com base visual consistente
 
-### Encontros 9 a 11
-- Tema: Consolidação de HTML e introdução ao CSS
-- Prática: revisar semântica, corrigir estrutura e conectar os primeiros estilos à página
-- Produto: página revisada com HTML consistente e CSS inicial
-
-### Encontros 12 a 13
-- Tema: Consolidação da unidade
-- Prática: revisar conteúdos essenciais, resolver exercício-síntese e realizar prova prática individual
-- Produto: prova prática da unidade
+### Encontros 14 a 20
+- Tema: CSS para layout e responsividade
+- Prática: aplicar Flexbox, Grid, media queries e revisão técnica
+- Produto: mini-projeto HTML/CSS funcional e responsivo
 
 ## Estratégias de Ensino
 - Demonstração de código em tempo real.
@@ -45,6 +41,6 @@ Carga horária: 19,5h (13 encontros / 26 aulas)
 
 ## Evidências de Aprendizagem
 - Uso correto de elementos semânticos.
-- Formulários consistentes e acessíveis.
 - Estrutura clara de conteúdo para leitura humana e máquina.
-- Capacidade de planejar páginas a partir de wireframe e hierarquia de informação.
+- Layout consistente e responsivo.
+- Capacidade de aplicar HTML e CSS de forma integrada.

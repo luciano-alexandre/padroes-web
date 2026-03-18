@@ -13,19 +13,17 @@ Este documento reúne em uma única página o roteiro sequencial da disciplina e
 
 ### Sequência de Conteúdo
 
-#### Unidade 1 - Fundamentos da Web, HTML Semântico e Estrutura de Interfaces (19,5h)
+#### Unidade 1 - Fundamentos da Web, HTML Semântico, CSS Inicial e Responsividade Básica (30h)
 - Conceitos da Web e papel do front-end no contexto de Sistemas para Internet.
 - Estrutura base de documento HTML5.
 - Semântica e acessibilidade.
 - Formulários, introdução ao CSS e organização inicial de projeto.
+- Seletores, cascata, herança, box model, Flexbox, Grid e media queries.
 - Mini-projeto introdutório com HTML e CSS.
 
-#### Unidade 2 - CSS Moderno, Responsividade, Frameworks HTML/CSS e Projeto Integrador (40,5h)
-- Seletores, cascata, herança e especificidade.
-- Box model, tipografia, cores e espaçamento.
-- Flexbox, Grid e layouts editoriais.
-- Media queries, mobile-first e depuração com DevTools.
+#### Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador (30h)
 - Acessibilidade, SEO on-page, documentação e revisão técnica.
+- Arquitetura da informação e wireframes.
 - Panorama de frameworks HTML/CSS no mercado.
 - Bootstrap e Tailwind CSS em cenários introdutórios.
 - Critérios de escolha tecnológica e customização.
@@ -37,54 +35,50 @@ Este documento reúne em uma única página o roteiro sequencial da disciplina e
 #### Unidade 1
 - [ ] Cria estrutura semântica adequada.
 - [ ] Usa links, listas, mídias e formulários corretamente.
-- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
-
-#### Unidade 2
 - [ ] Aplica seletores e organiza regras de estilo.
 - [ ] Constrói layouts com Flexbox e Grid.
 - [ ] Implementa responsividade real (mobile-first + media queries).
+
+#### Unidade 2
+- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
 - [ ] Compara frameworks a partir de critérios técnicos e de produtividade.
 - [ ] Customiza componentes sem perder consistência visual.
 - [ ] Publica e documenta projeto final com padrão profissional.
 
-## Plano de Aula - Unidade 1 (Fundamentos da Web e HTML5 Semântico)
+## Plano de Aula - Unidade 1 (Fundamentos da Web, HTML5 e CSS Inicial)
 
-Carga horária: 19,5h (13 encontros / 26 aulas)
+Carga horária: 30h (20 encontros / 40 aulas)
 
 ### Objetivos da Unidade
 - Compreender o papel do HTML na construção de páginas web.
 - Criar documentos HTML estruturados com semântica.
-- Introduzir acessibilidade, SEO básico e arquitetura da informação na marcação.
+- Dominar fundamentos iniciais de CSS para layout e responsividade.
 
 ### Conteúdos
 - Estrutura de documento HTML5.
 - Elementos textuais e de agrupamento.
 - Hiperlinks, listas, tabelas e mídia.
 - Formulários HTML.
-- Semântica, acessibilidade inicial, SEO on-page e documentação.
-- Wireframes, arquitetura da informação e organização de projeto.
+- Semântica e acessibilidade inicial.
+- Seletores, cascata, especificidade e herança.
+- Box model, Flexbox, Grid e media queries.
 
 ### Roteiro por Encontro
 
-#### Encontros 1 a 4
-- Tema: Introdução à Web e ferramentas
-- Prática: contextualizar a disciplina em TSI, configurar ambiente e criar primeiro `index.html`
-- Produto: página inicial com estrutura mínima e ambiente funcional
+#### Encontros 1 a 8
+- Tema: Introdução à Web, ferramentas e HTML semântico
+- Prática: configurar ambiente e estruturar páginas com semântica e recursos essenciais
+- Produto: páginas estruturadas e navegáveis
 
-#### Encontros 5 a 8
-- Tema: Estrutura HTML e semântica básica
-- Prática: reorganizar páginas usando landmarks, hierarquia de títulos, mídia, tabelas e formulários
-- Produto: página semântica navegável e acessível
+#### Encontros 9 a 13
+- Tema: Consolidação de HTML e entrada em CSS
+- Prática: revisar estrutura e conectar estilos iniciais
+- Produto: páginas com base visual consistente
 
-#### Encontros 9 a 11
-- Tema: Consolidação de HTML e introdução ao CSS
-- Prática: revisar semântica, corrigir estrutura e conectar os primeiros estilos à página
-- Produto: página revisada com HTML consistente e CSS inicial
-
-#### Encontros 12 a 13
-- Tema: Consolidação da unidade
-- Prática: revisar conteúdos essenciais, resolver exercício-síntese e realizar prova prática individual
-- Produto: prova prática da unidade
+#### Encontros 14 a 20
+- Tema: CSS para layout e responsividade
+- Prática: aplicar Flexbox, Grid, media queries e revisão técnica
+- Produto: mini-projeto HTML/CSS funcional e responsivo
 
 ### Estratégias de Ensino
 - Demonstração de código em tempo real.
@@ -94,46 +88,37 @@ Carga horária: 19,5h (13 encontros / 26 aulas)
 
 ### Evidências de Aprendizagem
 - Uso correto de elementos semânticos.
-- Formulários consistentes e acessíveis.
 - Estrutura clara de conteúdo para leitura humana e máquina.
-- Capacidade de planejar páginas a partir de wireframe e hierarquia de informação.
+- Layout consistente e responsivo.
+- Capacidade de aplicar HTML e CSS de forma integrada.
 
-## Plano de Aula - Unidade 2 (CSS, Layout, Frameworks e Projeto Integrador)
+## Plano de Aula - Unidade 2 (Qualidade Front-end, Frameworks e Projeto Integrador)
 
-Carga horária: 40,5h (27 encontros / 54 aulas)
+Carga horária: 30h (20 encontros / 40 aulas)
 
 ### Objetivos da Unidade
-- Dominar fundamentos de estilização com CSS.
-- Construir layouts modernos com Flexbox e Grid.
-- Desenvolver páginas responsivas e com consistência visual.
+- Aplicar critérios de qualidade front-end em projetos reais.
 - Comparar e aplicar frameworks HTML/CSS com uso crítico.
 - Construir projeto integrador com documentação, publicação e apresentação técnica.
 
 ### Conteúdos
-- Seletores, cascata, especificidade e herança.
-- Box model, tipografia, cores e espaçamento.
-- Flexbox e Grid.
-- Media queries e abordagem mobile-first.
-- Design tokens, metodologias de organização de CSS e design systems básicos.
+- Arquitetura da informação, SEO on-page e acessibilidade prática.
+- Organização de arquivos, convenções e documentação.
 - Panorama de frameworks HTML/CSS no mercado.
 - Bootstrap e Tailwind CSS.
+- Critérios de escolha tecnológica, customização e manutenção.
 - Projeto integrador com documentação, publicação e apresentação técnica.
 
 ### Roteiro por Encontro
 
-#### Encontros 14 a 20
-- Tema: Fundamentos de CSS e mini-projeto visual
-- Prática: consolidar estilos base, tipografia, layout e responsividade em páginas reais
-- Produto: mini-projeto visual com checklist técnico aplicado
-
 #### Encontros 21 a 26
-- Tema: Qualidade front-end e fechamento parcial
-- Prática: aplicar arquitetura da informação, acessibilidade, SEO on-page e documentação
-- Produto: mini-projeto refinado e documentado
+- Tema: Qualidade front-end e estruturação de projeto
+- Prática: aplicar arquitetura da informação, acessibilidade, SEO e documentação
+- Produto: base técnica consolidada para o projeto
 
 #### Encontros 27 a 34
 - Tema: Frameworks HTML/CSS e comparação entre abordagens
-- Prática: experimentar Bootstrap e Tailwind CSS, registrar critérios de decisão e customização
+- Prática: experimentar Bootstrap e Tailwind CSS, registrar critérios de decisão
 - Produto: relatório comparativo e protótipos funcionais
 
 #### Encontros 35 a 40
@@ -145,10 +130,9 @@ Carga horária: 40,5h (27 encontros / 54 aulas)
 - Comparação entre soluções para estimular tomada de decisão técnica.
 - Uso do DevTools para depuração de layout.
 - Atividades em dupla para acelerar feedback.
-- Revisão orientada por design tokens, componentes e critérios de escalabilidade.
+- Revisão orientada por critérios de escalabilidade e manutenção.
 
 ### Evidências de Aprendizagem
-- Layout consistente e legível.
-- Responsividade real em diferentes larguras.
-- Capacidade de justificar escolha entre CSS puro e framework.
+- Capacidade de justificar escolhas técnicas.
+- Customização consistente de componentes e layouts.
 - Projeto final publicado, documentado e apresentado com clareza técnica.
