@@ -10,7 +10,7 @@ Avaliação da unidade: lista, prática supervisionada e prova prática.
 |---|---:|---|---|---|
 | 1 | 1,5h | Apresentação da disciplina, escopo da formação em TSI e visão geral da Web |  | [Encontro 1](./encontros/encontro-1.md) |
 | 2 | 1,5h | Internet, Web, cliente-servidor, URL, DNS e HTTP |  | [Encontro 2](./encontros/encontro-2.md) |
-| 3 | 1,5h | Ambiente de desenvolvimento, terminal, editor e DevTools | Ambiente configurado | [Encontro 3](./encontros/encontro-3.md) |
+| 3 | 1,5h | Ambiente de desenvolvimento, terminal, editor e DevTools |  | [Encontro 3](./encontros/encontro-3.md) |
 | 4 | 1,5h | Estrutura base do documento HTML5 | Primeiro `index.html` | [Encontro 4](./encontros/encontro-4.md) |
 | 5 | 1,5h | Títulos, parágrafos, listas, links e organização textual | Página textual estruturada | [Encontro 5](./encontros/encontro-5.md) |
 | 6 | 1,5h | Semântica HTML5 e landmarks | Estrutura semântica inicial | [Encontro 6](./encontros/encontro-6.md) |
