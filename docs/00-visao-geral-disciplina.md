@@ -5,6 +5,7 @@
 - Carga horária total: 60h
 - Organização da carga horária: 80 aulas de 45 minutos, distribuídas em 40 encontros de 1,5h (2 encontros por semana, 2 unidades)
 - Público: Curso Superior de Tecnologia em Sistemas para Internet
+- Google Sala de Aula: **pgrjt3s2**
 
 ## Ementa
 Estudo aprofundado de HTML5 semântico, acessibilidade, arquitetura da informação e CSS moderno. Desenvolvimento de interfaces responsivas com Flexbox, Grid, design systems e metodologias de organização de estilos. Aprofundamento em frameworks e toolkits HTML/CSS para prototipação e desenvolvimento de interfaces. Planejamento, implementação, documentação e publicação de projetos front-end estáticos voltados ao contexto profissional de Tecnologia em Sistemas para Internet.
