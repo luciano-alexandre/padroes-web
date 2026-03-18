@@ -1,12 +1,13 @@
-# Plano de Aula - Unidade 2 (CSS, Layout e Design Responsivo)
+# Plano de Aula - Unidade 2 (CSS, Layout, Frameworks e Projeto Integrador)
 
-Carga horária: 19,5h (13 encontros / 26 aulas)
+Carga horária: 40,5h (27 encontros / 54 aulas)
 
 ## Objetivos da Unidade
 - Dominar fundamentos de estilização com CSS.
 - Construir layouts modernos com Flexbox e Grid.
 - Desenvolver páginas responsivas e com consistência visual.
-- Estruturar componentes reutilizáveis e sistemas visuais escaláveis.
+- Comparar e aplicar frameworks HTML/CSS com uso crítico.
+- Construir projeto integrador com documentação, publicação e apresentação técnica.
 
 ## Conteúdos
 - Seletores, cascata, especificidade e herança.
@@ -14,34 +15,31 @@ Carga horária: 19,5h (13 encontros / 26 aulas)
 - Flexbox e Grid.
 - Media queries e abordagem mobile-first.
 - Design tokens, metodologias de organização de CSS e design systems básicos.
-- Introdução a frameworks CSS (uso crítico e comparativo).
+- Panorama de frameworks HTML/CSS no mercado.
+- Bootstrap e Tailwind CSS.
+- Projeto integrador com documentação, publicação e apresentação técnica.
 
 ## Roteiro por Encontro
 
-### Encontros 14 a 17
-- Tema: Fundamentos de CSS
-- Prática: revisar base de CSS, reset, normalização e convenções de projeto
-- Produto: folha de estilos base organizada
+### Encontros 14 a 20
+- Tema: Fundamentos de CSS e mini-projeto visual
+- Prática: consolidar estilos base, tipografia, layout e responsividade em páginas reais
+- Produto: mini-projeto visual com checklist técnico aplicado
 
-### Encontros 18 a 20
-- Tema: Tipografia e identidade visual
-- Prática: criar sistema visual com variáveis CSS, escala tipográfica e layouts avançados
-- Produto: guia de estilos e seções responsivas
+### Encontros 21 a 26
+- Tema: Qualidade front-end e fechamento parcial
+- Prática: aplicar arquitetura da informação, acessibilidade, SEO on-page e documentação
+- Produto: mini-projeto refinado e documentado
 
-### Encontros 21 a 23
-- Tema: Responsividade
-- Prática: depurar layouts, formular navegação adaptável e componentes reutilizáveis
-- Produto: versão responsiva funcional com biblioteca inicial
+### Encontros 27 a 34
+- Tema: Frameworks HTML/CSS e comparação entre abordagens
+- Prática: experimentar Bootstrap e Tailwind CSS, registrar critérios de decisão e customização
+- Produto: relatório comparativo e protótipos funcionais
 
-### Encontros 24 a 25
-- Tema: Componentes e estados
-- Prática: criar landing page ou página institucional com padrões visuais consistentes
-- Produto: mini design system aplicado
-
-### Encontro 26
-- Tema: Fechamento da unidade
-- Prática: apresentar mini-projeto visual, documentar decisões e revisar pontos de acessibilidade e SEO
-- Produto: comparação técnica documentada e projeto publicado
+### Encontros 35 a 40
+- Tema: Projeto integrador
+- Prática: definir briefing, implementar solução, publicar entrega e apresentar decisões técnicas
+- Produto: projeto final publicado, documentado e apresentado
 
 ## Estratégias de Ensino
 - Comparação entre soluções para estimular tomada de decisão técnica.
@@ -53,4 +51,4 @@ Carga horária: 19,5h (13 encontros / 26 aulas)
 - Layout consistente e legível.
 - Responsividade real em diferentes larguras.
 - Capacidade de justificar escolha entre CSS puro e framework.
-- Capacidade de manter componentes reutilizáveis e documentação visual.
+- Projeto final publicado, documentado e apresentado com clareza técnica.

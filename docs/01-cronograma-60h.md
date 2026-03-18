@@ -1,6 +1,6 @@
 # Cronograma da Disciplina (60h)
 
-Referência: 80 aulas de 45 minutos, organizadas em 40 encontros de 1,5h, com 2 encontros por semana e 3 unidades formativas voltadas ao curso de Tecnologia em Sistemas para Internet.
+Referência: 80 aulas de 45 minutos, organizadas em 40 encontros de 1,5h, com 2 encontros por semana e 2 unidades formativas voltadas ao curso de Tecnologia em Sistemas para Internet.
 
 ## Unidade 1 (Encontros 1 a 13)
 Foco: Fundamentos da Web, HTML5 semântico e estrutura inicial de interfaces.
@@ -22,9 +22,9 @@ Avaliação da unidade: listas, prática supervisionada e prova prática.
 | 12 | 1,5h | Cascata, herança, especificidade e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Prova prática da unidade 1 | Prova prática 1 | [Encontro 13](./encontros/encontro-13.md) |
 
-## Unidade 2 (Encontros 14 a 26)
-Foco: CSS moderno, responsividade, qualidade front-end e mini-projeto visual.
-Avaliação da unidade: lista, mini-projeto visual e revisão técnica.
+## Unidade 2 (Encontros 14 a 40)
+Foco: CSS moderno, responsividade, qualidade front-end, frameworks HTML/CSS e projeto integrador.
+Avaliação da unidade: lista, mini-projeto visual, estudo comparativo e projeto integrador publicado.
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
@@ -40,14 +40,7 @@ Avaliação da unidade: lista, mini-projeto visual e revisão técnica.
 | 23 | 1,5h | Acessibilidade prática: contraste, foco, rotulagem e navegação | Revisão a11y | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Organização de arquivos, convenções e documentação | Estrutura documentada | [Encontro 24](./encontros/encontro-24.md) |
 | 25 | 1,5h | Desenvolvimento supervisionado do projeto da unidade 2 | Projeto refinado | [Encontro 25](./encontros/encontro-25.md) |
-| 26 | 1,5h | Apresentação e fechamento da unidade 2 | Mini-projeto entregue | [Encontro 26](./encontros/encontro-26.md) |
-
-## Unidade 3 (Encontros 27 a 40)
-Foco: Frameworks HTML/CSS e projeto integrador.
-Avaliação da unidade: estudo comparativo, projeto integrador publicado e apresentação final.
-
-| Encontro | Carga | Tema Central | Entrega | Material da Aula |
-|---|---:|---|---|---|
+| 26 | 1,5h | Apresentação e fechamento parcial da unidade 2 | Mini-projeto entregue | [Encontro 26](./encontros/encontro-26.md) |
 | 27 | 1,5h | Panorama de frameworks HTML/CSS no mercado | Mapa comparativo | [Encontro 27](./encontros/encontro-27.md) |
 | 28 | 1,5h | Bootstrap: grid, containers e utilitários | Página com Bootstrap | [Encontro 28](./encontros/encontro-28.md) |
 | 29 | 1,5h | Bootstrap: componentes, navegação e formulários | Protótipo funcional | [Encontro 29](./encontros/encontro-29.md) |
@@ -65,5 +58,4 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 
 ## Avaliação
 - Unidade 1: Lista 1 (Encontro 9) + prova prática 1 (Encontro 13).
-- Unidade 2: Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 26).
-- Unidade 3: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
+- Unidade 2: Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 26) + estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).

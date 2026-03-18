@@ -14,7 +14,7 @@
 4. Tornar a página responsiva com ao menos 2 breakpoints.
 5. Implementar estados de interação (`:hover`, `:focus`, `:active`) com contraste adequado.
 
-## Bloco 3 - Frameworks HTML/CSS
+## Bloco 2.3 - Frameworks HTML/CSS
 1. Reproduzir uma landing page simples usando Bootstrap e justificar o uso do grid.
 2. Recriar um componente de card em Tailwind CSS com variações de espaçamento e cor.
 3. Comparar a mesma seção construída com CSS autoral e com framework, registrando vantagens e limitações.

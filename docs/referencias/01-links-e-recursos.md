@@ -43,9 +43,3 @@
 ## Repositórios e Publicação
 - GitHub: https://github.com/
 - GitHub Pages (publicação estática): https://pages.github.com/
-
-## Sugestão de Curadoria Docente por Unidade
-1. HTML: priorizar MDN + Curso em Vídeo.
-2. CSS: MDN + Kevin Powell + exemplos no CodePen.
-3. Frameworks HTML/CSS: Bootstrap Docs + Tailwind CSS Docs + freeCodeCamp.
-4. Projeto final: Lighthouse + checklist de acessibilidade + publicação no GitHub Pages.
