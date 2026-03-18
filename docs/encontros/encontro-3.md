@@ -161,12 +161,6 @@ Correção:
 - ignorar a estrutura mostrada no Elements;
 - tentar corrigir muitas coisas ao mesmo tempo.
 
-## 10) Como estudar este encontro sozinho
-1. Recrie a estrutura de pastas do zero.
-2. Monte o exemplo principal sem copiar linha por linha.
-3. Insira um erro proposital de fechamento de tag e detecte no DevTools.
-4. Escreva um parágrafo explicando, com suas palavras, o papel de editor, navegador e DevTools.
-
 ## Materiais para aprofundamento
 - [MDN - Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started)
 - [MDN - What are browser developer tools?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools)
@@ -190,6 +184,6 @@ Neste encontro, você construiu a base operacional para o restante da disciplina
 
 3. Qual é o ciclo básico de desenvolvimento recomendado para iniciantes?
 
-4. Cite um erro comum ao iniciar em front-end.
+4. Cite um erro comum ao iniciar.
 
 5. Por que o terminal é útil mesmo em projetos simples?
