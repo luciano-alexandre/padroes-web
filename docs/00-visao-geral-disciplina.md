@@ -43,4 +43,4 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 
 ## Avaliação
 - Unidade 1: listas, prática supervisionada e prova prática.
-- Unidade 2: estudo comparativo, projeto integrador com publicação e apresentação final.
+- Unidade 2: estudo comparativo, projeto com publicação e apresentação final.
