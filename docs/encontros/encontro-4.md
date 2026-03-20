@@ -52,8 +52,29 @@ No início do curso, o `head` costuma parecer secundário, mas ele impacta diret
 
 ### Por que esses metadados importam?
 - `charset="UTF-8"`: evita problemas com acentuação e caracteres especiais.
-- `viewport`: melhora o comportamento em telas menores.
+- `viewport`: controla como a página é dimensionada em celulares e tablets.
 - `title`: identifica a página na aba do navegador e no histórico.
+
+### Entendendo melhor o `meta viewport`
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+Essa linha diz ao navegador móvel como a página deve ser exibida no primeiro carregamento.
+
+- `name="viewport"`: indica que o navegador deve aplicar configurações da "área visível" da página.
+- `width=device-width`: define que a largura da página deve acompanhar a largura real da tela do dispositivo.
+- `initial-scale=1.0`: define o nível de zoom inicial como 100% (sem aproximação ou afastamento automático).
+
+### O que pode acontecer sem essa linha?
+- Em muitos celulares, o navegador tenta renderizar a página como se fosse uma tela larga de desktop.
+- O texto pode ficar pequeno demais.
+- O usuário precisa dar zoom manual para ler o conteúdo.
+
+### Exemplo de efeito prático
+Com `viewport` configurado corretamente:
+- títulos e parágrafos ficam com tamanho mais legível no mobile;
+- o layout responde de forma mais previsível quando você começar a usar CSS responsivo.
 
 ## 3) O que entra no `body` nesta etapa
 Neste encontro, o foco é estrutura e organização, não layout avançado.  
