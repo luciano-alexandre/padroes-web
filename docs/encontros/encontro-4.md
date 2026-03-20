@@ -1,109 +1,157 @@
-# Encontro 4 - HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`)
+# Encontro 4 - Estrutura Base do Documento HTML5
 
 **Unidade:** Unidade 1  
-**Carga prevista:** 1,5h  
-**Entregavel previsto:** Primeiro `index.html`
+**Entregável previsto:** Primeiro `index.html`
 
-## Explicacao geral do encontro
-Este encontro trabalha **HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`)** com foco em fundamentos de Web/HTML e autonomia de estudo.
+## Visão Geral
+Neste encontro, você cria o primeiro documento HTML completo da disciplina, saindo de trechos isolados para uma página com estrutura correta e legível.  
+O objetivo é consolidar a base que será usada em todos os próximos encontros: **`<!doctype html>`**, **`html`**, **`head`** e **`body`**.
 
-![Imagem de apoio 1](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)
+Se no Encontro 1 você compreendeu o papel do HTML, no Encontro 2 entendeu o fluxo da Web e no Encontro 3 preparou o ambiente, agora você transforma essa base em um arquivo real de projeto.
 
-![Imagem de apoio 2](https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg)
+## Conceitos Essenciais
+- Estrutura mínima obrigatória de um documento HTML5.
+- Função prática de `head`, `meta`, `title` e `body`.
+- Boas práticas iniciais de organização e legibilidade de código.
+- Validação no navegador e no DevTools.
 
-## Conceitos essenciais
-- Estrutura minima de um documento HTML5.
-- Funcao de head, body, meta e title.
-- Boas praticas iniciais de organizacao de codigo.
+## 1) Estrutura mínima de um documento HTML5
+A estrutura base é o ponto de partida para qualquer página web profissional. Ela ajuda o navegador a interpretar corretamente o conteúdo e evita comportamentos inesperados.
 
-## Explicacao detalhada dos conceitos essenciais
-### 1) Estrutura minima de um documento HTML5.
-A base HTML5 correta evita comportamento inesperado e prepara o projeto para crescer.
-
-#### Exemplo aplicado
+### Exemplo mínimo funcional
 ```html
 <!doctype html>
 <html lang="pt-BR">
-  <head><meta charset="UTF-8" /><title>Base</title></head>
-  <body><h1>Pagina inicial</h1></body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minha primeira página</title>
+  </head>
+  <body>
+    <h1>Olá, Web!</h1>
+  </body>
 </html>
 ```
 
-### 2) Funcao de head, body, meta e title.
-Head armazena metadados e body contem conteudo visivel; ambos sao fundamentais para pagina correta.
+### O papel de cada parte
+- `<!doctype html>`: informa ao navegador que o documento usa HTML5.
+- `<html lang="pt-BR">`: elemento raiz e definição do idioma principal.
+- `<head>`: metadados e configurações do documento.
+- `<body>`: conteúdo visível na página.
 
-#### Exemplo aplicado
+## 2) Entendendo melhor o `head`
+No início do curso, o `head` costuma parecer secundário, mas ele impacta diretamente compatibilidade, legibilidade e preparo para responsividade.
+
+### Metadados iniciais recomendados
+```html
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encontro 4 - Estrutura Base</title>
+</head>
+```
+
+### Por que esses metadados importam?
+- `charset="UTF-8"`: evita problemas com acentuação e caracteres especiais.
+- `viewport`: melhora o comportamento em telas menores.
+- `title`: identifica a página na aba do navegador e no histórico.
+
+## 3) O que entra no `body` nesta etapa
+Neste encontro, o foco é estrutura e organização, não layout avançado.  
+O `body` deve conter conteúdo simples, com hierarquia clara para leitura e manutenção.
+
+### Exemplo de conteúdo inicial
+```html
+<body>
+  <main>
+    <h1>Disciplina de Padrões Web</h1>
+    <p>Este é meu primeiro documento HTML completo.</p>
+
+    <h2>Próximos passos</h2>
+    <ul>
+      <li>Estruturar conteúdo textual</li>
+      <li>Aplicar semântica HTML5</li>
+      <li>Conectar estilos com CSS</li>
+    </ul>
+  </main>
+</body>
+```
+
+## 4) Exemplo principal do encontro (`index.html`)
 ```html
 <!doctype html>
 <html lang="pt-BR">
-  <head><meta charset="UTF-8" /><title>Base</title></head>
-  <body><h1>Pagina inicial</h1></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro index.html</title>
+  </head>
+  <body>
+    <main>
+      <h1>Meu Primeiro Projeto Web</h1>
+      <p>Arquivo inicial da disciplina de Padrões Web.</p>
+
+      <section>
+        <h2>Objetivos deste arquivo</h2>
+        <ol>
+          <li>Praticar a estrutura base do HTML5.</li>
+          <li>Garantir legibilidade com indentação adequada.</li>
+          <li>Validar o resultado no navegador e no DevTools.</li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
 ```
 
-### 3) Boas praticas iniciais de organizacao de codigo.
-Indentacao, nomes claros e divisao por secoes deixam o codigo legivel e manutenivel.
+## 5) Roteiro de prática guiada
+1. Crie uma pasta de projeto e adicione o arquivo `index.html`.
+2. Reproduza o exemplo principal sem copiar e colar diretamente.
+3. Troque o título da aba (`<title>`) e os textos do `body` por informações autorais.
+4. Abra no navegador e confirme se a estrutura aparece corretamente.
+5. Abra o DevTools no painel **Elements** e verifique se a árvore HTML está organizada.
 
-#### Exemplo aplicado
-```text
-Aplique o conceito no seu projeto e valide no navegador.
-```
+## 6) Validação rápida antes de considerar concluído
+- O arquivo começa com `<!doctype html>`.
+- O idioma da página está definido em `lang="pt-BR"`.
+- O `head` contém `meta charset`, `meta viewport` e `title`.
+- O conteúdo principal está dentro do `body`.
+- A indentação está consistente e facilita leitura.
 
-## Exemplo principal da aula
-```html
-<main>
-  <h1>Pagina de estudo</h1>
-  <p>Conteudo principal da aula.</p>
-</main>
-```
+## 7) Erros comuns de iniciantes
+- esquecer `<!doctype html>` e iniciar direto pelo `<html>`;
+- escrever conteúdo visível dentro do `head`;
+- omitir `<meta charset="UTF-8">` e ter problemas com acentos;
+- usar títulos sem hierarquia (`h1`, `h2`, `h3`);
+- editar sem testar no navegador a cada mudança pequena.
 
-## Exemplos adicionais
-```html
-<nav><a href="#inicio">Inicio</a><a href="#sobre">Sobre</a></nav>
-```
+## Materiais para Aprofundamento
+- [MDN - Estruturando documentos com HTML](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)
+- [MDN - Elemento `head`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/head)
+- [MDN - Elemento `meta`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/meta)
+- [W3C - Introdução ao HTML](https://www.w3.org/TR/html52/introduction.html)
 
-```html
-<form><input required placeholder="Nome" /><button>Enviar</button></form>
-```
+## Checklist de Compreensão
+- [ ] Consigo montar um documento HTML5 completo do zero.
+- [ ] Consigo explicar a função de `doctype`, `html`, `head` e `body`.
+- [ ] Consigo justificar o uso de `meta charset`, `meta viewport` e `title`.
+- [ ] Consigo validar a estrutura no navegador e no DevTools.
+- [ ] Entreguei meu primeiro `index.html` com organização e legibilidade.
 
-## Como estudar este encontro sozinho
-1. Leia a explicacao geral e os conceitos com atencao.
-2. Rode os exemplos e altere valores/propriedades para testar entendimento.
-3. Reproduza sem copiar e compare com seu resultado.
-4. Resolva uma variacao do tema no seu contexto.
+## Resumo Final
+Neste encontro, você transformou conceitos introdutórios em uma página HTML real, organizada e pronta para evoluir ao longo da disciplina. A base construída aqui sustenta os próximos temas: conteúdo textual, semântica, formulários e integração com CSS.
 
-## Erros comuns de iniciantes
-- Avancar sem consolidar a base do encontro.
-- Copiar codigo sem compreender cada linha.
-- Nao validar comportamento no navegador a cada alteracao.
+## Questões de Fixação
+1. Para que serve `<!doctype html>` no início do documento?
+<!-- Gabarito: Indicar ao navegador que o documento deve ser interpretado no padrão HTML5. -->
 
-## Materiais para aprofundamento
-- [MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [W3C - HTML Living Standard](https://html.spec.whatwg.org/)
-- [W3C - Acessibilidade na Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-- [freeCodeCamp - Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+2. Qual é a diferença entre o conteúdo do `head` e do `body`?
+<!-- Gabarito: O head contém metadados e configurações; o body contém o conteúdo visível da página. -->
 
-## Checklist de compreensao
-- [ ] Entendi os tres conceitos essenciais com minhas palavras.
-- [ ] Executei os exemplos e fiz variacao propria.
-- [ ] Revisei erros comuns e corrigi pontos de duvida.
-- [ ] Entreguei a atividade prevista no cronograma.
+3. Por que `meta charset="UTF-8"` é importante em páginas em português?
+<!-- Gabarito: Porque evita erros de codificação e garante exibição correta de acentos e caracteres especiais. -->
 
-## Resumo final
-Neste encontro, voce estudou **HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`)** com foco em compreensao profunda dos conceitos, pratica incremental e revisao tecnica antes da entrega.
+4. Qual metadado ajuda a página a se adaptar melhor a telas pequenas?
+<!-- Gabarito: A meta viewport (`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`). -->
 
-## Questoes de fixacao (com gabarito)
-1. Qual problema tecnico "HTML: estrutura base (`<!doctype>`, `html`, `head`, `body`)" ajuda a resolver?
-Gabarito: Organizar a implementacao para ficar mais clara, funcional e manutenivel.
-
-2. Como validar se voce realmente entendeu o conceito?
-Gabarito: Reproduzindo sem consulta, explicando com suas palavras e criando variacao propria.
-
-3. Cite um erro comum de iniciante nesse tema.
-Gabarito: Copiar codigo sem testar em partes pequenas no navegador.
-
-4. Qual verificacao minima deve ser feita antes da entrega?
-Gabarito: Funcionamento, legibilidade do codigo e ausencia de erros evidentes.
-
-5. Como aprofundar apos a aula?
-Gabarito: Estudar documentacao oficial, praticar exercicios extras e revisar feedbacks.
+5. Cite duas verificações práticas para validar seu primeiro `index.html`.
+<!-- Gabarito: Conferir estrutura mínima completa e abrir no navegador/DevTools para inspecionar a árvore HTML. -->
