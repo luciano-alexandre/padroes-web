@@ -181,6 +181,9 @@ Crie uma página textual estruturada com:
 
 Nome sugerido do arquivo: `index.html`.
 
+**Exemplo visual do resultado esperado:**
+![Exemplo visual do exercício do Encontro 5](./imagens/encontro-5-exec-resultado-v2.svg)
+
 ## 8) Validação rápida antes de considerar concluído
 - Há apenas um `h1` representando o tema da página.
 - Os títulos seguem hierarquia lógica (`h1` -> `h2` -> `h3`, quando necessário).
