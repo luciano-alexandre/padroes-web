@@ -195,6 +195,9 @@ Crie uma página `index.html` com estrutura semântica inicial contendo:
 - 1 `aside` com conteúdo complementar;
 - `footer` com informação final e link interno.
 
+**Exemplo visual do resultado esperado:**
+![Exemplo visual do exercício do Encontro 6](./imagens/encontro-6-exec-resultado.svg)
+
 ## 7) Validação rápida antes de considerar concluído
 - Existe apenas um `main` na página.
 - O conteúdo de navegação principal está em `nav`.

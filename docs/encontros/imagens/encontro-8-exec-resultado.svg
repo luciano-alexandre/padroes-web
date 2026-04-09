@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-label="Exemplo visual do exercício do Encontro 8">
+  <rect width="1200" height="940" fill="#f8fafc"/>
+  <text x="80" y="54" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">Resultado esperado do exercício - Encontro 8</text>
+
+  <rect x="80" y="88" width="1040" height="810" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="80" y="88" width="1040" height="48" rx="16" fill="#e2e8f0"/>
+  <circle cx="112" cy="112" r="7" fill="#ef4444"/>
+  <circle cx="136" cy="112" r="7" fill="#f59e0b"/>
+  <circle cx="160" cy="112" r="7" fill="#22c55e"/>
+  <text x="190" y="118" font-family="Arial, sans-serif" font-size="15" fill="#475569">index.html</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="126" y="184" font-size="36" font-weight="700" fill="#0f172a">Inscrição - Oficina de Padrões Web</text>
+    <text x="126" y="218" font-size="20" fill="#334155">Preencha os campos abaixo para registrar sua participação.</text>
+
+    <text x="126" y="260" font-size="21" fill="#1d4ed8">Dados</text>
+    <text x="195" y="260" font-size="21" fill="#64748b">|</text>
+    <text x="218" y="260" font-size="21" fill="#1d4ed8">Interesses</text>
+    <text x="323" y="260" font-size="21" fill="#64748b">|</text>
+    <text x="346" y="260" font-size="21" fill="#1d4ed8">Confirmação</text>
+
+    <text x="126" y="314" font-size="31" font-weight="700" fill="#0f172a">Dados do participante</text>
+
+    <text x="126" y="354" font-size="18" fill="#1f2937">Nome completo</text>
+    <rect x="126" y="364" width="560" height="34" fill="#ffffff" stroke="#94a3b8"/>
+
+    <text x="126" y="432" font-size="18" fill="#1f2937">E-mail</text>
+    <rect x="126" y="442" width="560" height="34" fill="#ffffff" stroke="#94a3b8"/>
+
+    <text x="126" y="510" font-size="18" fill="#1f2937">Matrícula (10 dígitos)</text>
+    <rect x="126" y="520" width="300" height="34" fill="#ffffff" stroke="#94a3b8"/>
+
+    <text x="126" y="588" font-size="18" fill="#1f2937">Turno preferencial</text>
+    <rect x="126" y="598" width="300" height="34" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="138" y="621" font-size="16" fill="#64748b">Selecione um turno</text>
+
+    <text x="126" y="666" font-size="18" fill="#1f2937">Observações</text>
+    <rect x="126" y="676" width="560" height="86" fill="#ffffff" stroke="#94a3b8"/>
+
+    <rect x="126" y="783" width="16" height="16" fill="#ffffff" stroke="#64748b"/>
+    <text x="150" y="796" font-size="17" fill="#1f2937">Confirmo que os dados estão corretos.</text>
+
+    <rect x="126" y="820" width="170" height="36" rx="6" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="145" y="843" font-size="17" fill="#1f2937">Enviar inscrição</text>
+
+    <rect x="310" y="820" width="180" height="36" rx="6" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="340" y="843" font-size="17" fill="#1f2937">Limpar formulário</text>
+
+    <text x="740" y="360" font-size="29" font-weight="700" fill="#0f172a">Orientação</text>
+    <text x="740" y="392" font-size="18" fill="#334155">Antes de enviar, revise os</text>
+    <text x="740" y="418" font-size="18" fill="#334155">campos obrigatórios.</text>
+
+    <text x="740" y="470" font-size="17" font-weight="700" fill="#1f2937">Validações nativas:</text>
+    <text x="740" y="498" font-size="17" fill="#334155">- required</text>
+    <text x="740" y="524" font-size="17" fill="#334155">- minlength</text>
+    <text x="740" y="550" font-size="17" fill="#334155">- pattern</text>
+
+    <text x="740" y="804" font-size="20" fill="#334155">Disciplina de Padrões Web - Encontro 8.</text>
+    <text x="740" y="842" font-size="21" fill="#1d4ed8">Voltar ao início</text>
+    <line x1="740" y1="847" x2="866" y2="847" stroke="#1d4ed8" stroke-width="1.4"/>
+  </g>
+</svg>

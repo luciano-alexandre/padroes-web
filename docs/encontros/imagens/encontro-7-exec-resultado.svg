@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-label="Exemplo visual do exercício do Encontro 7">
+  <rect width="1200" height="940" fill="#f8fafc"/>
+  <text x="80" y="54" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">Resultado esperado do exercício - Encontro 7</text>
+
+  <rect x="80" y="88" width="1040" height="810" rx="16" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="80" y="88" width="1040" height="48" rx="16" fill="#e2e8f0"/>
+  <circle cx="112" cy="112" r="7" fill="#ef4444"/>
+  <circle cx="136" cy="112" r="7" fill="#f59e0b"/>
+  <circle cx="160" cy="112" r="7" fill="#22c55e"/>
+  <text x="190" y="118" font-family="Arial, sans-serif" font-size="15" fill="#475569">index.html</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="126" y="184" font-size="38" font-weight="700" fill="#0f172a">Galeria da Disciplina - Padrões Web</text>
+    <text x="126" y="218" font-size="20" fill="#334155">Mídias, tabelas e créditos em uma página semântica.</text>
+
+    <text x="126" y="260" font-size="21" fill="#1d4ed8">Mídias</text>
+    <text x="205" y="260" font-size="21" fill="#64748b">|</text>
+    <text x="227" y="260" font-size="21" fill="#1d4ed8">Tabela</text>
+    <text x="307" y="260" font-size="21" fill="#64748b">|</text>
+    <text x="329" y="260" font-size="21" fill="#1d4ed8">Créditos</text>
+
+    <text x="126" y="314" font-size="31" font-weight="700" fill="#0f172a">Mídias da Aula</text>
+    <rect x="126" y="334" width="420" height="185" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="220" y="432" font-size="24" fill="#334155">[ imagem da aula ]</text>
+    <text x="126" y="548" font-size="18" fill="#475569">Figura 1 - Aula prática no laboratório de web.</text>
+
+    <text x="126" y="596" font-size="24" font-weight="700" fill="#0f172a">Áudio de orientação</text>
+    <rect x="126" y="610" width="420" height="42" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <circle cx="150" cy="631" r="8" fill="#64748b"/>
+    <line x1="168" y1="631" x2="520" y2="631" stroke="#64748b" stroke-width="2"/>
+
+    <text x="606" y="314" font-size="31" font-weight="700" fill="#0f172a">Recursos utilizados</text>
+    <text x="606" y="344" font-size="17" fill="#475569">Resumo dos arquivos da atividade</text>
+
+    <rect x="606" y="362" width="474" height="260" fill="#ffffff" stroke="#94a3b8"/>
+    <line x1="606" y1="404" x2="1080" y2="404" stroke="#94a3b8"/>
+    <line x1="786" y1="362" x2="786" y2="622" stroke="#94a3b8"/>
+    <line x1="920" y1="362" x2="920" y2="622" stroke="#94a3b8"/>
+    <line x1="606" y1="448" x2="1080" y2="448" stroke="#94a3b8"/>
+    <line x1="606" y1="492" x2="1080" y2="492" stroke="#94a3b8"/>
+    <line x1="606" y1="536" x2="1080" y2="536" stroke="#94a3b8"/>
+
+    <text x="620" y="389" font-size="17" font-weight="700" fill="#1f2937">Recurso</text>
+    <text x="800" y="389" font-size="17" font-weight="700" fill="#1f2937">Tipo</text>
+    <text x="934" y="389" font-size="17" font-weight="700" fill="#1f2937">Licença</text>
+
+    <text x="620" y="434" font-size="16" fill="#334155">laboratorio-web.jpg</text>
+    <text x="800" y="434" font-size="16" fill="#334155">Imagem</text>
+    <text x="934" y="434" font-size="16" fill="#334155">CC BY 4.0</text>
+
+    <text x="620" y="478" font-size="16" fill="#334155">orientacoes.mp3</text>
+    <text x="800" y="478" font-size="16" fill="#334155">Áudio</text>
+    <text x="934" y="478" font-size="16" fill="#334155">Uso educacional</text>
+
+    <text x="620" y="522" font-size="16" fill="#334155">apresentacao.mp4</text>
+    <text x="800" y="522" font-size="16" fill="#334155">Vídeo</text>
+    <text x="934" y="522" font-size="16" fill="#334155">Autoral</text>
+
+    <text x="126" y="712" font-size="30" font-weight="700" fill="#0f172a">Créditos e Licenças</text>
+    <text x="126" y="742" font-size="20" fill="#334155">Sempre informe autoria e licença dos recursos usados na página.</text>
+
+    <text x="126" y="804" font-size="20" fill="#334155">Disciplina de Padrões Web - Material para fins didáticos.</text>
+    <text x="126" y="842" font-size="21" fill="#1d4ed8">Voltar ao início</text>
+    <line x1="126" y1="847" x2="252" y2="847" stroke="#1d4ed8" stroke-width="1.4"/>
+  </g>
+</svg>
