@@ -74,50 +74,7 @@ lista-1-html/
 4. Finalize com o exercício 5 integrando os blocos anteriores.
 5. Revise tudo com o checklist da seção 7.
 
-## 5) Modelo base de arquivo (`index.html`)
-Use este modelo como ponto de partida em qualquer exercício da lista.
-
-```html
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lista 1 - Exercício</title>
-  </head>
-  <body>
-    <header>
-      <h1 id="topo">Título da Página</h1>
-      <p>Descrição breve do objetivo do exercício.</p>
-    </header>
-
-    <nav aria-label="Navegação principal">
-      <a href="#conteudo">Conteúdo</a> |
-      <a href="#apoio">Apoio</a> |
-      <a href="#rodape">Rodapé</a>
-    </nav>
-
-    <main id="conteudo">
-      <section>
-        <h2>Seção principal</h2>
-        <p>Conteúdo da atividade.</p>
-      </section>
-    </main>
-
-    <aside id="apoio">
-      <h2>Observações</h2>
-      <p>Notas complementares.</p>
-    </aside>
-
-    <footer id="rodape">
-      <p>Disciplina de Padrões Web - Lista 1.</p>
-      <p><a href="#topo">Voltar ao início</a></p>
-    </footer>
-  </body>
-</html>
-```
-
-## 6) Lista orientada de exercícios
+## 5) Lista orientada de exercícios
 
 ### Exercício 1 - Página textual estruturada
 Crie um `index.html` com:
@@ -163,7 +120,7 @@ Crie um `index.html` integrando conteúdos dos exercícios anteriores:
 | Formulário com validações nativas | 2,0 |
 | Clareza do código e revisão final | 2,0 |
 
-## 7) Validação rápida antes de considerar concluído
+## 6) Validação rápida antes de considerar concluído
 - Todos os arquivos abrem sem erro no navegador.
 - Existe apenas um `h1` por página.
 - Links internos e externos funcionam.
@@ -172,7 +129,7 @@ Crie um `index.html` integrando conteúdos dos exercícios anteriores:
 - Formulário possui `label` e validações nativas.
 - Cada página possui `footer` com identificação do encontro/lista.
 
-## 8) Erros comuns de iniciantes
+## 7) Erros comuns de iniciantes
 - pular estrutura mínima do HTML5;
 - usar `div` para tudo sem aproveitar elementos semânticos;
 - inserir mídia sem contexto ou sem crédito;
@@ -195,14 +152,3 @@ Crie um `index.html` integrando conteúdos dos exercícios anteriores:
 
 ## Resumo Final
 Neste encontro, você consolidou os fundamentos de HTML em uma lista orientada de exercícios com foco em qualidade técnica e autonomia de implementação. A entrega da Lista 1 marca a transição para a próxima etapa da unidade, em que o mesmo conteúdo será estilizado e analisado com CSS.
-
-## Questões de Fixação
-1. Quais critérios técnicos diferenciam uma página apenas funcional de uma página bem estruturada em HTML?
-
-2. Por que a organização da pasta de entrega influencia a correção da atividade?
-
-3. Em que situação o uso de landmarks semânticos melhora a navegação do usuário?
-
-4. Quais validações nativas você considera indispensáveis em um formulário acadêmico?
-
-5. Quais ajustes você faria no seu exercício final antes de publicar ou apresentar?
