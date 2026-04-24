@@ -4,7 +4,7 @@ Referência: 80 aulas de 45 minutos, organizadas em 40 encontros de 1,5h, com 2 
 
 ## Unidade 1 (Encontros 1 a 20)
 Foco: Fundamentos da Web, HTML5 semântico, CSS inicial e responsividade básica.
-Avaliação da unidade: lista, prática supervisionada e prova prática.
+Avaliação da unidade: lista, atividade avaliativa, prática supervisionada e prova prática.
 
 | Encontro | Carga | Tema Central | Entrega | Conteúdo da Aula |
 |---|---:|---|---|---|
@@ -17,8 +17,8 @@ Avaliação da unidade: lista, prática supervisionada e prova prática.
 | 7 | 1,5h | Imagens, mídias, figuras, tabelas e licenças | Página com mídia e tabela | [Encontro 7](./encontros/encontro-7.md) |
 | 8 | 1,5h | Formulários HTML e validações nativas | Formulário funcional | [Encontro 8](./encontros/encontro-8.md) |
 | 9 | 1,5h | Lista orientada de exercícios de HTML | Lista 1 entregue | [Encontro 9](./encontros/encontro-9.md) |
-| 10 | 1,5h | Oficina de revisão de HTML semântico | Reescrita semântica | [Encontro 10](./encontros/encontro-10.md) |
-| 11 | 1,5h | Introdução ao CSS: sintaxe, seletores e vínculo com HTML | CSS inicial conectado | [Encontro 11](./encontros/encontro-11.md) |
+| 10 | 1,5h | Atividade avaliativa 1: página HTML semântica integradora | Avaliação 01 entregue | [Encontro 10](./encontros/encontro-10.md) |
+| 11 | 1,5h | Correção guiada da Avaliação 01 e revisão técnica de HTML | Correção comentada | [Encontro 11](./encontros/encontro-11.md) |
 | 12 | 1,5h | Cascata, herança, especificidade e box model | Exercícios de estilos | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Prova prática da unidade 1 | Prova prática 1 | [Encontro 13](./encontros/encontro-13.md) |
 | 14 | 1,5h | Flexbox aplicado a navegação e cards | Seção em Flexbox | [Encontro 14](./encontros/encontro-14.md) |
@@ -57,5 +57,5 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação
-- Unidade 1: Lista 1 (Encontro 9) + prova prática 1 (Encontro 13) + Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 20).
+- Unidade 1: Lista 1 (Encontro 9) + Avaliação 01 aplicada no Encontro 10 e corrigida no Encontro 11 + prova prática 1 (Encontro 13) + Lista 2 (Encontro 17) + mini-projeto visual (Encontros 18 a 20).
 - Unidade 2: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
