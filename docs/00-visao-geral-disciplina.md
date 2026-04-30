@@ -43,5 +43,5 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador: 30h (20 encontros / 40 aulas)
 
 ## Avaliação
-- Unidade 1: listas, prática supervisionada e prova prática.
+- Unidade 1: Lista 1, Avaliação 01, Lista 2 e Avaliação 02.
 - Unidade 2: estudo comparativo, projeto com publicação e apresentação final.

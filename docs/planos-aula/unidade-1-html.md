@@ -1,11 +1,11 @@
-# Plano de Aula - Unidade 1 (Fundamentos da Web, HTML5 e CSS Inicial)
+# Plano de Aula - Unidade 1 (Fundamentos da Web, HTML5 e CSS)
 
 Carga horária: 30h (20 encontros / 40 aulas)
 
 ## Objetivos da Unidade
 - Compreender o papel do HTML na construção de páginas web.
 - Criar documentos HTML estruturados com semântica.
-- Dominar fundamentos iniciais de CSS para layout e responsividade.
+- Aplicar fundamentos de CSS para apresentação visual, layout e responsividade.
 
 ## Conteúdos
 - Estrutura de documento HTML5.
@@ -13,8 +13,11 @@ Carga horária: 30h (20 encontros / 40 aulas)
 - Hiperlinks, listas, tabelas e mídia.
 - Formulários HTML.
 - Semântica e acessibilidade inicial.
-- Seletores, cascata, especificidade e herança.
-- Box model, Flexbox, Grid e media queries.
+- Introdução ao CSS, sintaxe, formas de inclusão e seletores.
+- Cascata, especificidade, herança e combinadores.
+- Cores, tipografia, fundos, unidades e propriedades visuais.
+- Box model, `display` e organização de componentes.
+- Flexbox, Grid e media queries.
 
 ## Roteiro por Encontro
 
@@ -24,14 +27,14 @@ Carga horária: 30h (20 encontros / 40 aulas)
 - Produto: páginas estruturadas e navegáveis
 
 ### Encontros 9 a 13
-- Tema: Consolidação de HTML e entrada em CSS
-- Prática: revisar estrutura e conectar estilos iniciais
-- Produto: páginas com base visual consistente
+- Tema: Consolidação de HTML e introdução ao CSS
+- Prática: fechar a unidade de HTML e iniciar estilização com regras básicas, cascata e seletores
+- Produto: páginas com folha de estilos inicial e regras organizadas
 
 ### Encontros 14 a 20
 - Tema: CSS para layout e responsividade
-- Prática: aplicar Flexbox, Grid, media queries e revisão técnica
-- Produto: mini-projeto HTML/CSS funcional e responsivo
+- Prática: aplicar propriedades visuais, box model, Flexbox, Grid, media queries e revisão técnica
+- Produto: exercícios progressivos de CSS, Lista 2 e Avaliação 02
 
 ## Estratégias de Ensino
 - Demonstração de código em tempo real.
@@ -42,5 +45,6 @@ Carga horária: 30h (20 encontros / 40 aulas)
 ## Evidências de Aprendizagem
 - Uso correto de elementos semânticos.
 - Estrutura clara de conteúdo para leitura humana e máquina.
+- Capacidade de estilizar páginas com regras CSS organizadas.
 - Layout consistente e responsivo.
 - Capacidade de aplicar HTML e CSS de forma integrada.

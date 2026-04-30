@@ -13,9 +13,12 @@
 - Conceitos da Web e papel do front-end no contexto de Sistemas para Internet.
 - Estrutura base de documento HTML5.
 - Semântica e acessibilidade.
-- Formulários, introdução ao CSS e organização inicial de projeto.
-- Seletores, cascata, herança, box model, Flexbox, Grid e media queries.
-- Mini-projeto introdutório com HTML e CSS.
+- Formulários e transição de HTML para CSS.
+- Introdução ao CSS, sintaxe, inclusão de estilos e seletores.
+- Cascata, herança, especificidade, combinadores e organização de regras.
+- Cores, tipografia, fundos, box model e `display`.
+- Flexbox, Grid e media queries.
+- Lista de exercícios de CSS e atividade avaliativa prática sem projeto na unidade.
 
 ### Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador (30h)
 - Acessibilidade, SEO on-page, documentação e revisão técnica.
@@ -31,7 +34,8 @@
 ### Unidade 1
 - [ ] Cria estrutura semântica adequada.
 - [ ] Usa links, listas, mídias e formulários corretamente.
-- [ ] Aplica seletores e organiza regras de estilo.
+- [ ] Aplica seletores, cascata e especificidade com intencionalidade.
+- [ ] Controla tipografia, cores, espaçamentos e dimensões com CSS.
 - [ ] Constrói layouts com Flexbox e Grid.
 - [ ] Implementa responsividade real (mobile-first + media queries).
 
