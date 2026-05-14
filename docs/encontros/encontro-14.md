@@ -1,7 +1,6 @@
 # Encontro 14 - Correção Guiada da Prática do Encontro 13
 
 **Unidade:** Unidade 1  
-**Referência:** Correção da prática de seletores em CSS
 
 ## Visão Geral
 Neste encontro, você faz a correção guiada da prática do Encontro 13.
