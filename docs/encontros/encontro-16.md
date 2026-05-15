@@ -279,3 +279,25 @@ Isso prepara a transição para o Encontro 17, focado na estrutura global com Gr
 ## Resumo Final
 Neste encontro, você manteve a base construída no Encontro 15 e aplicou Flexbox de forma objetiva em navegação, cards e bloco de destaque.
 Com poucas alterações, o layout ficou mais organizado e pronto para avançar para Grid.
+
+## Prática Extra - Evolução Visual da Versão 3
+Agora, evolua o mesmo projeto para deixá-lo **mais próximo da imagem de referência** do encontro, sem mudar a estrutura principal do HTML.
+
+Use apenas elementos já estudados nos encontros anteriores (seletores, classes, cores, espaçamento, bordas, tipografia e Flexbox).
+
+### Objetivo da prática
+Aprimorar acabamento visual e consistência do layout, mantendo a base do Encontro 16.
+
+### Ajustes sugeridos
+1. Defina um **background para os cards** (`.card`) para destacar melhor cada bloco de conteúdo.
+2. Reforce a separação visual dos cards com combinação de `border`, `border-radius` e `padding`.
+3. Revise contraste e legibilidade de títulos e textos dos cards.
+4. Harmonize os espaçamentos entre seções (`.bloco`) para manter ritmo vertical consistente.
+5. Ajuste o bloco de destaque (`.destaque`) para ficar visualmente coerente com os cards e com o menu.
+6. Faça uma revisão final de alinhamento usando as regras de Flexbox já aplicadas (`gap`, `justify-content`, `align-items`, `flex-wrap`).
+
+### Critérios de validação
+- O visual está mais próximo da referência sem reescrever a página.
+- Os cards possuem fundo e melhor definição de área.
+- O layout continua responsivo e com quebras organizadas.
+- A solução reaproveita classes e estrutura já existentes.
