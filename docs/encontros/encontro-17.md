@@ -142,6 +142,29 @@ Para largura de blocos, é uma das formas mais simples de criar comportamento fl
 **Onde evitar**
 - fonte definida apenas com `vw`, porque pode ficar pequena demais em telas estreitas.
 
+**Entendendo melhor `clamp()`**
+`clamp()` define um valor com limite mínimo e máximo.
+A estrutura é:
+
+```css
+propriedade: clamp(valor-minimo, valor-ideal, valor-maximo);
+```
+
+No exemplo do encontro:
+```css
+font-size: clamp(1rem, 0.9rem + 0.6vw, 1.35rem);
+```
+
+Leitura prática:
+1. `1rem` é o menor tamanho permitido.
+2. `0.9rem + 0.6vw` é o valor que cresce de forma fluida com a largura da tela.
+3. `1.35rem` é o maior tamanho permitido.
+
+Resultado:
+- em telas pequenas, a fonte não desce abaixo de `1rem`;
+- em telas médias, a fonte cresce de forma gradual;
+- em telas grandes, a fonte para de crescer em `1.35rem`.
+
 **Exemplo**
 ```css
 .texto-fluido {
@@ -432,7 +455,15 @@ p,
 ```
 **Explicação linha a linha**
 - `min-height: 18vh`: define altura mínima do topo proporcional à altura da tela.
-- `clamp(...)`: limita crescimento da fonte com base na largura da viewport (`vw`).
+- `clamp(1rem, 0.9rem + 0.6vw, 1.35rem)`: define um piso, uma faixa fluida e um teto para a fonte.
+- `1rem`: tamanho mínimo (a fonte nunca fica menor que isso).
+- `0.9rem + 0.6vw`: parte fluida, que acompanha a largura da viewport.
+- `1.35rem`: tamanho máximo (a fonte para de crescer ao atingir esse valor).
+
+**Exemplo numérico rápido**
+- se o cálculo do meio resultar em `0.95rem`, o navegador usa `1rem` (mínimo).
+- se resultar em `1.2rem`, o navegador usa `1.2rem` (faixa fluida).
+- se resultar em `1.5rem`, o navegador usa `1.35rem` (máximo).
 
 **Para que serve no projeto**
 - adiciona fluidez sem exageros;
