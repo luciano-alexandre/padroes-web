@@ -29,14 +29,21 @@ Agora vamos criar a **versão 4** do projeto, com foco em dimensionamento consis
 ![Referência visual usada na continuidade do projeto](./imagens/encontro-15-exec-resultado.png)
 
 ## 2) Guia rápido de unidades
-| Unidade | Relativa a quê? | Uso principal | Exemplo prático |
-|---|---|---|---|
-| `px` | pixel CSS | bordas finas, detalhes de precisão | `border: 1px solid ...` |
-| `rem` | `font-size` do `html` | escala global de fonte e espaçamento | `padding: 1rem` |
-| `em` | `font-size` do próprio elemento | botões e componentes que escalam juntos | `padding: 0.6em 1em` |
-| `%` | dimensão do elemento pai | largura fluida de blocos | `width: 75%` |
-| `vw` | largura da viewport | ajustes fluidos com largura da tela | `font-size: 2vw` |
-| `vh` | altura da viewport | alturas mínimas de seções | `min-height: 20vh` |
+| Unidade | Pense assim | Use quando | Cuidado comum | Exemplo |
+|---|---|---|---|---|
+| `px` | valor fixo e preciso | bordas, sombras e detalhes visuais finos | usar para tudo e perder flexibilidade | `border: 1px solid #c6d6ea;` |
+| `rem` | escala global (base no `html`) | tipografia e espaçamentos da página inteira | esquecer a base e misturar valores sem padrão | `font-size: 1rem; padding: 1rem;` |
+| `em` | escala local (base no elemento pai) | componentes que devem crescer junto com o texto | herança acumulada gerar tamanho maior que o esperado | `padding: 0.6em 1em;` |
+| `%` | proporção do elemento pai | largura fluida de blocos e colunas | não identificar quem é o pai de referência | `width: 75%;` |
+| `vw` | proporção da largura da tela | ajustes fluidos de tamanho em conjunto com `clamp()` | usar sozinho e exagerar no crescimento da fonte | `font-size: clamp(1rem, 0.9rem + 0.6vw, 1.35rem);` |
+| `vh` | proporção da altura da tela | altura mínima de seções de destaque | forçar altura grande e cortar conteúdo | `min-height: 18vh;` |
+
+### Regra de bolso para decidir rápido
+- Comece com `rem` para fonte e espaçamento.
+- Use `px` apenas para detalhes de precisão (ex.: borda de `1px`).
+- Use `%` para largura de blocos dentro do contêiner.
+- Use `em` quando o componente precisa escalar com o próprio texto.
+- Use `vw` e `vh` de forma pontual e, para fontes, prefira `clamp()`.
 
 ## 3) Objetivo da evolução
 Ao final desta aula, o projeto deve ter:
