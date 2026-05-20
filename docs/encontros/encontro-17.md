@@ -205,7 +205,7 @@ Ao final desta aula, o projeto deve ter:
 - uso pontual de `vw` e `vh` para fluidez;
 - base pronta para o Encontro 18 (responsividade com media queries).
 
-## 4) Passo 1 - HTML evoluído (mesma base, com bloco de laboratório)
+## 4) Passo 1 - HTML evoluído 
 No HTML, mantemos a estrutura principal e adicionamos um bloco para comparar larguras em `%`.
 
 ```html
