@@ -16,6 +16,7 @@ A ideia é evoluir o mesmo **Portal da Turma** para uma versão com escala visua
 - `em` para escalonamento interno de componentes.
 - `%` para larguras fluidas em relação ao contêiner pai.
 - `vw` e `vh` para medidas relacionadas à viewport.
+- Valores sem unidade para ritmo de leitura (`line-height`).
 
 ## 1) Ponto de partida (Encontro 16)
 Você já tem:
@@ -190,12 +191,40 @@ Resultado:
 }
 ```
 
-### 2.7 Estratégia recomendada para este projeto
+### 2.7 `line-height` sem unidade (valor unitless)
+`line-height` aceita valores com unidade (`px`, `rem`, `%`) e sem unidade.
+Quando você usa sem unidade, como `line-height: 1.6;`, o número funciona como um multiplicador do `font-size` atual.
+
+Exemplo rápido:
+- se o texto estiver com `font-size: 16px`, `line-height: 1.6` resulta em `25.6px`;
+- se outro elemento estiver com `font-size: 20px`, o mesmo `line-height: 1.6` vira `32px`.
+
+**Por que isso é útil**
+- mantém proporção de entrelinha mesmo quando a fonte muda;
+- herda melhor entre elementos com tamanhos diferentes;
+- evita ajustes manuais em cada breakpoint.
+
+**Quando usar**
+- textos corridos, parágrafos, listas e áreas de leitura.
+
+**Quando evitar**
+- casos de alinhamento visual muito rígido, em que você precisa de valor fixo.
+
+**Exemplo**
+```css
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+```
+
+### 2.8 Estratégia recomendada para este projeto
 - Use `rem` como padrão para fontes e espaçamentos.
 - Use `px` para bordas e acabamento fino.
 - Use `%` para larguras fluidas dentro de contêineres.
 - Use `em` para componentes que precisam escalar localmente.
 - Use `vw` e `vh` de forma pontual, com limites de legibilidade.
+- Use `line-height` sem unidade em textos para preservar proporção entre fontes.
 
 ## 3) Objetivo da evolução
 Ao final desta aula, o projeto deve ter:
@@ -348,7 +377,9 @@ p,
 ```
 **Explicação linha a linha**
 - `font-size: var(--fs-2)`: usa a escala global em `rem`.
-- `line-height: 1.6`: melhora leitura sem unidade fixa.
+- `line-height: 1.6`: valor sem unidade; funciona como multiplicador do `font-size` atual.
+- se a fonte for `16px`, a linha fica em `25.6px`; se a fonte for `20px`, a linha vira `32px`.
+- por isso, o valor unitless preserva ritmo de leitura quando o tamanho de fonte muda.
 - `h1` e `h2`: mantêm hierarquia visual previsível.
 - bloco agrupado de texto: garante consistência tipográfica no projeto.
 
