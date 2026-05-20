@@ -28,22 +28,151 @@ Agora vamos criar a **versão 4** do projeto, com foco em dimensionamento consis
 ### Referência visual da sequência
 ![Referência visual usada na continuidade do projeto](./imagens/encontro-15-exec-resultado.png)
 
-## 2) Guia rápido de unidades
-| Unidade | Pense assim | Use quando | Cuidado comum | Exemplo |
-|---|---|---|---|---|
-| `px` | valor fixo e preciso | bordas, sombras e detalhes visuais finos | usar para tudo e perder flexibilidade | `border: 1px solid #c6d6ea;` |
-| `rem` | escala global (base no `html`) | tipografia e espaçamentos da página inteira | esquecer a base e misturar valores sem padrão | `font-size: 1rem; padding: 1rem;` |
-| `em` | escala local (base no elemento pai) | componentes que devem crescer junto com o texto | herança acumulada gerar tamanho maior que o esperado | `padding: 0.6em 1em;` |
-| `%` | proporção do elemento pai | largura fluida de blocos e colunas | não identificar quem é o pai de referência | `width: 75%;` |
-| `vw` | proporção da largura da tela | ajustes fluidos de tamanho em conjunto com `clamp()` | usar sozinho e exagerar no crescimento da fonte | `font-size: clamp(1rem, 0.9rem + 0.6vw, 1.35rem);` |
-| `vh` | proporção da altura da tela | altura mínima de seções de destaque | forçar altura grande e cortar conteúdo | `min-height: 18vh;` |
+## 2) Unidades de tamanho em detalhes
+Nesta seção, o objetivo é entender **como pensar** cada unidade antes de escrever o CSS.
 
-### Regra de bolso para decidir rápido
-- Comece com `rem` para fonte e espaçamento.
-- Use `px` apenas para detalhes de precisão (ex.: borda de `1px`).
-- Use `%` para largura de blocos dentro do contêiner.
-- Use `em` quando o componente precisa escalar com o próprio texto.
-- Use `vw` e `vh` de forma pontual e, para fontes, prefira `clamp()`.
+### 2.1 `px` (pixel CSS)
+`px` é uma unidade fixa de referência visual.
+Ela não acompanha automaticamente a escala do contêiner pai.
+
+**Onde usar**
+- bordas (`1px`, `2px`);
+- sombras e pequenos deslocamentos visuais;
+- ajustes finos de acabamento.
+
+**Onde evitar**
+- tamanho base de fonte em páginas inteiras;
+- espaçamentos principais do layout.
+
+**Exemplo**
+```css
+.card {
+  border: 1px solid #b8c7df;
+  border-radius: 8px;
+}
+```
+
+### 2.2 `rem` (root em)
+`rem` sempre usa como base o `font-size` do elemento `html`.
+Se `html` for `16px`, então `1rem = 16px`, `1.5rem = 24px`, `0.75rem = 12px`.
+
+**Onde usar**
+- tipografia principal (`body`, `h1`, `h2`, `p`);
+- espaçamentos globais (`padding`, `margin`, `gap`);
+- escala visual consistente do projeto.
+
+**Onde evitar**
+- detalhes que precisam de precisão fixa de 1 pixel.
+
+**Exemplo**
+```css
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.bloco {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+```
+
+### 2.3 `em` (escala local)
+`em` usa o tamanho de fonte do próprio contexto.
+Isso significa que o valor pode “crescer em cadeia” se houver herança acumulada.
+
+**Onde usar**
+- componentes que devem escalar junto com o texto local;
+- botões dentro de cards com variação de tamanho;
+- elementos internos que dependem da hierarquia do componente.
+
+**Onde evitar**
+- estruturas muito profundas sem controle de herança.
+
+**Exemplo**
+```css
+.card-escala {
+  font-size: 1.125rem;
+}
+
+.card-escala .botao {
+  font-size: 1em;
+  padding: 0.6em 1em;
+}
+```
+
+### 2.4 `%` (porcentagem)
+`%` é sempre relativo ao tamanho do elemento pai.
+Para largura de blocos, é uma das formas mais simples de criar comportamento fluido.
+
+**Onde usar**
+- largura de colunas e blocos (`50%`, `75%`, `100%`);
+- ajustes proporcionais em elementos internos.
+
+**Onde evitar**
+- quando o elemento pai não tem dimensão clara;
+- quando você precisa de limite mínimo e máximo (nesses casos, combine com `min/max`).
+
+**Exemplo**
+```css
+.largura-100 {
+  width: 100%;
+}
+
+.largura-75 {
+  width: 75%;
+}
+
+.largura-50 {
+  width: 50%;
+}
+```
+
+### 2.5 `vw` (viewport width)
+`vw` usa a largura da janela.
+`1vw` equivale a 1% da largura visível da tela.
+
+**Onde usar**
+- ajustes fluidos que acompanham a largura da viewport;
+- tipografia fluida em conjunto com `clamp()`.
+
+**Onde evitar**
+- fonte definida apenas com `vw`, porque pode ficar pequena demais em telas estreitas.
+
+**Exemplo**
+```css
+.texto-fluido {
+  font-size: clamp(1rem, 0.9rem + 0.6vw, 1.35rem);
+}
+```
+
+### 2.6 `vh` (viewport height)
+`vh` usa a altura da janela.
+`1vh` equivale a 1% da altura visível da tela.
+
+**Onde usar**
+- altura mínima de faixas de destaque;
+- seções de entrada (hero/topo) que precisam “respirar”.
+
+**Onde evitar**
+- altura fixa de conteúdo textual grande, para não cortar texto.
+
+**Exemplo**
+```css
+#topo {
+  min-height: 18vh;
+}
+```
+
+### 2.7 Estratégia recomendada para este projeto
+- Use `rem` como padrão para fontes e espaçamentos.
+- Use `px` para bordas e acabamento fino.
+- Use `%` para larguras fluidas dentro de contêineres.
+- Use `em` para componentes que precisam escalar localmente.
+- Use `vw` e `vh` de forma pontual, com limites de legibilidade.
 
 ## 3) Objetivo da evolução
 Ao final desta aula, o projeto deve ter:
