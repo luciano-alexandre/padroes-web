@@ -259,7 +259,7 @@ Neste encontro, adicione apenas as regras abaixo.
 
 ## 7) Prática Final - Projeto Padrão da Disciplina (Versão 3)
 Nesta versão, o projeto mantém a estrutura do Encontro 15 e ganha layout flexível nos pontos mais importantes.
-Isso prepara a transição para o Encontro 17, focado na estrutura global com Grid.
+Isso prepara a transição para o Encontro 17, focado em tamanhos e unidades de medida no mesmo projeto.
 
 ## Materiais para Aprofundamento
 - [MDN - Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/CSS_layout/Flexbox)
@@ -278,7 +278,7 @@ Isso prepara a transição para o Encontro 17, focado na estrutura global com Gr
 
 ## Resumo Final
 Neste encontro, você manteve a base construída no Encontro 15 e aplicou Flexbox de forma objetiva em navegação, cards e bloco de destaque.
-Com poucas alterações, o layout ficou mais organizado e pronto para avançar para Grid.
+Com poucas alterações, o layout ficou mais organizado e pronto para avançar para o estudo de dimensionamento em CSS.
 
 ## Prática Extra - Evolução Visual da Versão 3
 Agora, evolua o mesmo projeto para deixá-lo **mais próximo da imagem de referência** do encontro, sem mudar a estrutura principal do HTML.

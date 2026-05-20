@@ -24,7 +24,7 @@ Avaliação da unidade: Lista 1 (HTML), Avaliação 01 (HTML), Lista 2 (CSS) e A
 | 14 | 1,5h | Cores, tipografia, fundos e unidades de medida | Página com identidade visual inicial | [Encontro 14](./encontros/encontro-14.md) |
 | 15 | 1,5h | Box model, bordas, espaçamentos e `display` | Componentes em bloco e cartão | [Encontro 15](./encontros/encontro-15.md) |
 | 16 | 1,5h | Flexbox aplicado a navegação, agrupamentos e cards | Layout com Flexbox | [Encontro 16](./encontros/encontro-16.md) |
-| 17 | 1,5h | CSS Grid para estrutura de páginas e áreas de conteúdo | Página em Grid | [Encontro 17](./encontros/encontro-17.md) |
+| 17 | 1,5h | Tamanhos em CSS: `px`, `rem`, `em`, `%`, `vw` e `vh` | Escala tipográfica e blocos dimensionados | [Encontro 17](./encontros/encontro-17.md) |
 | 18 | 1,5h | Responsividade: viewport, unidades relativas, mobile-first e media queries | Página responsiva | [Encontro 18](./encontros/encontro-18.md) |
 | 19 | 1,5h | Lista orientada de exercícios de CSS e revisão da unidade | Lista 2 entregue | [Encontro 19](./encontros/encontro-19.md) |
 | 20 | 1,5h | Atividade avaliativa 2: estilização CSS de página HTML com responsividade básica | Avaliação 02 entregue | [Encontro 20](./encontros/encontro-20.md) |
