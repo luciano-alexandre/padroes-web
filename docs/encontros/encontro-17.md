@@ -206,7 +206,7 @@ Ao final desta aula, o projeto deve ter:
 - base pronta para o Encontro 18 (responsividade com media queries).
 
 ## 4) Passo 1 - HTML evoluído 
-No HTML, mantemos a estrutura principal e adicionamos um bloco para comparar larguras em `%`.
+No HTML, mantemos a mesma estrutura do Encontro 16 e adicionamos apenas elementos de apoio para estudar tamanhos.
 
 ```html
 <!doctype html>
@@ -264,10 +264,14 @@ No HTML, mantemos a estrutura principal e adicionamos um bloco para comparar lar
       </section>
 
       <section id="materiais" class="bloco destaque">
-        <h2>Laboratório de Larguras</h2>
-        <p class="aviso" id="aviso-semana">
-          Compare como cada faixa em porcentagem ocupa espaço dentro do mesmo contêiner.
-        </p>
+        <h2>Aviso importante</h2>
+        <div class="destaque-acao">
+          <p class="aviso" id="aviso-semana">
+            Este projeto continua evoluindo e, neste encontro, o foco é aplicar unidades de tamanho
+            com critério para manter legibilidade e consistência visual.
+          </p>
+          <a class="botao" href="#exercicios">Continuar prática</a>
+        </div>
 
         <div class="amostras-largura">
           <div class="amostra largura-100">`width: 100%`</div>
@@ -287,9 +291,10 @@ No HTML, mantemos a estrutura principal e adicionamos um bloco para comparar lar
 ```
 
 ### O que mudou no HTML?
+- a estrutura-base do Encontro 16 foi preservada (`header`, `nav`, `main`, `footer` e `.destaque-acao`);
 - inclusão da classe `.texto-fluido` para exemplo de tipografia com viewport;
 - inclusão da classe `.card-escala` para demonstrar `em` no componente;
-- criação do bloco `.amostras-largura` para comparar `%` na prática.
+- criação do bloco `.amostras-largura` para comparar `%` na prática, sem remover elementos anteriores.
 
 ## 5) Passo 2 - CSS
 Mantenha as regras já construídas nos Encontros 14, 15 e 16.
