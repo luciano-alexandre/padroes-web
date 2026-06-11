@@ -3,6 +3,7 @@
 Carga horária: 30h (20 encontros / 40 aulas)
 
 ## Objetivos da Unidade
+- Revisar tecnicamente a Avaliação 02 e consolidar os fundamentos de CSS.
 - Aplicar critérios de qualidade front-end em projetos reais.
 - Comparar e aplicar frameworks HTML/CSS com uso crítico.
 - Construir projeto integrador com documentação, publicação e apresentação técnica.
@@ -18,8 +19,8 @@ Carga horária: 30h (20 encontros / 40 aulas)
 ## Roteiro por Encontro
 
 ### Encontros 21 a 26
-- Tema: Qualidade front-end e estruturação de projeto
-- Prática: aplicar arquitetura da informação, acessibilidade, SEO e documentação
+- Tema: Correção da Avaliação 02, qualidade front-end e estruturação de projeto
+- Prática: revisar a solução da avaliação e aplicar arquitetura da informação, acessibilidade, SEO e documentação
 - Produto: base técnica consolidada para o projeto
 
 ### Encontros 27 a 34

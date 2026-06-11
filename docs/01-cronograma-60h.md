@@ -30,12 +30,12 @@ Avaliação da unidade: Lista 1 (HTML), Avaliação 01 (HTML), Lista 2 (CSS) e A
 | 20 | 1,5h | Atividade avaliativa 2: estilização CSS de página HTML com responsividade básica | Avaliação 02 entregue | [Encontro 20](./encontros/encontro-20.md) |
 
 ## Unidade 2 (Encontros 21 a 40)
-Foco: Qualidade front-end, frameworks HTML/CSS e projeto integrador.
+Foco: Fechamento técnico da Unidade 1, qualidade front-end, frameworks HTML/CSS e projeto integrador.
 Avaliação da unidade: estudo comparativo, projeto integrador publicado e apresentação final.
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
-| 21 | 1,5h | Arquitetura da informação e wireframes de baixa fidelidade | Wireframe inicial | [Encontro 21](./encontros/encontro-21.md) |
+| 21 | 1,5h | Correção guiada da Avaliação 02 e revisão técnica de CSS | Correção comentada | [Encontro 21](./encontros/encontro-21.md) |
 | 22 | 1,5h | SEO on-page, metadados e estrutura documental | Página otimizada | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Acessibilidade prática: contraste, foco, rotulagem e navegação | Revisão a11y | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Organização de arquivos, convenções e documentação | Estrutura documentada | [Encontro 24](./encontros/encontro-24.md) |
@@ -57,5 +57,5 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação
-- Unidade 1: Lista 1 (Encontro 9) + Avaliação 01 aplicada no Encontro 10 e corrigida no Encontro 11 + Lista 2 (Encontro 19) + Avaliação 02 (Encontro 20).
+- Unidade 1: Lista 1 (Encontro 9) + Avaliação 01 aplicada no Encontro 10 e corrigida no Encontro 11 + Lista 2 (Encontro 19) + Avaliação 02 aplicada no Encontro 20 e corrigida no Encontro 21.
 - Unidade 2: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
