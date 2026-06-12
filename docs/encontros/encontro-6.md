@@ -40,7 +40,7 @@ Com semântica:
 - torna o código mais legível para quem desenvolve;
 - facilita manutenção e evolução do projeto;
 - melhora interpretação por tecnologias assistivas;
-- prepara a página para práticas de acessibilidade e SEO on-page.
+- favorece interoperabilidade, compreensão estrutural e manutenção.
 
 ## 2) Landmarks: marcos de navegação da página
 Landmarks são regiões principais reconhecidas por navegadores e leitores de tela para navegação rápida entre blocos relevantes.

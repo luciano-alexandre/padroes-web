@@ -17,12 +17,15 @@
 - Introdução ao CSS, sintaxe, inclusão de estilos e seletores.
 - Cascata, herança, especificidade, combinadores e organização de regras.
 - Cores, tipografia, fundos, box model e `display`.
-- Flexbox, Grid e media queries.
+- Flexbox e media queries.
 - Lista de exercícios de CSS e atividade avaliativa prática sem projeto na unidade.
 
-### Unidade 2 - Qualidade Front-end, Frameworks HTML/CSS e Projeto Integrador (30h)
-- Acessibilidade, SEO on-page, documentação e revisão técnica.
-- Arquitetura da informação e wireframes.
+### Unidade 2 - Aprofundamento de HTML/CSS, Frameworks e Projeto Integrador (30h)
+- CSS Grid para layouts bidimensionais e responsivos.
+- Pseudoclasses, pseudoelementos, estados interativos e transições.
+- Posicionamento, empilhamento e controle de conteúdo excedente.
+- Formulários avançados e imagens responsivas.
+- Arquitetura da informação e wireframes no projeto integrador.
 - Panorama de frameworks HTML/CSS no mercado.
 - Bootstrap e Tailwind CSS em cenários introdutórios.
 - Critérios de escolha tecnológica e customização.
@@ -36,11 +39,14 @@
 - [ ] Usa links, listas, mídias e formulários corretamente.
 - [ ] Aplica seletores, cascata e especificidade com intencionalidade.
 - [ ] Controla tipografia, cores, espaçamentos e dimensões com CSS.
-- [ ] Constrói layouts com Flexbox e Grid.
+- [ ] Constrói layouts com Flexbox.
 - [ ] Implementa responsividade real (mobile-first + media queries).
 
 ### Unidade 2
-- [ ] Aplica noções de acessibilidade, SEO on-page e arquitetura da informação.
+- [ ] Constrói grades responsivas com CSS Grid.
+- [ ] Implementa estados interativos e transições com CSS.
+- [ ] Controla posicionamento, empilhamento e conteúdo excedente.
+- [ ] Estrutura formulários mais completos e imagens responsivas.
 - [ ] Compara frameworks a partir de critérios técnicos e de produtividade.
 - [ ] Customiza componentes sem perder consistência visual.
-- [ ] Publica e documenta projeto final com padrão profissional.
+- [ ] Testa e publica projeto final com padrão profissional.

@@ -17,7 +17,7 @@ Carga horária: 30h (20 encontros / 40 aulas)
 - Cascata, especificidade, herança e combinadores.
 - Cores, tipografia, fundos, unidades e propriedades visuais.
 - Box model, `display` e organização de componentes.
-- Flexbox, Grid e media queries.
+- Flexbox e media queries.
 
 ## Roteiro por Encontro
 
@@ -33,7 +33,7 @@ Carga horária: 30h (20 encontros / 40 aulas)
 
 ### Encontros 14 a 20
 - Tema: CSS para layout e responsividade
-- Prática: aplicar propriedades visuais, box model, Flexbox, Grid, media queries e revisão técnica
+- Prática: aplicar propriedades visuais, box model, Flexbox, media queries e revisão técnica
 - Produto: exercícios progressivos de CSS, Lista 2 e Avaliação 02
 
 ## Estratégias de Ensino

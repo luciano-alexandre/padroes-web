@@ -38,13 +38,13 @@ img {
 ## 4) Media queries
 ```css
 .layout {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
   .layout {
-    display: grid;
-    grid-template-columns: 16rem 1fr;
+    flex-direction: row;
   }
 }
 ```

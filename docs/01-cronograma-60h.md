@@ -21,7 +21,7 @@ Avaliação da unidade: Lista 1 (HTML), Avaliação 01 (HTML), Lista 2 (CSS) e A
 | 11 | 1,5h | Correção guiada da Avaliação 01 e revisão técnica de HTML | Correção comentada | [Encontro 11](./encontros/encontro-11.md) |
 | 12 | 1,5h | Introdução ao CSS: papel da linguagem, sintaxe, inclusão e seletores básicos | Primeira folha de estilos | [Encontro 12](./encontros/encontro-12.md) |
 | 13 | 1,5h | Continuação de CSS: cascata, herança, especificidade e combinadores | Exercícios com seletores | [Encontro 13](./encontros/encontro-13.md) |
-| 14 | 1,5h | Cores, tipografia, fundos e unidades de medida | Página com identidade visual inicial | [Encontro 14](./encontros/encontro-14.md) |
+| 14 | 1,5h | Correção guiada: cascata, herança, especificidade e combinadores | Correção comentada | [Encontro 14](./encontros/encontro-14.md) |
 | 15 | 1,5h | Box model, bordas, espaçamentos e `display` | Componentes em bloco e cartão | [Encontro 15](./encontros/encontro-15.md) |
 | 16 | 1,5h | Flexbox aplicado a navegação, agrupamentos e cards | Layout com Flexbox | [Encontro 16](./encontros/encontro-16.md) |
 | 17 | 1,5h | Tamanhos em CSS: `px`, `rem`, `em`, `%`, `vw` e `vh` | Escala tipográfica e blocos dimensionados | [Encontro 17](./encontros/encontro-17.md) |
@@ -30,17 +30,17 @@ Avaliação da unidade: Lista 1 (HTML), Avaliação 01 (HTML), Lista 2 (CSS) e A
 | 20 | 1,5h | Atividade avaliativa 2: estilização CSS de página HTML com responsividade básica | Avaliação 02 entregue | [Encontro 20](./encontros/encontro-20.md) |
 
 ## Unidade 2 (Encontros 21 a 40)
-Foco: Fechamento técnico da Unidade 1, qualidade front-end, frameworks HTML/CSS e projeto integrador.
+Foco: Aprofundamento de HTML e CSS, frameworks HTML/CSS e projeto integrador.
 Avaliação da unidade: estudo comparativo, projeto integrador publicado e apresentação final.
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 21 | 1,5h | Correção guiada da Avaliação 02 e revisão técnica de CSS | Correção comentada | [Encontro 21](./encontros/encontro-21.md) |
-| 22 | 1,5h | SEO on-page, metadados e estrutura documental | Página otimizada | [Encontro 22](./encontros/encontro-22.md) |
-| 23 | 1,5h | Acessibilidade prática: contraste, foco, rotulagem e navegação | Revisão a11y | [Encontro 23](./encontros/encontro-23.md) |
-| 24 | 1,5h | Organização de arquivos, convenções e documentação | Estrutura documentada | [Encontro 24](./encontros/encontro-24.md) |
-| 25 | 1,5h | Desenvolvimento supervisionado do projeto da unidade 2 | Projeto refinado | [Encontro 25](./encontros/encontro-25.md) |
-| 26 | 1,5h | Apresentação e fechamento parcial da unidade 2 | Mini-projeto entregue | [Encontro 26](./encontros/encontro-26.md) |
+| 22 | 1,5h | CSS Grid: linhas, colunas, áreas e grades responsivas | Layout com CSS Grid | [Encontro 22](./encontros/encontro-22.md) |
+| 23 | 1,5h | Pseudoclasses, pseudoelementos, estados interativos e transições | Interface interativa | [Encontro 23](./encontros/encontro-23.md) |
+| 24 | 1,5h | Posicionamento CSS, empilhamento, `z-index` e `overflow` | Componentes posicionados | [Encontro 24](./encontros/encontro-24.md) |
+| 25 | 1,5h | Formulários avançados: agrupamento, preenchimento e estados nativos | Formulário aprimorado | [Encontro 25](./encontros/encontro-25.md) |
+| 26 | 1,5h | Imagens responsivas, proporção, recorte e carregamento | Galeria responsiva | [Encontro 26](./encontros/encontro-26.md) |
 | 27 | 1,5h | Panorama de frameworks HTML/CSS no mercado | Mapa comparativo | [Encontro 27](./encontros/encontro-27.md) |
 | 28 | 1,5h | Bootstrap: grid, containers e utilitários | Página com Bootstrap | [Encontro 28](./encontros/encontro-28.md) |
 | 29 | 1,5h | Bootstrap: componentes, navegação e formulários | Protótipo funcional | [Encontro 29](./encontros/encontro-29.md) |
@@ -53,7 +53,7 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | 36 | 1,5h | Projeto integrador: arquitetura da informação e wireframe | Wireframe validado | [Encontro 36](./encontros/encontro-36.md) |
 | 37 | 1,5h | Projeto integrador: design tokens e guia visual | Guia visual | [Encontro 37](./encontros/encontro-37.md) |
 | 38 | 1,5h | Projeto integrador: estrutura base e implementação com framework | Primeira versão | [Encontro 38](./encontros/encontro-38.md) |
-| 39 | 1,5h | Projeto integrador: revisão final, documentação e publicação | Deploy publicado | [Encontro 39](./encontros/encontro-39.md) |
+| 39 | 1,5h | Projeto integrador: revisão final, testes e publicação | Deploy publicado | [Encontro 39](./encontros/encontro-39.md) |
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação

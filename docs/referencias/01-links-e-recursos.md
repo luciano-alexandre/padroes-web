@@ -9,12 +9,6 @@
 - Bootstrap Docs: https://getbootstrap.com/docs/
 - Tailwind CSS Docs: https://tailwindcss.com/docs/
 
-## Acessibilidade e SEO
-- W3C WAI (Acessibilidade): https://www.w3.org/WAI/
-- WCAG Overview: https://www.w3.org/WAI/standards-guidelines/wcag/
-- Google Search Central (SEO): https://developers.google.com/search
-- Lighthouse (quality/a11y/performance): https://developer.chrome.com/docs/lighthouse/overview
-
 ## Ferramentas úteis
 - CodePen: https://codepen.io/
 - Tailwind Play: https://play.tailwindcss.com/

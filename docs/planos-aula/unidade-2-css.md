@@ -1,27 +1,29 @@
-# Plano de Aula - Unidade 2 (Qualidade Front-end, Frameworks e Projeto Integrador)
+# Plano de Aula - Unidade 2 (Aprofundamento de HTML/CSS, Frameworks e Projeto Integrador)
 
 Carga horária: 30h (20 encontros / 40 aulas)
 
 ## Objetivos da Unidade
 - Revisar tecnicamente a Avaliação 02 e consolidar os fundamentos de CSS.
-- Aplicar critérios de qualidade front-end em projetos reais.
+- Aprofundar recursos de layout, interação e apresentação com HTML e CSS.
 - Comparar e aplicar frameworks HTML/CSS com uso crítico.
-- Construir projeto integrador com documentação, publicação e apresentação técnica.
+- Construir projeto integrador com testes, publicação e apresentação técnica.
 
 ## Conteúdos
-- Arquitetura da informação, SEO on-page e acessibilidade prática.
-- Organização de arquivos, convenções e documentação.
+- CSS Grid e composição de layouts bidimensionais.
+- Pseudoclasses, pseudoelementos, estados interativos e transições.
+- Posicionamento, `z-index` e `overflow`.
+- Formulários avançados e imagens responsivas.
 - Panorama de frameworks HTML/CSS no mercado.
 - Bootstrap e Tailwind CSS.
 - Critérios de escolha tecnológica, customização e manutenção.
-- Projeto integrador com documentação, publicação e apresentação técnica.
+- Projeto integrador com testes, publicação e apresentação técnica.
 
 ## Roteiro por Encontro
 
 ### Encontros 21 a 26
-- Tema: Correção da Avaliação 02, qualidade front-end e estruturação de projeto
-- Prática: revisar a solução da avaliação e aplicar arquitetura da informação, acessibilidade, SEO e documentação
-- Produto: base técnica consolidada para o projeto
+- Tema: Correção da Avaliação 02 e aprofundamento de HTML e CSS
+- Prática: aplicar Grid, estados interativos, posicionamento, formulários avançados e imagens responsivas
+- Produto: repertório técnico consolidado antes do estudo de frameworks
 
 ### Encontros 27 a 34
 - Tema: Frameworks HTML/CSS e comparação entre abordagens
@@ -31,7 +33,7 @@ Carga horária: 30h (20 encontros / 40 aulas)
 ### Encontros 35 a 40
 - Tema: Projeto integrador
 - Prática: definir briefing, implementar solução, publicar entrega e apresentar decisões técnicas
-- Produto: projeto final publicado, documentado e apresentado
+- Produto: projeto final testado, publicado e apresentado
 
 ## Estratégias de Ensino
 - Comparação entre soluções para estimular tomada de decisão técnica.
@@ -41,5 +43,6 @@ Carga horária: 30h (20 encontros / 40 aulas)
 
 ## Evidências de Aprendizagem
 - Capacidade de justificar escolhas técnicas.
+- Uso adequado de Grid, estados interativos e posicionamento.
 - Customização consistente de componentes e layouts.
-- Projeto final publicado, documentado e apresentado com clareza técnica.
+- Projeto final testado, publicado e apresentado com clareza técnica.
