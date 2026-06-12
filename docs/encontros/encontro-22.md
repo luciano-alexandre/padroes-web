@@ -1,4 +1,4 @@
-# Encontro 22 - CSS Grid: Linhas, Colunas, Áreas e Grades Responsivas
+# Encontro 22 - CSS Grid: Linhas, Colunas e Grades Responsivas
 
 **Unidade:** Unidade 2  
 **Entrega:** Layout com CSS Grid
@@ -300,41 +300,7 @@ Compare essa versão com a solução baseada em media queries.
 
 Use media queries quando quiser controlar exatamente quando a quantidade de colunas muda. Use `auto-fit` com `minmax()` quando quiser uma grade mais automática.
 
-## 10) Criando regiões com `grid-template-areas`
-O Grid também pode nomear regiões de uma página:
-
-```css
-.pagina {
-  display: grid;
-  grid-template-areas:
-    "topo topo"
-    "menu conteudo"
-    "rodape rodape";
-  grid-template-columns: 14rem 1fr;
-}
-
-.topo {
-  grid-area: topo;
-}
-
-.menu {
-  grid-area: menu;
-}
-
-.conteudo {
-  grid-area: conteudo;
-}
-
-.rodape {
-  grid-area: rodape;
-}
-```
-
-As áreas ajudam a visualizar o layout como um mapa. Elas são úteis quando a página possui regiões estáveis e claramente identificadas.
-
-Para o laboratório e a grade de cards deste encontro, `grid-template-columns` é suficiente.
-
-## 11) Evolução do portal acadêmico
+## 10) Evolução do portal acadêmico
 Vamos manter a estrutura visual do Encontro 21 e substituir a distribuição dos cards com Flexbox por CSS Grid.
 
 ### Estrutura dos arquivos
@@ -519,7 +485,7 @@ p {
 }
 ```
 
-## 12) Leitura técnica da solução
+## 11) Leitura técnica da solução
 Na versão móvel:
 
 ```css
@@ -556,7 +522,7 @@ O card de destaque ocupa a largura completa:
 }
 ```
 
-## 13) Quando usar Flexbox ou Grid?
+## 12) Quando usar Flexbox ou Grid?
 Use Flexbox quando:
 - o problema principal ocorre em uma direção;
 - os elementos precisam se alinhar em linha ou coluna;
@@ -571,7 +537,7 @@ Exemplo de uso conjunto:
 - Grid organiza os cards da página;
 - Flexbox organiza ícone, texto e botão dentro de cada card.
 
-## 14) Exercício aplicado
+## 13) Exercício aplicado
 Evolua uma página criada anteriormente para usar CSS Grid.
 
 ### Requisitos
@@ -593,7 +559,7 @@ grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 
 Compare as duas abordagens e registre qual delas oferece maior controle sobre a mudança do layout.
 
-## 15) Validação rápida antes de considerar concluído
+## 14) Validação rápida antes de considerar concluído
 - O `display: grid` está no contêiner, não nos cards.
 - Os cards são filhos diretos da grade.
 - `gap` controla o espaço entre os itens.
@@ -603,7 +569,7 @@ Compare as duas abordagens e registre qual delas oferece maior controle sobre a 
 - Não existe estouro horizontal em telas estreitas.
 - O Grid foi escolhido por uma necessidade bidimensional.
 
-## 16) Erros comuns
+## 15) Erros comuns
 - aplicar `display: grid` em cada item;
 - usar `grid-template-columns` sem transformar o elemento em Grid;
 - definir muitas colunas fixas e causar estouro horizontal;

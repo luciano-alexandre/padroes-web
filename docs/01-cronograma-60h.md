@@ -36,7 +36,7 @@ Avaliação da unidade: estudo comparativo, projeto integrador publicado e apres
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 21 | 1,5h | Correção guiada da Avaliação 02 e revisão técnica de CSS | Correção comentada | [Encontro 21](./encontros/encontro-21.md) |
-| 22 | 1,5h | CSS Grid: linhas, colunas, áreas e grades responsivas | Layout com CSS Grid | [Encontro 22](./encontros/encontro-22.md) |
+| 22 | 1,5h | CSS Grid: linhas, colunas e grades responsivas | Layout com CSS Grid | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Pseudoclasses, pseudoelementos, estados interativos e transições | Interface interativa | [Encontro 23](./encontros/encontro-23.md) |
 | 24 | 1,5h | Posicionamento CSS, empilhamento, `z-index` e `overflow` | Componentes posicionados | [Encontro 24](./encontros/encontro-24.md) |
 | 25 | 1,5h | Formulários avançados: agrupamento, preenchimento e estados nativos | Formulário aprimorado | [Encontro 25](./encontros/encontro-25.md) |
