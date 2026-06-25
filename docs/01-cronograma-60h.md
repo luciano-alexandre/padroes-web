@@ -31,31 +31,31 @@ Avaliação da unidade: Lista 1 (HTML), Avaliação 01 (HTML), Lista 2 (CSS) e A
 
 ## Unidade 2 (Encontros 21 a 40)
 Foco: Aprofundamento de HTML e CSS, frameworks HTML/CSS e projeto integrador.
-Avaliação da unidade: estudo comparativo, projeto integrador publicado e apresentação final.
+Avaliação da unidade: práticas com Bootstrap, projeto integrador publicado e apresentação final.
 
 | Encontro | Carga | Tema Central | Entrega | Material da Aula |
 |---|---:|---|---|---|
 | 21 | 1,5h | Correção guiada da Avaliação 02 e revisão técnica de CSS | Correção comentada | [Encontro 21](./encontros/encontro-21.md) |
 | 22 | 1,5h | CSS Grid: linhas, colunas e grades responsivas | Layout com CSS Grid | [Encontro 22](./encontros/encontro-22.md) |
 | 23 | 1,5h | Pseudoclasses, pseudoelementos, estados interativos e transições | Interface interativa | [Encontro 23](./encontros/encontro-23.md) |
-| 24 | 1,5h | Posicionamento CSS, empilhamento, `z-index` e `overflow` | Componentes posicionados | [Encontro 24](./encontros/encontro-24.md) |
-| 25 | 1,5h | Formulários avançados: agrupamento, preenchimento e estados nativos | Formulário aprimorado | [Encontro 25](./encontros/encontro-25.md) |
-| 26 | 1,5h | Imagens responsivas, proporção, recorte e carregamento | Galeria responsiva | [Encontro 26](./encontros/encontro-26.md) |
-| 27 | 1,5h | Panorama de frameworks HTML/CSS no mercado | Mapa comparativo | [Encontro 27](./encontros/encontro-27.md) |
-| 28 | 1,5h | Bootstrap: grid, containers e utilitários | Página com Bootstrap | [Encontro 28](./encontros/encontro-28.md) |
-| 29 | 1,5h | Bootstrap: componentes, navegação e formulários | Protótipo funcional | [Encontro 29](./encontros/encontro-29.md) |
-| 30 | 1,5h | Bootstrap: customização e sobrescrita consciente | Tema customizado | [Encontro 30](./encontros/encontro-30.md) |
-| 31 | 1,5h | Tailwind CSS: filosofia utilitária e setup conceitual | Mapa de utilitários | [Encontro 31](./encontros/encontro-31.md) |
-| 32 | 1,5h | Tailwind CSS: layout, espaçamento e responsividade | Interface utilitária | [Encontro 32](./encontros/encontro-32.md) |
-| 33 | 1,5h | Tailwind CSS: componentes com composição de classes | Biblioteca utilitária | [Encontro 33](./encontros/encontro-33.md) |
-| 34 | 1,5h | Comparação entre Bootstrap, Tailwind e CSS autoral | Relatório comparativo | [Encontro 34](./encontros/encontro-34.md) |
-| 35 | 1,5h | Escolha tecnológica e briefing do projeto integrador | Matriz de decisão | [Encontro 35](./encontros/encontro-35.md) |
-| 36 | 1,5h | Projeto integrador: arquitetura da informação e wireframe | Wireframe validado | [Encontro 36](./encontros/encontro-36.md) |
-| 37 | 1,5h | Projeto integrador: design tokens e guia visual | Guia visual | [Encontro 37](./encontros/encontro-37.md) |
-| 38 | 1,5h | Projeto integrador: estrutura base e implementação com framework | Primeira versão | [Encontro 38](./encontros/encontro-38.md) |
-| 39 | 1,5h | Projeto integrador: revisão final, testes e publicação | Deploy publicado | [Encontro 39](./encontros/encontro-39.md) |
+| 24 | 1,5h | Git e GitHub: repositório, commits, branches, pull e push | Repositório versionado no GitHub | [Encontro 24](./encontros/encontro-24.md) |
+| 25 | 1,5h | Panorama de frameworks HTML/CSS e Bootstrap: CDN, containers, grid e utilitários | Página inicial com Bootstrap | [Encontro 25](./encontros/encontro-25.md) |
+| 26 | 1,5h | Bootstrap: componentes, navegação responsiva, cards e formulários | Protótipo funcional com componentes | [Encontro 26](./encontros/encontro-26.md) |
+| 27 | 1,5h | Bootstrap: formulários, validação, tabelas e acessibilidade | Formulário e tabela com Bootstrap | [Encontro 27](./encontros/encontro-27.md) |
+| 28 | 1,5h | Bootstrap: imagens, helpers, utilitários responsivos e conteúdo editorial | Página responsiva de conteúdo | [Encontro 28](./encontros/encontro-28.md) |
+| 29 | 1,5h | Bootstrap: componentes interativos com JavaScript, collapse, modal e offcanvas | Interface interativa | [Encontro 29](./encontros/encontro-29.md) |
+| 30 | 1,5h | Bootstrap: customização, variáveis CSS e sobrescrita consciente | Tema customizado | [Encontro 30](./encontros/encontro-30.md) |
+| 31 | 1,5h | Bootstrap aplicado: composição de layouts multipágina e componentes reutilizáveis | Protótipo navegável | [Encontro 31](./encontros/encontro-31.md) |
+| 32 | 1,5h | Bootstrap no projeto integrador: padrões visuais, responsividade e checklist técnico | Base técnica validada | [Encontro 32](./encontros/encontro-32.md) |
+| 33 | 1,5h | Projeto integrador: escolha do tema, briefing, escopo e repositório no GitHub | Briefing e repositório criados | [Encontro 33](./encontros/encontro-33.md) |
+| 34 | 1,5h | Projeto integrador: arquitetura da informação, mapa do site e wireframes | Wireframes validados | [Encontro 34](./encontros/encontro-34.md) |
+| 35 | 1,5h | Projeto integrador: guia visual, tokens, Bootstrap e CSS autoral | Guia visual | [Encontro 35](./encontros/encontro-35.md) |
+| 36 | 1,5h | Projeto integrador: estrutura base, navegação e componentes compartilhados | Estrutura inicial versionada | [Encontro 36](./encontros/encontro-36.md) |
+| 37 | 1,5h | Projeto integrador: desenvolvimento das páginas obrigatórias | Primeira versão navegável | [Encontro 37](./encontros/encontro-37.md) |
+| 38 | 1,5h | Projeto integrador: formulário, tabela, responsividade e refinamento visual | Versão candidata | [Encontro 38](./encontros/encontro-38.md) |
+| 39 | 1,5h | Projeto integrador: testes, acessibilidade, revisão final e publicação | Deploy publicado | [Encontro 39](./encontros/encontro-39.md) |
 | 40 | 1,5h | Apresentações finais e fechamento da disciplina | Apresentação final | [Encontro 40](./encontros/encontro-40.md) |
 
 ## Avaliação
 - Unidade 1: Lista 1 (Encontro 9) + Avaliação 01 aplicada no Encontro 10 e corrigida no Encontro 11 + Lista 2 (Encontro 19) + Avaliação 02 aplicada no Encontro 20 e corrigida no Encontro 21.
-- Unidade 2: estudo comparativo de frameworks (Encontros 27 a 34) + projeto final com publicação e apresentação (Encontros 35 a 40).
+- Unidade 2: práticas com Git/GitHub e Bootstrap (Encontros 24 a 32) + projeto final com publicação e apresentação (Encontros 33 a 40).

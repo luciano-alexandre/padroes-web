@@ -799,7 +799,7 @@ button:disabled
 Neste encontro, você transformou uma página estática em uma interface mais comunicativa.
 Pseudoclasses representaram estados, pseudoelementos adicionaram acabamento visual e transições suavizaram mudanças entre estilos.
 
-No próximo encontro, o estudo avança para posicionamento, empilhamento, `z-index` e controle de conteúdo excedente.
+No próximo encontro, o foco passa para Git e GitHub, com criação de repositório, commits, branches, pull e push.
 
 ## Questões de Fixação
 1. Qual é a diferença entre pseudoclasse e pseudoelemento?

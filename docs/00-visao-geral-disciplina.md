@@ -36,7 +36,7 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 - Navegador (Firefox/Chrome/Edge).
 - DevTools do navegador.
 - Conta em plataforma de versionamento/publicação (GitHub).
-- Framework CSS escolhido para a unidade 2 (ex.: Bootstrap ou Tailwind CSS).
+- Bootstrap para a unidade 2.
 
 ## Organização da Carga Horária
 - Unidade 1 - Fundamentos da Web, HTML5 Semântico, CSS Inicial e Responsividade Básica: 30h (20 encontros / 40 aulas)
@@ -44,4 +44,4 @@ Ao final da disciplina, espera-se que o estudante seja capaz de:
 
 ## Avaliação
 - Unidade 1: Lista 1, Avaliação 01, Lista 2 e Avaliação 02.
-- Unidade 2: estudo comparativo, projeto com publicação e apresentação final.
+- Unidade 2: práticas com Bootstrap, projeto com publicação e apresentação final.

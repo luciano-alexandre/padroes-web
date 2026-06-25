@@ -23,13 +23,11 @@
 ### Unidade 2 - Aprofundamento de HTML/CSS, Frameworks e Projeto Integrador (30h)
 - CSS Grid para layouts bidimensionais e responsivos.
 - Pseudoclasses, pseudoelementos, estados interativos e transições.
-- Posicionamento, empilhamento e controle de conteúdo excedente.
-- Formulários avançados e imagens responsivas.
+- Git e GitHub para versionamento, repositório remoto, commits, branches, pull e push.
+- Bootstrap para containers, grid, utilitários, componentes, formulários, navegação e customização.
 - Arquitetura da informação e wireframes no projeto integrador.
-- Panorama de frameworks HTML/CSS no mercado.
-- Bootstrap e Tailwind CSS em cenários introdutórios.
-- Critérios de escolha tecnológica e customização.
-- Projeto integrador com framework escolhido.
+- Critérios de uso crítico do Bootstrap e combinação com CSS autoral.
+- Projeto integrador com Bootstrap, CSS autoral e repositório versionado.
 - Publicação e apresentação técnica.
 
 ## Checklist de Aprendizagem por Unidade
@@ -45,8 +43,7 @@
 ### Unidade 2
 - [ ] Constrói grades responsivas com CSS Grid.
 - [ ] Implementa estados interativos e transições com CSS.
-- [ ] Controla posicionamento, empilhamento e conteúdo excedente.
-- [ ] Estrutura formulários mais completos e imagens responsivas.
-- [ ] Compara frameworks a partir de critérios técnicos e de produtividade.
-- [ ] Customiza componentes sem perder consistência visual.
+- [ ] Versiona projetos com Git/GitHub, commits organizados, branches e repositório remoto.
+- [ ] Usa Bootstrap para layouts, componentes, formulários e navegação responsiva.
+- [ ] Customiza Bootstrap com CSS autoral sem perder consistência visual.
 - [ ] Testa e publica projeto final com padrão profissional.
