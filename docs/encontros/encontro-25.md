@@ -1,20 +1,23 @@
 # Encontro 25 - Frameworks HTML/CSS e Bootstrap: CDN, Containers, Grid e Utilitários
 
 **Unidade:** Unidade 2  
-**Entrega:** Página inicial com Bootstrap
+**Entrega:** Página inicial com Bootstrap construída passo a passo
 
 ## Visão Geral
 Neste encontro, você inicia o estudo de Bootstrap dentro de um fluxo profissional de projeto.
-O objetivo é entender o papel de um framework HTML/CSS, configurar Bootstrap por CDN e construir uma página responsiva usando containers, grid, breakpoints, gutters e utilitários.
+O objetivo é entender o papel de um framework HTML/CSS, configurar Bootstrap por CDN e construir uma página responsiva de forma incremental.
+
+Em vez de copiar uma página pronta, você vai montar a interface por etapas.
+Cada etapa apresenta um recurso central do Bootstrap, mostra o trecho que deve ser adicionado e explica por que aquelas classes foram usadas.
 
 Se no Encontro 24 você organizou o versionamento com Git e GitHub, agora esse repositório passa a receber uma primeira interface feita com Bootstrap.
-Cada etapa prática deve gerar commits pequenos e bem nomeados.
+Cada avanço relevante deve gerar um commit pequeno e bem nomeado.
 
 Ao final da aula, você deverá ter:
 - uma página HTML usando Bootstrap 5.3.x;
 - estrutura responsiva com `container`, `row` e `col`;
 - uso consciente de utilitários de espaçamento, cor, texto, display e flex;
-- pequena folha de CSS autoral para complementar o framework;
+- primeira combinação entre classes do Bootstrap e CSS autoral;
 - commits registrando a evolução da prática.
 
 ## Conceitos Essenciais
@@ -27,7 +30,7 @@ Ao final da aula, você deverá ter:
 - Breakpoints e classes responsivas.
 - Gutters e espaçamentos.
 - Utilitários de layout, cor, tipografia e flexbox.
-- Diferença entre usar framework e delegar decisões ao framework.
+- CSS autoral como complemento do framework.
 
 ## 1) Por que usar um framework?
 Um framework HTML/CSS reúne padrões prontos para acelerar a criação de interfaces.
@@ -60,7 +63,7 @@ Bootstrap será usado como framework principal da Unidade 2 porque:
 O objetivo não é decorar todas as classes.
 O objetivo é aprender a consultar a documentação, escolher padrões adequados e adaptar o framework ao projeto.
 
-## 3) Criar a estrutura da prática
+## 3) Estrutura inicial do projeto
 Crie uma pasta para a aula:
 
 ```text
@@ -77,9 +80,9 @@ git add .
 git commit -m "Cria estrutura da prática com Bootstrap"
 ```
 
-## 4) Adicionar Bootstrap por CDN
-Crie o arquivo `index.html` com a base abaixo.
-O link do Bootstrap deve ficar no `head`, antes da sua folha autoral.
+## 4) Passo 1 - Base HTML com Bootstrap por CDN
+Crie o arquivo `index.html` com a estrutura mínima.
+Neste primeiro momento, a página terá apenas um título simples.
 
 ```html
 <!doctype html>
@@ -102,34 +105,102 @@ O link do Bootstrap deve ficar no `head`, antes da sua folha autoral.
 </html>
 ```
 
-### Pontos importantes
-- `<!doctype html>` é obrigatório para o Bootstrap renderizar corretamente.
-- `viewport` garante comportamento responsivo em celulares.
-- A folha `styles.css` vem depois do Bootstrap para permitir ajustes autorais.
-- O atributo `integrity` está vinculado à versão usada; ao trocar a versão, consulte a documentação e atualize também esse valor.
+### O que observar
+- `<!doctype html>` é necessário para o Bootstrap renderizar corretamente.
+- `viewport` ativa o comportamento responsivo em celulares.
+- O CSS do Bootstrap vem antes do `styles.css`.
+- Sua folha autoral vem depois para permitir complementos.
 
 Abra a página no navegador.
-Você já verá diferenças de fonte, espaçamento e estilo base aplicadas pelo Bootstrap.
+Você já verá fonte, cor e espaçamento base aplicados pelo Bootstrap.
 
-## 5) Laboratório: página inicial de um evento acadêmico
-Substitua o conteúdo do `body` por uma página completa.
-Nesta primeira aula, o foco é layout e utilitários; componentes mais complexos virão no Encontro 26.
+## 5) Passo 2 - Container e espaçamento vertical
+Agora substitua o conteúdo do `body` por um cabeçalho semântico.
+Começamos com `header` e `container`.
+
+```html
+<header class="py-5">
+  <div class="container">
+    <h1>Semana de Integração Web</h1>
+    <p>Uma programação prática para consolidar HTML, CSS, Bootstrap, GitHub e projeto integrador.</p>
+  </div>
+</header>
+```
+
+### Classes usadas
+- `container`: centraliza o conteúdo e limita a largura máxima.
+- `py-5`: adiciona preenchimento vertical.
+
+### Resultado esperado
+O texto deixa de ficar colado à borda da janela.
+O conteúdo passa a ter uma largura confortável.
+
+## 6) Passo 3 - Cores e tipografia utilitária
+Atualize o `header` e os textos.
 
 ```html
 <header class="bg-primary text-white py-5">
   <div class="container">
     <p class="text-uppercase fw-semibold mb-2">Padrões Web</p>
     <h1 class="display-5 fw-bold mb-3">Semana de Integração Web</h1>
-    <p class="lead mb-4">
+    <p class="lead mb-0">
       Uma programação prática para consolidar HTML, CSS, Bootstrap, GitHub e projeto integrador.
     </p>
-    <div class="d-flex flex-wrap gap-2">
-      <a class="btn btn-light btn-lg" href="#programacao">Ver programação</a>
-      <a class="btn btn-outline-light btn-lg" href="#criterios">Critérios técnicos</a>
-    </div>
   </div>
 </header>
+```
 
+### Classes usadas
+- `bg-primary`: aplica cor de fundo primária do Bootstrap.
+- `text-white`: deixa o texto branco.
+- `text-uppercase`: transforma o texto em maiúsculas.
+- `fw-semibold` e `fw-bold`: controlam peso da fonte.
+- `display-5`: aplica estilo de título de destaque.
+- `lead`: aumenta a leitura do parágrafo introdutório.
+- `mb-2`, `mb-3` e `mb-0`: controlam margem inferior.
+
+### Resultado esperado
+O cabeçalho ganha hierarquia visual e contraste.
+A página começa a parecer uma interface, não apenas um HTML cru.
+
+## 7) Passo 4 - Botões e Flexbox com utilitários
+Acrescente ações no cabeçalho.
+Coloque o bloco abaixo depois do parágrafo `lead`.
+
+```html
+<div class="d-flex flex-wrap gap-2 mt-4">
+  <a class="btn btn-light btn-lg" href="#programacao">Ver programação</a>
+  <a class="btn btn-outline-light btn-lg" href="#criterios">Critérios técnicos</a>
+</div>
+```
+
+### Classes usadas
+- `d-flex`: transforma o bloco em flex container.
+- `flex-wrap`: permite quebra de linha em telas pequenas.
+- `gap-2`: cria espaço entre os botões.
+- `mt-4`: adiciona margem superior.
+- `btn`: aplica estilo base de botão.
+- `btn-light`: botão claro.
+- `btn-outline-light`: botão com borda clara.
+- `btn-lg`: botão maior.
+
+### Resultado esperado
+Os links passam a parecer ações.
+Em tela pequena, os botões podem quebrar de linha sem estourar a largura.
+
+Faça um commit:
+
+```bash
+git status
+git add index.html
+git commit -m "Adiciona cabeçalho com utilitários Bootstrap"
+```
+
+## 8) Passo 5 - Primeira seção com grid
+Depois do `header`, crie o `main` com uma seção de critérios.
+Comece com duas colunas: texto de apresentação e área de itens.
+
+```html
 <main>
   <section class="py-5" id="criterios" aria-labelledby="titulo-criterios">
     <div class="container">
@@ -144,105 +215,195 @@ Nesta primeira aula, o foco é layout e utilitários; componentes mais complexos
         </div>
 
         <div class="col-12 col-lg-7">
-          <div class="row g-3">
-            <article class="col-12 col-md-6">
-              <div class="h-100 border rounded-3 p-4 shadow-sm">
-                <span class="etapa-numero">1</span>
-                <h3 class="h5 mt-3">Semântica</h3>
-                <p class="mb-0">Use landmarks, títulos em ordem lógica e links com sentido.</p>
-              </div>
-            </article>
-
-            <article class="col-12 col-md-6">
-              <div class="h-100 border rounded-3 p-4 shadow-sm">
-                <span class="etapa-numero">2</span>
-                <h3 class="h5 mt-3">Responsividade</h3>
-                <p class="mb-0">Teste a página em diferentes larguras e revise quebras do grid.</p>
-              </div>
-            </article>
-
-            <article class="col-12 col-md-6">
-              <div class="h-100 border rounded-3 p-4 shadow-sm">
-                <span class="etapa-numero">3</span>
-                <h3 class="h5 mt-3">Autoria</h3>
-                <p class="mb-0">Complemente o framework com decisões visuais próprias.</p>
-              </div>
-            </article>
-
-            <article class="col-12 col-md-6">
-              <div class="h-100 border rounded-3 p-4 shadow-sm">
-                <span class="etapa-numero">4</span>
-                <h3 class="h5 mt-3">Versionamento</h3>
-                <p class="mb-0">Registre cada avanço em commits claros no GitHub.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-light py-5" id="programacao" aria-labelledby="titulo-programacao">
-    <div class="container">
-      <div class="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-end mb-4">
-        <div>
-          <p class="text-primary fw-semibold text-uppercase mb-2">Programação</p>
-          <h2 id="titulo-programacao" class="h1 mb-0">Trilhas da semana</h2>
-        </div>
-        <a class="btn btn-primary" href="#resumo">Ver resumo</a>
-      </div>
-
-      <div class="row g-4">
-        <article class="col-12 col-md-6 col-xl-4">
-          <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
-            <p class="text-secondary fw-semibold mb-2">Trilha 1</p>
-            <h3 class="h4">HTML e conteúdo</h3>
-            <p>Revisão de semântica, navegação, tabelas, formulários e organização textual.</p>
-            <span class="badge text-bg-primary">Base técnica</span>
-          </div>
-        </article>
-
-        <article class="col-12 col-md-6 col-xl-4">
-          <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
-            <p class="text-secondary fw-semibold mb-2">Trilha 2</p>
-            <h3 class="h4">CSS e responsividade</h3>
-            <p>Grid, estados interativos, media queries e refinamento visual em telas reais.</p>
-            <span class="badge text-bg-success">Interface</span>
-          </div>
-        </article>
-
-        <article class="col-12 col-md-6 col-xl-4">
-          <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
-            <p class="text-secondary fw-semibold mb-2">Trilha 3</p>
-            <h3 class="h4">Bootstrap aplicado</h3>
-            <p>Uso de containers, grid, utilitários e componentes com CSS autoral.</p>
-            <span class="badge text-bg-warning">Framework</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-5" id="resumo" aria-labelledby="titulo-resumo">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-12 col-md-4">
-          <p class="display-6 fw-bold text-primary mb-0">3</p>
-          <p class="mb-0">trilhas de estudo</p>
-        </div>
-        <div class="col-12 col-md-4">
-          <p class="display-6 fw-bold text-primary mb-0">5</p>
-          <p class="mb-0">práticas orientadas</p>
-        </div>
-        <div class="col-12 col-md-4">
-          <p class="display-6 fw-bold text-primary mb-0">1</p>
-          <p class="mb-0">projeto integrador</p>
+          <p class="mb-0">Aqui entrarão os critérios em cards menores.</p>
         </div>
       </div>
     </div>
   </section>
 </main>
+```
 
+### Classes usadas
+- `row`: cria uma linha do grid.
+- `g-4`: define espaçamento entre colunas e linhas.
+- `align-items-start`: alinha os itens no início do eixo vertical.
+- `col-12`: ocupa toda a largura em telas pequenas.
+- `col-lg-5`: ocupa 5 colunas a partir de telas grandes.
+- `col-lg-7`: ocupa 7 colunas a partir de telas grandes.
+
+### Resultado esperado
+No celular, os blocos ficam empilhados.
+Em telas grandes, o texto fica à esquerda e a área dos critérios à direita.
+
+## 9) Passo 6 - Grid aninhado para cards simples
+Substitua o parágrafo "Aqui entrarão..." por uma `row` interna com quatro critérios.
+
+```html
+<div class="row g-3">
+  <article class="col-12 col-md-6">
+    <div class="h-100 border rounded-3 p-4 shadow-sm">
+      <span class="etapa-numero">1</span>
+      <h3 class="h5 mt-3">Semântica</h3>
+      <p class="mb-0">Use landmarks, títulos em ordem lógica e links com sentido.</p>
+    </div>
+  </article>
+
+  <article class="col-12 col-md-6">
+    <div class="h-100 border rounded-3 p-4 shadow-sm">
+      <span class="etapa-numero">2</span>
+      <h3 class="h5 mt-3">Responsividade</h3>
+      <p class="mb-0">Teste a página em diferentes larguras e revise quebras do grid.</p>
+    </div>
+  </article>
+
+  <article class="col-12 col-md-6">
+    <div class="h-100 border rounded-3 p-4 shadow-sm">
+      <span class="etapa-numero">3</span>
+      <h3 class="h5 mt-3">Autoria</h3>
+      <p class="mb-0">Complemente o framework com decisões visuais próprias.</p>
+    </div>
+  </article>
+
+  <article class="col-12 col-md-6">
+    <div class="h-100 border rounded-3 p-4 shadow-sm">
+      <span class="etapa-numero">4</span>
+      <h3 class="h5 mt-3">Versionamento</h3>
+      <p class="mb-0">Registre cada avanço em commits claros no GitHub.</p>
+    </div>
+  </article>
+</div>
+```
+
+### Classes usadas
+- `col-md-6`: cria duas colunas a partir de telas médias.
+- `h-100`: faz o bloco ocupar toda a altura disponível.
+- `border`: aplica borda.
+- `rounded-3`: aplica cantos arredondados.
+- `p-4`: aplica preenchimento interno.
+- `shadow-sm`: aplica sombra discreta.
+- `h5`: usa aparência de título menor sem mudar a semântica do `h3`.
+
+### Resultado esperado
+Os quatro critérios aparecem em uma coluna no celular e em duas colunas em telas médias.
+Os blocos ficam visualmente agrupados, mas ainda sem uma identidade própria para os números.
+
+## 10) Passo 7 - CSS autoral para complementar Bootstrap
+Agora crie o arquivo `styles.css`.
+O marcador `.etapa-numero` é uma decisão visual específica da página; por isso entra como CSS autoral.
+
+```css
+.etapa-numero {
+  display: inline-grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border-radius: 50%;
+  background-color: #0d6efd;
+  color: #ffffff;
+  font-weight: 700;
+}
+```
+
+### Por que não fazer tudo com classes prontas?
+Bootstrap ajuda no layout, espaçamento e padrões comuns.
+Mas alguns detalhes fazem parte da identidade do projeto.
+Quando uma solução é específica e se repete com significado, uma classe autoral é mais clara do que empilhar muitas classes utilitárias.
+
+Faça um commit:
+
+```bash
+git status
+git add index.html styles.css
+git commit -m "Adiciona grid de critérios e CSS autoral"
+```
+
+## 11) Passo 8 - Seção com fundo e cards de programação
+Depois da seção de critérios, antes do fechamento de `</main>`, adicione a seção de programação.
+
+```html
+<section class="bg-light py-5" id="programacao" aria-labelledby="titulo-programacao">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-end mb-4">
+      <div>
+        <p class="text-primary fw-semibold text-uppercase mb-2">Programação</p>
+        <h2 id="titulo-programacao" class="h1 mb-0">Trilhas da semana</h2>
+      </div>
+      <a class="btn btn-primary" href="#resumo">Ver resumo</a>
+    </div>
+
+    <div class="row g-4">
+      <article class="col-12 col-md-6 col-xl-4">
+        <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
+          <p class="text-secondary fw-semibold mb-2">Trilha 1</p>
+          <h3 class="h4">HTML e conteúdo</h3>
+          <p>Revisão de semântica, navegação, tabelas, formulários e organização textual.</p>
+          <span class="badge text-bg-primary">Base técnica</span>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-6 col-xl-4">
+        <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
+          <p class="text-secondary fw-semibold mb-2">Trilha 2</p>
+          <h3 class="h4">CSS e responsividade</h3>
+          <p>Grid, estados interativos, media queries e refinamento visual em telas reais.</p>
+          <span class="badge text-bg-success">Interface</span>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-6 col-xl-4">
+        <div class="h-100 bg-white border rounded-3 p-4 shadow-sm">
+          <p class="text-secondary fw-semibold mb-2">Trilha 3</p>
+          <h3 class="h4">Bootstrap aplicado</h3>
+          <p>Uso de containers, grid, utilitários e componentes com CSS autoral.</p>
+          <span class="badge text-bg-warning">Framework</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+```
+
+### Classes usadas
+- `bg-light`: cria uma faixa clara para separar a seção.
+- `flex-column flex-md-row`: empilha no celular e alinha em linha a partir de `md`.
+- `justify-content-between`: separa título e ação.
+- `align-items-md-end`: alinha pela base em telas médias.
+- `col-xl-4`: cria três colunas em telas extra grandes.
+- `badge`: cria etiqueta curta de categoria.
+- `text-bg-*`: combina cor de fundo e texto adequada ao badge.
+
+### Resultado esperado
+A página passa a ter uma seção de programação com cards em grid.
+O layout deve se adaptar de uma coluna até três colunas.
+
+## 12) Passo 9 - Indicadores e rodapé
+Depois da programação, ainda antes do fechamento de `</main>`, adicione uma seção de resumo.
+
+```html
+<section class="py-5" id="resumo" aria-labelledby="titulo-resumo">
+  <div class="container">
+    <h2 id="titulo-resumo" class="visually-hidden">Resumo da programação</h2>
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <p class="display-6 fw-bold text-primary mb-0">3</p>
+        <p class="mb-0">trilhas de estudo</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <p class="display-6 fw-bold text-primary mb-0">5</p>
+        <p class="mb-0">práticas orientadas</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <p class="display-6 fw-bold text-primary mb-0">1</p>
+        <p class="mb-0">projeto integrador</p>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+Depois do `main`, adicione o rodapé:
+
+```html
 <footer class="border-top py-4">
   <div class="container d-flex flex-column flex-md-row gap-2 justify-content-between">
     <p class="mb-0">Disciplina de Padrões Web</p>
@@ -251,226 +412,82 @@ Nesta primeira aula, o foco é layout e utilitários; componentes mais complexos
 </footer>
 ```
 
-## 6) CSS autoral mínimo
-Crie o arquivo `styles.css`.
-Ele deve complementar o Bootstrap, não competir com todas as classes do framework.
-
-```css
-.etapa-numero {
-  display: inline-grid;
-  width: 2.5rem;
-  height: 2.5rem;
-  place-items: center;
-  border-radius: 50%;
-  background-color: #0d6efd;
-  color: #ffffff;
-  font-weight: 700;
-}
-```
-
-### Resultado esperado
-A página deve apresentar:
-- cabeçalho com contraste forte;
-- seções com espaçamento vertical;
-- grade responsiva;
-- cartões simples com altura consistente;
-- números de destaque;
-- rodapé flexível.
+### Classes usadas
+- `visually-hidden`: mantém o título acessível, mas invisível visualmente.
+- `display-6`: cria destaque numérico.
+- `border-top`: adiciona borda superior.
+- `justify-content-between`: separa os textos do rodapé em telas médias.
 
 Faça um commit:
 
 ```bash
 git status
-git add index.html styles.css
-git commit -m "Cria página inicial com Bootstrap"
-```
-
-## 7) Containers
-Containers limitam a largura do conteúdo e centralizam a página.
-
-Exemplo:
-
-```html
-<div class="container">
-  ...
-</div>
-```
-
-Use `container` quando o conteúdo precisa ter largura máxima confortável.
-Use `container-fluid` quando a seção precisa ocupar toda a largura disponível.
-
-Exemplo de área fluida:
-
-```html
-<section class="container-fluid bg-light py-5">
-  <div class="container">
-    <h2>Conteúdo com fundo de ponta a ponta</h2>
-  </div>
-</section>
-```
-
-Nesse padrão:
-- `container-fluid` controla a faixa visual;
-- `container` mantém o texto alinhado e legível.
-
-## 8) Grid de 12 colunas
-O grid do Bootstrap usa a estrutura:
-
-```html
-<div class="container">
-  <div class="row">
-    <div class="col">Coluna 1</div>
-    <div class="col">Coluna 2</div>
-  </div>
-</div>
-```
-
-Na prática da aula:
-
-```html
-<article class="col-12 col-md-6 col-xl-4">
-  ...
-</article>
-```
-
-Essa combinação significa:
-- `col-12`: ocupa toda a linha em telas muito pequenas;
-- `col-md-6`: ocupa metade da linha a partir do breakpoint `md`;
-- `col-xl-4`: ocupa um terço da linha a partir do breakpoint `xl`.
-
-O grid é mobile-first.
-As classes menores valem primeiro; as classes maiores entram conforme há espaço.
-
-## 9) Breakpoints
-Breakpoints são faixas de largura em que o layout muda.
-No Bootstrap, classes como `col-md-6`, `d-md-flex` e `text-lg-start` indicam em qual faixa a regra passa a valer.
-
-Exemplo:
-
-```html
-<div class="d-flex flex-column flex-md-row gap-3">
-  ...
-</div>
-```
-
-Leitura:
-- em telas pequenas, `flex-column` organiza em coluna;
-- a partir de `md`, `flex-md-row` organiza em linha;
-- `gap-3` mantém espaçamento entre itens.
-
-Use o DevTools para alternar larguras e observar quando cada classe muda o comportamento.
-
-## 10) Gutters e espaçamentos
-`g-*` controla o espaço entre colunas e linhas dentro de uma `row`.
-
-Exemplo:
-
-```html
-<div class="row g-4">
-  ...
-</div>
-```
-
-Classes úteis:
-
-```text
-g-0, g-1, g-2, g-3, g-4, g-5
-gx-4
-gy-4
-```
-
-Para margens e preenchimentos:
-
-```text
-m-0
-mb-3
-mt-4
-p-4
-py-5
-px-3
-```
-
-Leitura dos nomes:
-- `m` significa margin;
-- `p` significa padding;
-- `t`, `b`, `x` e `y` indicam direção;
-- o número indica escala de espaçamento.
-
-## 11) Utilitários de cor, texto e flex
-Bootstrap oferece classes utilitárias para ajustes frequentes.
-
-Exemplos usados na página:
-
-```html
-<p class="text-primary fw-semibold text-uppercase mb-2">Programação</p>
-
-<div class="d-flex flex-wrap gap-2">
-  <a class="btn btn-light" href="#programacao">Ver programação</a>
-</div>
-```
-
-Classes comuns:
-
-```text
-text-primary
-text-secondary
-bg-light
-bg-primary
-text-white
-fw-bold
-fw-semibold
-text-uppercase
-d-flex
-flex-wrap
-justify-content-between
-align-items-md-end
-```
-
-Use utilitários para ajustes pequenos.
-Quando uma combinação se repetir muito ou representar identidade visual própria, crie uma classe autoral no `styles.css`.
-
-## 12) Bootstrap e CSS autoral
-Uma página madura combina:
-- classes do Bootstrap para estrutura e padrões recorrentes;
-- CSS autoral para identidade, detalhes específicos e ajustes do projeto.
-
-Exemplo da aula:
-
-```html
-<span class="etapa-numero">1</span>
-```
-
-```css
-.etapa-numero {
-  display: inline-grid;
-  width: 2.5rem;
-  height: 2.5rem;
-  place-items: center;
-  border-radius: 50%;
-  background-color: #0d6efd;
-  color: #ffffff;
-  font-weight: 700;
-}
-```
-
-Essa classe existe porque o marcador numerado é uma decisão visual específica da página.
-
-## 13) Registrar a evolução no Git
-Depois de estudar containers, grid e utilitários, faça um commit.
-
-```bash
-git status
-git add index.html styles.css
-git commit -m "Aplica grid e utilitários responsivos do Bootstrap"
-```
-
-Envie ao GitHub:
-
-```bash
+git add index.html
+git commit -m "Completa página inicial com indicadores e rodapé"
 git push
 ```
 
-Se o repositório ainda não tiver remoto, retome o procedimento do Encontro 24 antes do `push`.
+## 13) Leitura dos principais padrões usados
+Ao final da construção, observe os padrões que mais apareceram.
+
+### Layout
+```text
+container
+row
+col-12
+col-md-6
+col-lg-5
+col-lg-7
+col-xl-4
+```
+
+### Espaçamento
+```text
+py-5
+p-4
+mt-4
+mb-0
+mb-2
+mb-3
+mb-4
+g-3
+g-4
+gap-2
+gap-3
+```
+
+### Tipografia e cor
+```text
+display-5
+display-6
+lead
+h1
+h4
+h5
+fw-bold
+fw-semibold
+text-primary
+text-secondary
+text-white
+bg-primary
+bg-light
+bg-white
+```
+
+### Flexbox e componentes simples
+```text
+d-flex
+flex-wrap
+flex-column
+flex-md-row
+justify-content-between
+align-items-md-end
+btn
+badge
+border
+rounded-3
+shadow-sm
+```
 
 ## 14) Exercício aplicado
 Crie uma página inicial com Bootstrap para um dos temas do projeto integrador.
@@ -485,7 +502,7 @@ Crie uma página inicial com Bootstrap para um dos temas do projeto integrador.
 - aplicar `g-*` para espaçamento de grid;
 - usar utilitários de cor, espaçamento, texto e flex;
 - criar pelo menos uma classe autoral no `styles.css`;
-- registrar pelo menos dois commits durante a prática.
+- registrar pelo menos três commits durante a prática.
 
 ### Desafio adicional
 Inclua uma seção de indicadores com três números ou dados importantes do tema escolhido.
@@ -505,6 +522,7 @@ Ela deve ficar em uma coluna no celular e em três colunas em telas médias ou m
 ## 16) Erros comuns
 - esquecer o `meta viewport`;
 - colocar `col-*` fora de uma `row`;
+- copiar um bloco completo sem entender cada classe;
 - criar muitas classes autorais para algo que um utilitário resolveria bem;
 - usar utilitários em excesso até tornar o HTML difícil de ler;
 - copiar exemplos sem adaptar conteúdo, semântica e hierarquia;
@@ -529,7 +547,7 @@ Ela deve ficar em uma coluna no celular e em três colunas em telas médias ou m
 - [ ] Consigo registrar a evolução da página com commits claros.
 
 ## Resumo Final
-Neste encontro, você construiu uma primeira página responsiva com Bootstrap.
+Neste encontro, você construiu uma primeira página responsiva com Bootstrap passo a passo.
 O framework forneceu base, grid e utilitários; o CSS autoral entrou apenas onde havia uma decisão visual específica.
 
 No próximo encontro, o foco passa para componentes do Bootstrap, navegação responsiva, cards, formulários e pequenos comportamentos com JavaScript.

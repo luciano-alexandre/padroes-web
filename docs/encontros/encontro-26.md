@@ -1,19 +1,23 @@
 # Encontro 26 - Bootstrap: Componentes, Navegação Responsiva, Cards e Formulários
 
 **Unidade:** Unidade 2  
-**Entrega:** Protótipo funcional com componentes
+**Entrega:** Protótipo funcional com componentes construído passo a passo
 
 ## Visão Geral
 Neste encontro, você aprofunda o uso do Bootstrap por meio de componentes prontos e padrões de interação.
-O foco é construir um protótipo com navegação responsiva, cards, badges, alertas, botões, formulário e modal.
+O foco é construir um protótipo incremental com navegação responsiva, alertas, cards, badges, botões, formulário e modal.
+
+Em vez de iniciar com uma página completa, você vai partir de uma base mínima e adicionar um componente por vez.
+Cada etapa explica a estrutura HTML esperada pelo Bootstrap, as classes principais, os atributos necessários e o ponto em que o CSS autoral entra.
 
 Se no Encontro 25 você usou containers, grid e utilitários, agora esses recursos servem de base para montar uma interface mais próxima de um produto real.
 O desafio é adaptar componentes sem perder semântica, acessibilidade e identidade visual.
 
 Ao final da aula, você deverá ter:
 - navbar responsiva com menu recolhível;
-- seção com cards organizados em grid;
-- botões e badges aplicados com intenção;
+- área de destaque com grid e ações;
+- alerta informativo;
+- cards organizados em grid;
 - formulário com classes do Bootstrap;
 - modal acionado por atributo `data-bs-*`;
 - CSS autoral pequeno e organizado;
@@ -25,9 +29,9 @@ Ao final da aula, você deverá ter:
 - JavaScript bundle do Bootstrap.
 - Atributos `data-bs-*`.
 - Navbar responsiva.
-- Cards e badges.
-- Alerts e buttons.
+- Alerts, cards, badges e buttons.
 - Form controls, selects e checks.
+- List group.
 - Modal.
 - Acessibilidade em componentes prontos.
 - Customização sem sobrescrita agressiva.
@@ -59,23 +63,7 @@ Você deve adaptar:
 - atributos de acessibilidade;
 - integração com o conteúdo do projeto.
 
-## 2) JavaScript bundle do Bootstrap
-Alguns componentes precisam do JavaScript do Bootstrap.
-É o caso de navbar recolhível, modal, collapse, offcanvas, dropdown e tooltip.
-
-Use o script antes do fechamento do `body`:
-
-```html
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-  crossorigin="anonymous"
-></script>
-```
-
-O bundle inclui os recursos necessários para os componentes interativos mais comuns.
-
-## 3) Estrutura da prática
+## 2) Estrutura inicial da prática
 Crie uma pasta ou continue a pasta do Encontro 25.
 
 ```text
@@ -92,8 +80,9 @@ git add .
 git commit -m "Prepara prática de componentes Bootstrap"
 ```
 
-## 4) Laboratório: protótipo de programação acadêmica
-Crie o arquivo `index.html` com a base completa.
+## 3) Passo 1 - Base HTML com CSS e JavaScript do Bootstrap
+Crie o arquivo `index.html` com a base mínima.
+Diferentemente do Encontro 25, agora também vamos carregar o JavaScript bundle, necessário para navbar recolhível e modal.
 
 ```html
 <!doctype html>
@@ -111,248 +100,7 @@ Crie o arquivo `index.html` com a base completa.
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Integra Web</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#menuPrincipal"
-          aria-controls="menuPrincipal"
-          aria-expanded="false"
-          aria-label="Alternar navegação"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menuPrincipal">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#oficinas">Oficinas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#inscricao">Inscrição</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="hero-bootstrap py-5" id="inicio">
-      <div class="container py-lg-4">
-        <div class="row g-4 align-items-center">
-          <div class="col-12 col-lg-7">
-            <span class="badge text-bg-warning mb-3">Nova programação</span>
-            <h1 class="display-5 fw-bold">Bootstrap aplicado a interfaces reais</h1>
-            <p class="lead mb-4">
-              Um protótipo com navegação, cards, formulário e modal para apoiar o projeto integrador.
-            </p>
-            <div class="d-flex flex-wrap gap-2">
-              <a class="btn btn-primary btn-lg" href="#oficinas">Explorar oficinas</a>
-              <button
-                class="btn btn-outline-primary btn-lg"
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#modalOrientacoes"
-              >
-                Ver orientações
-              </button>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-5">
-            <div class="bg-white border rounded-3 shadow-sm p-4">
-              <p class="text-primary fw-semibold text-uppercase mb-2">Resumo</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-0 d-flex justify-content-between">
-                  <span>Oficinas</span>
-                  <strong>3</strong>
-                </li>
-                <li class="list-group-item px-0 d-flex justify-content-between">
-                  <span>Formato</span>
-                  <strong>Presencial</strong>
-                </li>
-                <li class="list-group-item px-0 d-flex justify-content-between">
-                  <span>Entrega</span>
-                  <strong>Protótipo</strong>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section class="py-5" aria-labelledby="titulo-alerta">
-        <div class="container">
-          <div class="alert alert-primary mb-0" role="alert">
-            <h2 id="titulo-alerta" class="h5 alert-heading">Atenção ao uso dos componentes</h2>
-            <p class="mb-0">
-              Componentes prontos devem ser adaptados ao conteúdo, testados em telas pequenas e
-              registrados no histórico do Git.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-light" id="oficinas" aria-labelledby="titulo-oficinas">
-        <div class="container">
-          <div class="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-end mb-4">
-            <div>
-              <p class="text-primary fw-semibold text-uppercase mb-2">Oficinas</p>
-              <h2 id="titulo-oficinas" class="h1 mb-0">Programação prática</h2>
-            </div>
-            <a class="btn btn-primary" href="#inscricao">Inscrever interesse</a>
-          </div>
-
-          <div class="row g-4">
-            <article class="col-12 col-md-6 col-xl-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body d-flex flex-column">
-                  <div class="d-flex justify-content-between gap-2 mb-3">
-                    <span class="badge text-bg-primary">Layout</span>
-                    <span class="text-secondary">09h</span>
-                  </div>
-                  <h3 class="card-title h5">Grid e utilitários</h3>
-                  <p class="card-text">
-                    Organização de seções responsivas com containers, linhas, colunas e espaçamentos.
-                  </p>
-                  <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="col-12 col-md-6 col-xl-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body d-flex flex-column">
-                  <div class="d-flex justify-content-between gap-2 mb-3">
-                    <span class="badge text-bg-success">Componentes</span>
-                    <span class="text-secondary">10h30</span>
-                  </div>
-                  <h3 class="card-title h5">Cards e navegação</h3>
-                  <p class="card-text">
-                    Uso de navbar, cards, badges, botões e listas com atenção à semântica.
-                  </p>
-                  <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="col-12 col-md-6 col-xl-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body d-flex flex-column">
-                  <div class="d-flex justify-content-between gap-2 mb-3">
-                    <span class="badge text-bg-warning">Formulários</span>
-                    <span class="text-secondary">14h</span>
-                  </div>
-                  <h3 class="card-title h5">Inscrição e validação</h3>
-                  <p class="card-text">
-                    Construção de formulário com rótulos, controles, seleção e opção de aceite.
-                  </p>
-                  <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5" id="inscricao" aria-labelledby="titulo-inscricao">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-12 col-lg-5">
-              <p class="text-primary fw-semibold text-uppercase mb-2">Inscrição</p>
-              <h2 id="titulo-inscricao" class="h1">Formulário com Bootstrap</h2>
-              <p>
-                Os campos continuam dependendo de HTML correto. Bootstrap melhora aparência,
-                espaçamento e consistência dos controles.
-              </p>
-            </div>
-
-            <div class="col-12 col-lg-7">
-              <form class="row g-3">
-                <div class="col-12 col-md-6">
-                  <label class="form-label" for="nome">Nome</label>
-                  <input class="form-control" id="nome" name="nome" type="text" autocomplete="name" required />
-                </div>
-
-                <div class="col-12 col-md-6">
-                  <label class="form-label" for="email">E-mail</label>
-                  <input class="form-control" id="email" name="email" type="email" autocomplete="email" required />
-                </div>
-
-                <div class="col-12">
-                  <label class="form-label" for="oficina">Oficina de interesse</label>
-                  <select class="form-select" id="oficina" name="oficina" required>
-                    <option value="">Selecione uma oficina</option>
-                    <option value="grid">Grid e utilitários</option>
-                    <option value="componentes">Cards e navegação</option>
-                    <option value="formularios">Inscrição e validação</option>
-                  </select>
-                </div>
-
-                <div class="col-12">
-                  <label class="form-label" for="mensagem">Observações</label>
-                  <textarea class="form-control" id="mensagem" name="mensagem" rows="4"></textarea>
-                </div>
-
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" id="aceite" name="aceite" type="checkbox" required />
-                    <label class="form-check-label" for="aceite">
-                      Confirmo que revisei os horários da programação.
-                    </label>
-                  </div>
-                </div>
-
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Enviar interesse</button>
-                  <button class="btn btn-outline-secondary" type="reset">Limpar</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <div
-      class="modal fade"
-      id="modalOrientacoes"
-      tabindex="-1"
-      aria-labelledby="tituloModalOrientacoes"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title h5" id="tituloModalOrientacoes">Orientações da prática</h2>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Use componentes do Bootstrap como ponto de partida, mas preserve o sentido do conteúdo,
-              teste responsividade e registre a evolução em commits.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="border-top py-4">
-      <div class="container d-flex flex-column flex-md-row gap-2 justify-content-between">
-        <p class="mb-0">Disciplina de Padrões Web</p>
-        <p class="mb-0">IFRN Campus Currais Novos</p>
-      </div>
-    </footer>
+    <h1>Integra Web</h1>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -363,34 +111,14 @@ Crie o arquivo `index.html` com a base completa.
 </html>
 ```
 
-## 5) CSS autoral do protótipo
-Crie ou substitua `styles.css`:
+### O que observar
+- O CSS do Bootstrap fica no `head`.
+- O `styles.css` vem depois do Bootstrap.
+- O JavaScript bundle fica antes do fechamento do `body`.
+- Componentes interativos dependem desse script.
 
-```css
-.hero-bootstrap {
-  background-color: #eef5ff;
-}
-
-.card {
-  border-color: #d7e3f5;
-}
-```
-
-Esse CSS é propositalmente pequeno.
-A maior parte da estrutura fica com o Bootstrap; o CSS autoral ajusta identidade e acabamento.
-
-Faça um commit:
-
-```bash
-git status
-git add index.html styles.css
-git commit -m "Monta protótipo com componentes Bootstrap"
-```
-
-## 6) Navbar responsiva
-A navbar usa classes e atributos específicos.
-
-Trecho principal:
+## 4) Passo 2 - Navbar responsiva
+Substitua o `h1` temporário pela navbar.
 
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
@@ -407,102 +135,451 @@ Trecho principal:
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#oficinas">Oficinas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#inscricao">Inscrição</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 ```
 
-Leitura:
-- `navbar` aplica o componente;
-- `navbar-expand-lg` mantém o menu recolhido até telas grandes;
-- `navbar-toggler` cria o botão do menu;
-- `data-bs-toggle="collapse"` ativa o comportamento;
-- `data-bs-target="#menuPrincipal"` aponta qual área será aberta;
-- `aria-controls`, `aria-expanded` e `aria-label` ajudam tecnologias assistivas.
+### Classes e atributos usados
+- `navbar`: aplica o componente.
+- `navbar-expand-lg`: recolhe o menu até telas grandes.
+- `bg-body-tertiary`: aplica cor de fundo contextual.
+- `border-bottom`: cria separação inferior.
+- `sticky-top`: mantém a navbar no topo durante a rolagem.
+- `navbar-toggler`: cria o botão de menu.
+- `data-bs-toggle="collapse"`: informa o comportamento.
+- `data-bs-target="#menuPrincipal"`: aponta o elemento que abre e fecha.
+- `navbar-nav`, `nav-item` e `nav-link`: estruturam a lista de links.
+- `ms-auto`: empurra o menu para a direita em telas largas.
 
-Teste diminuindo a largura do navegador.
+### Teste imediato
+Diminua a largura do navegador.
 O menu deve recolher e abrir pelo botão.
+Se não abrir, verifique se o JavaScript bundle está presente.
 
-## 7) Cards com altura consistente
-Cards organizam blocos repetidos.
+Faça um commit:
 
-Trecho de referência:
+```bash
+git status
+git add index.html
+git commit -m "Adiciona navbar responsiva com Bootstrap"
+```
+
+## 5) Passo 3 - Hero com grid, badge e botões
+Depois da navbar, adicione o cabeçalho da página.
+
+```html
+<header class="hero-bootstrap py-5" id="inicio">
+  <div class="container py-lg-4">
+    <div class="row g-4 align-items-center">
+      <div class="col-12 col-lg-7">
+        <span class="badge text-bg-warning mb-3">Nova programação</span>
+        <h1 class="display-5 fw-bold">Bootstrap aplicado a interfaces reais</h1>
+        <p class="lead mb-4">
+          Um protótipo com navegação, cards, formulário e modal para apoiar o projeto integrador.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary btn-lg" href="#oficinas">Explorar oficinas</a>
+          <button
+            class="btn btn-outline-primary btn-lg"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modalOrientacoes"
+          >
+            Ver orientações
+          </button>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <p>O resumo da programação será adicionado no próximo passo.</p>
+      </div>
+    </div>
+  </div>
+</header>
+```
+
+### Elementos principais
+- `badge`: destaca informação curta.
+- `btn btn-primary`: botão de ação principal.
+- `btn btn-outline-primary`: botão secundário com borda.
+- `row`, `col-12` e `col-lg-*`: criam layout responsivo.
+- `data-bs-toggle="modal"` e `data-bs-target="#modalOrientacoes"`: preparam o botão para abrir o modal que será criado depois.
+
+## 6) Passo 4 - List group no resumo
+Substitua o parágrafo "O resumo..." por um bloco com `list-group`.
+
+```html
+<div class="bg-white border rounded-3 shadow-sm p-4">
+  <p class="text-primary fw-semibold text-uppercase mb-2">Resumo</p>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item px-0 d-flex justify-content-between">
+      <span>Oficinas</span>
+      <strong>3</strong>
+    </li>
+    <li class="list-group-item px-0 d-flex justify-content-between">
+      <span>Formato</span>
+      <strong>Presencial</strong>
+    </li>
+    <li class="list-group-item px-0 d-flex justify-content-between">
+      <span>Entrega</span>
+      <strong>Protótipo</strong>
+    </li>
+  </ul>
+</div>
+```
+
+### Classes usadas
+- `list-group`: cria grupo de lista.
+- `list-group-flush`: remove bordas externas para encaixar no card visual.
+- `list-group-item`: aplica estilo a cada item.
+- `px-0`: remove preenchimento horizontal.
+- `d-flex justify-content-between`: separa rótulo e valor.
+
+## 7) Passo 5 - CSS autoral para o hero
+Crie `styles.css`.
+Neste momento, a classe `hero-bootstrap` entra para dar identidade própria à área de destaque.
+
+```css
+.hero-bootstrap {
+  background-color: #eef5ff;
+}
+```
+
+### Por que usar CSS autoral aqui?
+`bg-light` poderia criar um fundo claro.
+Mas `#eef5ff` é uma escolha visual específica para a página, então faz sentido registrá-la em uma classe própria.
+
+Faça um commit:
+
+```bash
+git status
+git add index.html styles.css
+git commit -m "Cria hero com resumo e CSS autoral"
+```
+
+## 8) Passo 6 - Alert informativo
+Depois do `header`, abra o `main` e crie um alerta.
+
+```html
+<main>
+  <section class="py-5" aria-labelledby="titulo-alerta">
+    <div class="container">
+      <div class="alert alert-primary mb-0" role="alert">
+        <h2 id="titulo-alerta" class="h5 alert-heading">Atenção ao uso dos componentes</h2>
+        <p class="mb-0">
+          Componentes prontos devem ser adaptados ao conteúdo, testados em telas pequenas e
+          registrados no histórico do Git.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+```
+
+### Classes usadas
+- `alert`: aplica componente de alerta.
+- `alert-primary`: define variação visual.
+- `alert-heading`: ajusta título dentro do alerta.
+- `mb-0`: remove margem inferior.
+
+Use alertas para mensagens importantes.
+Não use apenas como decoração.
+
+## 9) Passo 7 - Seção de cards
+Depois da seção do alerta, antes do fechamento de `</main>`, adicione a seção de oficinas.
+
+```html
+<section class="py-5 bg-light" id="oficinas" aria-labelledby="titulo-oficinas">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-end mb-4">
+      <div>
+        <p class="text-primary fw-semibold text-uppercase mb-2">Oficinas</p>
+        <h2 id="titulo-oficinas" class="h1 mb-0">Programação prática</h2>
+      </div>
+      <a class="btn btn-primary" href="#inscricao">Inscrever interesse</a>
+    </div>
+
+    <div class="row g-4">
+      <article class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <div class="d-flex justify-content-between gap-2 mb-3">
+              <span class="badge text-bg-primary">Layout</span>
+              <span class="text-secondary">09h</span>
+            </div>
+            <h3 class="card-title h5">Grid e utilitários</h3>
+            <p class="card-text">
+              Organização de seções responsivas com containers, linhas, colunas e espaçamentos.
+            </p>
+            <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+```
+
+### Classes usadas
+- `card`: aplica o componente card.
+- `card-body`: define o corpo do card.
+- `card-title`: título do card.
+- `card-text`: texto do card.
+- `mt-auto`: empurra o botão para a base do card.
+
+### Resultado esperado
+Neste momento existe apenas um card.
+Isso é intencional: primeiro entendemos a estrutura, depois repetimos o padrão.
+
+## 10) Passo 8 - Repetição controlada dos cards
+Dentro da mesma `row g-4`, depois do primeiro `article`, adicione mais dois cards.
 
 ```html
 <article class="col-12 col-md-6 col-xl-4">
   <div class="card h-100 shadow-sm">
     <div class="card-body d-flex flex-column">
-      <h3 class="card-title h5">Grid e utilitários</h3>
-      <p class="card-text">Organização de seções responsivas...</p>
+      <div class="d-flex justify-content-between gap-2 mb-3">
+        <span class="badge text-bg-success">Componentes</span>
+        <span class="text-secondary">10h30</span>
+      </div>
+      <h3 class="card-title h5">Cards e navegação</h3>
+      <p class="card-text">
+        Uso de navbar, cards, badges, botões e listas com atenção à semântica.
+      </p>
+      <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
+    </div>
+  </div>
+</article>
+
+<article class="col-12 col-md-6 col-xl-4">
+  <div class="card h-100 shadow-sm">
+    <div class="card-body d-flex flex-column">
+      <div class="d-flex justify-content-between gap-2 mb-3">
+        <span class="badge text-bg-warning">Formulários</span>
+        <span class="text-secondary">14h</span>
+      </div>
+      <h3 class="card-title h5">Inscrição e validação</h3>
+      <p class="card-text">
+        Construção de formulário com rótulos, controles, seleção e opção de aceite.
+      </p>
       <a class="btn btn-outline-primary mt-auto" href="#inscricao">Quero participar</a>
     </div>
   </div>
 </article>
 ```
 
-Pontos importantes:
-- `card` aplica o componente;
-- `h-100` faz o card ocupar a altura disponível;
-- `shadow-sm` cria sombra discreta;
-- `d-flex flex-column` permite empurrar o botão para o final;
-- `mt-auto` joga o botão para a base do card.
+### Resultado esperado
+Os três cards aparecem:
+- em uma coluna no celular;
+- em duas colunas a partir de `md`;
+- em três colunas a partir de `xl`.
 
-## 8) Badges e botões
-Badges destacam categorias curtas.
-Botões representam ações claras.
+Acrescente um pequeno ajuste autoral ao `styles.css`:
 
-Exemplos:
-
-```html
-<span class="badge text-bg-primary">Layout</span>
-
-<a class="btn btn-outline-primary" href="#inscricao">Quero participar</a>
+```css
+.card {
+  border-color: #d7e3f5;
+}
 ```
 
-Use badges para:
-- status;
-- categoria;
-- nível;
-- tipo de conteúdo.
+Faça um commit:
 
-Use botões para ações:
-- abrir formulário;
-- navegar para uma seção;
-- confirmar uma ação;
-- abrir um modal.
+```bash
+git status
+git add index.html styles.css
+git commit -m "Adiciona cards de oficinas com Bootstrap"
+```
 
-Evite transformar todo texto visual em badge ou botão.
-Esses elementos precisam ter função clara.
-
-## 9) Alertas
-Alertas comunicam uma mensagem importante sem interromper a página.
-
-Trecho de referência:
+## 11) Passo 9 - Formulário com classes do Bootstrap
+Depois da seção de oficinas, ainda antes do fechamento de `</main>`, adicione a seção de inscrição.
 
 ```html
-<div class="alert alert-primary mb-0" role="alert">
-  <h2 class="h5 alert-heading">Atenção ao uso dos componentes</h2>
-  <p class="mb-0">Componentes prontos devem ser adaptados ao conteúdo.</p>
+<section class="py-5" id="inscricao" aria-labelledby="titulo-inscricao">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-lg-5">
+        <p class="text-primary fw-semibold text-uppercase mb-2">Inscrição</p>
+        <h2 id="titulo-inscricao" class="h1">Formulário com Bootstrap</h2>
+        <p>
+          Os campos continuam dependendo de HTML correto. Bootstrap melhora aparência,
+          espaçamento e consistência dos controles.
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <form class="row g-3">
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="nome">Nome</label>
+            <input class="form-control" id="nome" name="nome" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-control" id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label" for="oficina">Oficina de interesse</label>
+            <select class="form-select" id="oficina" name="oficina" required>
+              <option value="">Selecione uma oficina</option>
+              <option value="grid">Grid e utilitários</option>
+              <option value="componentes">Cards e navegação</option>
+              <option value="formularios">Inscrição e validação</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label class="form-label" for="mensagem">Observações</label>
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="4"></textarea>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" id="aceite" name="aceite" type="checkbox" required />
+              <label class="form-check-label" for="aceite">
+                Confirmo que revisei os horários da programação.
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar interesse</button>
+            <button class="btn btn-outline-secondary" type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+### Classes usadas
+- `form-label`: rótulo de campo.
+- `form-control`: campos de texto, e-mail e textarea.
+- `form-select`: lista de seleção.
+- `form-check`, `form-check-input` e `form-check-label`: checkbox ou radio.
+- `row g-3`: organiza o formulário em grid.
+
+### O que continua sendo HTML, não Bootstrap
+- `label` precisa apontar para o `id`.
+- `type="email"` melhora validação e teclado.
+- `autocomplete` melhora preenchimento.
+- `required` informa obrigatoriedade.
+- `name` identifica o dado.
+
+## 12) Passo 10 - Modal de orientações
+O botão "Ver orientações", criado no hero, aponta para `#modalOrientacoes`.
+Agora adicione a estrutura do modal depois do fechamento de `</main>` e antes do rodapé.
+
+```html
+<div
+  class="modal fade"
+  id="modalOrientacoes"
+  tabindex="-1"
+  aria-labelledby="tituloModalOrientacoes"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title h5" id="tituloModalOrientacoes">Orientações da prática</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Use componentes do Bootstrap como ponto de partida, mas preserve o sentido do conteúdo,
+          teste responsividade e registre a evolução em commits.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendi</button>
+      </div>
+    </div>
+  </div>
 </div>
 ```
 
-Boas práticas:
-- use `role="alert"` quando a mensagem for relevante;
-- mantenha texto curto;
-- não use alerta apenas como decoração;
-- escolha cor coerente com o significado.
+### Classes e atributos usados
+- `modal`: componente principal.
+- `fade`: adiciona transição.
+- `modal-dialog`: caixa do modal.
+- `modal-content`: conteúdo interno.
+- `modal-header`, `modal-body` e `modal-footer`: regiões do modal.
+- `btn-close`: botão padrão de fechamento.
+- `data-bs-dismiss="modal"`: fecha o modal.
+- `aria-labelledby`: associa o modal ao título.
 
-## 10) Formulários com Bootstrap
-Bootstrap estiliza controles, mas a estrutura semântica continua sendo HTML.
+Teste:
+- clique no botão "Ver orientações";
+- feche pelo botão "Fechar";
+- feche pela tecla `Esc`;
+- navegue com teclado dentro do modal.
 
-Trecho de referência:
+## 13) Passo 11 - Rodapé e commit final da prática
+Depois do modal, adicione o rodapé.
 
 ```html
-<label class="form-label" for="email">E-mail</label>
-<input class="form-control" id="email" name="email" type="email" autocomplete="email" required />
+<footer class="border-top py-4">
+  <div class="container d-flex flex-column flex-md-row gap-2 justify-content-between">
+    <p class="mb-0">Disciplina de Padrões Web</p>
+    <p class="mb-0">IFRN Campus Currais Novos</p>
+  </div>
+</footer>
 ```
 
-Classes comuns:
+Faça um commit:
 
+```bash
+git status
+git add index.html styles.css
+git commit -m "Adiciona formulário modal e rodapé"
+git push
+```
+
+## 14) Leitura dos principais componentes usados
+Ao final da construção, revise o papel de cada grupo.
+
+### Navegação
+```text
+navbar
+navbar-expand-lg
+navbar-brand
+navbar-toggler
+collapse
+navbar-collapse
+navbar-nav
+nav-item
+nav-link
+```
+
+### Componentes de conteúdo
+```text
+alert
+alert-primary
+card
+card-body
+card-title
+card-text
+badge
+list-group
+list-group-item
+```
+
+### Formulários
 ```text
 form-label
 form-control
@@ -512,56 +589,21 @@ form-check-input
 form-check-label
 ```
 
-O que continua obrigatório:
-- `label` associado ao controle;
-- `id` único;
-- `name` quando o formulário representa envio de dados;
-- tipos adequados como `email`, `date`, `number`;
-- `required` quando o campo é indispensável.
-
-## 11) Modal com `data-bs-*`
-O modal é um componente interativo.
-Ele precisa do JavaScript bundle do Bootstrap.
-
-Botão que abre:
-
-```html
-<button
-  class="btn btn-outline-primary"
-  type="button"
-  data-bs-toggle="modal"
-  data-bs-target="#modalOrientacoes"
->
-  Ver orientações
-</button>
+### Modal
+```text
+modal
+modal-dialog
+modal-content
+modal-header
+modal-body
+modal-footer
+btn-close
+data-bs-toggle
+data-bs-target
+data-bs-dismiss
 ```
 
-Estrutura do modal:
-
-```html
-<div class="modal fade" id="modalOrientacoes" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div>
-```
-
-Leitura:
-- `data-bs-toggle="modal"` informa o comportamento;
-- `data-bs-target` aponta o modal;
-- `modal fade` aplica componente e transição;
-- `modal-dialog` controla a caixa;
-- `modal-content` agrupa cabeçalho, corpo e rodapé.
-
-Teste:
-- clique no botão;
-- feche pelo botão "Fechar";
-- feche pela tecla `Esc`;
-- navegue com teclado dentro do modal.
-
-## 12) Customização sem sobrescrita agressiva
+## 15) Customização sem sobrescrita agressiva
 Evite fazer isso como padrão:
 
 ```css
@@ -582,7 +624,7 @@ Prefira criar uma classe específica quando a mudança representa uma decisão l
 
 Quando precisar customizar o Bootstrap de forma ampla, registre a decisão no README e mantenha consistência.
 
-## 13) Acessibilidade em componentes
+## 16) Acessibilidade em componentes
 Mesmo usando Bootstrap, revise:
 - ordem dos títulos;
 - contraste;
@@ -596,42 +638,27 @@ Mesmo usando Bootstrap, revise:
 O Bootstrap ajuda, mas não sabe se seu conteúdo está correto.
 Essa decisão continua sendo sua.
 
-## 14) Registrar a evolução no Git
-Depois de testar navbar, cards, formulário e modal:
-
-```bash
-git status
-git add index.html styles.css
-git commit -m "Adiciona navegação cards formulário e modal"
-git push
-```
-
-Antes de enviar, abra o navegador e teste:
-- menu recolhido;
-- links internos;
-- formulário;
-- modal;
-- responsividade.
-
-## 15) Exercício aplicado
+## 17) Exercício aplicado
 Evolua a página do Encontro 25 ou crie um protótipo para um tema do projeto integrador.
 
 ### Requisitos
-- usar navbar responsiva;
+- começar de uma base mínima com Bootstrap CSS e JS;
+- adicionar navbar responsiva;
+- criar uma área de destaque com grid e botões;
+- incluir pelo menos um alerta;
 - criar pelo menos três cards em grid;
 - usar badges com significado;
-- incluir pelo menos um alerta;
 - criar formulário com `form-label`, `form-control`, `form-select` e `form-check`;
 - incluir pelo menos um modal acionado por botão;
 - manter CSS autoral pequeno e justificado;
 - testar menu e modal em tela pequena;
-- registrar pelo menos dois commits.
+- registrar pelo menos três commits.
 
 ### Desafio adicional
 Inclua um segundo componente interativo, como `accordion`, `collapse` ou `offcanvas`.
 Use apenas se ele fizer sentido para o conteúdo.
 
-## 16) Validação rápida antes de considerar concluído
+## 18) Validação rápida antes de considerar concluído
 - A navbar recolhe e abre corretamente.
 - O JavaScript bundle do Bootstrap está carregado.
 - Cards possuem títulos, textos e ações coerentes.
@@ -643,10 +670,11 @@ Use apenas se ele fizer sentido para o conteúdo.
 - O CSS autoral não sobrescreve componentes de forma ampla sem necessidade.
 - O histórico do Git registra a evolução.
 
-## 17) Erros comuns
+## 19) Erros comuns
 - esquecer o script do Bootstrap e esperar que modal ou navbar funcionem;
 - usar `data-bs-target` com `id` inexistente;
 - remover atributos `aria-*` de exemplos de componentes;
+- copiar a página final sem testar cada etapa;
 - usar cards para qualquer conteúdo sem pensar na hierarquia;
 - usar botão onde deveria haver link, ou link onde deveria haver botão;
 - criar formulário bonito, mas sem `label`;
@@ -672,7 +700,7 @@ Use apenas se ele fizer sentido para o conteúdo.
 - [ ] Consigo customizar o protótipo sem sobrescrever tudo.
 
 ## Resumo Final
-Neste encontro, você construiu um protótipo funcional com componentes do Bootstrap.
+Neste encontro, você construiu um protótipo funcional com componentes do Bootstrap de maneira incremental.
 Navbar, cards, alertas, botões, formulário e modal aceleraram a montagem da interface, mas a qualidade veio da adaptação semântica, dos testes e das decisões autorais.
 
 No próximo encontro, o foco continua em Bootstrap, com formulários, validação, tabelas e acessibilidade.
